@@ -1,0 +1,53 @@
+{
+  "season": 2026,
+  "week": 1,
+  "status": "final",
+  "odds": {
+    "source": "VegasInsider Week 1 consensus board",
+    "sourceUpdated": "2026-09-14T19:35:00-04:00",
+    "method": "Moneyline implied probabilities are normalized to remove sportsbook vig: raw implied probability for negative ML = abs(ML)/(abs(ML)+100), positive ML = 100/(ML+100); each side divided by the two-side total.",
+    "note": "Odds are the archived Week 1 consensus values available after the slate; they are intended as a consistent market baseline for retrospective pool analysis and may differ slightly from the exact price at each game's lock."
+  },
+  "games": [
+    {"away":"NE","home":"SEA","awayScore":10,"homeScore":13,"winner":"SEA","awayMoneyline":142,"homeMoneyline":-170,"awayNoVigWinPct":39.62,"homeNoVigWinPct":60.38,"awayPoolPicks":1,"homePoolPicks":19,"awayPoolPct":5,"homePoolPct":95},
+    {"away":"SF","home":"LAR","awayScore":27,"homeScore":7,"winner":"SF","awayMoneyline":180,"homeMoneyline":-218,"awayNoVigWinPct":34.25,"homeNoVigWinPct":65.75,"awayPoolPicks":4,"homePoolPicks":16,"awayPoolPct":20,"homePoolPct":80},
+    {"away":"TB","home":"CIN","awayScore":27,"homeScore":33,"winner":"CIN","awayMoneyline":170,"homeMoneyline":-205,"awayNoVigWinPct":35.53,"homeNoVigWinPct":64.47,"awayPoolPicks":5,"homePoolPicks":15,"awayPoolPct":25,"homePoolPct":75},
+    {"away":"BUF","home":"HOU","awayScore":36,"homeScore":31,"winner":"BUF","awayMoneyline":-110,"homeMoneyline":-110,"awayNoVigWinPct":50.0,"homeNoVigWinPct":50.0,"awayPoolPicks":13,"homePoolPicks":7,"awayPoolPct":65,"homePoolPct":35},
+    {"away":"BAL","home":"IND","awayScore":41,"homeScore":23,"winner":"BAL","awayMoneyline":-162,"homeMoneyline":136,"awayNoVigWinPct":59.34,"homeNoVigWinPct":40.66,"awayPoolPicks":17,"homePoolPicks":3,"awayPoolPct":85,"homePoolPct":15},
+    {"away":"CHI","home":"CAR","awayScore":59,"homeScore":37,"winner":"CHI","awayMoneyline":-166,"homeMoneyline":140,"awayNoVigWinPct":59.96,"homeNoVigWinPct":40.04,"awayPoolPicks":16,"homePoolPicks":4,"awayPoolPct":80,"homePoolPct":20},
+    {"away":"NO","home":"DET","awayScore":30,"homeScore":31,"winner":"DET","awayMoneyline":270,"homeMoneyline":-340,"awayNoVigWinPct":25.91,"homeNoVigWinPct":74.09,"awayPoolPicks":2,"homePoolPicks":18,"awayPoolPct":10,"homePoolPct":90},
+    {"away":"CLE","home":"JAX","awayScore":10,"homeScore":34,"winner":"JAX","awayMoneyline":360,"homeMoneyline":-470,"awayNoVigWinPct":20.86,"homeNoVigWinPct":79.14,"awayPoolPicks":2,"homePoolPicks":18,"awayPoolPct":10,"homePoolPct":90},
+    {"away":"ATL","home":"PIT","awayScore":13,"homeScore":20,"winner":"PIT","awayMoneyline":240,"homeMoneyline":-298,"awayNoVigWinPct":28.2,"homeNoVigWinPct":71.8,"awayPoolPicks":2,"homePoolPicks":18,"awayPoolPct":10,"homePoolPct":90},
+    {"away":"NYJ","home":"TEN","awayScore":23,"homeScore":10,"winner":"NYJ","awayMoneyline":-102,"homeMoneyline":-118,"awayNoVigWinPct":48.26,"homeNoVigWinPct":51.74,"awayPoolPicks":9,"homePoolPicks":11,"awayPoolPct":45,"homePoolPct":55},
+    {"away":"GB","home":"MIN","awayScore":22,"homeScore":39,"winner":"MIN","awayMoneyline":120,"homeMoneyline":-142,"awayNoVigWinPct":43.65,"homeNoVigWinPct":56.35,"awayPoolPicks":9,"homePoolPicks":11,"awayPoolPct":45,"homePoolPct":55},
+    {"away":"WAS","home":"PHI","awayScore":22,"homeScore":24,"winner":"PHI","awayMoneyline":200,"homeMoneyline":-245,"awayNoVigWinPct":31.94,"homeNoVigWinPct":68.06,"awayPoolPicks":4,"homePoolPicks":16,"awayPoolPct":20,"homePoolPct":80},
+    {"away":"MIA","home":"LV","awayScore":13,"homeScore":27,"winner":"LV","awayMoneyline":142,"homeMoneyline":-170,"awayNoVigWinPct":39.62,"homeNoVigWinPct":60.38,"awayPoolPicks":5,"homePoolPicks":15,"awayPoolPct":25,"homePoolPct":75},
+    {"away":"ARI","home":"LAC","awayScore":26,"homeScore":14,"winner":"ARI","awayMoneyline":370,"homeMoneyline":-485,"awayNoVigWinPct":20.42,"homeNoVigWinPct":79.58,"awayPoolPicks":3,"homePoolPicks":17,"awayPoolPct":15,"homePoolPct":85},
+    {"away":"DAL","home":"NYG","awayScore":20,"homeScore":28,"winner":"NYG","awayMoneyline":-166,"homeMoneyline":140,"awayNoVigWinPct":59.96,"homeNoVigWinPct":40.04,"awayPoolPicks":9,"homePoolPicks":11,"awayPoolPct":45,"homePoolPct":55},
+    {"away":"DEN","home":"KC","awayScore":10,"homeScore":31,"winner":"KC","awayMoneyline":110,"homeMoneyline":-130,"awayNoVigWinPct":45.73,"homeNoVigWinPct":54.27,"awayPoolPicks":9,"homePoolPicks":11,"awayPoolPct":45,"homePoolPct":55}
+  ],
+  "players": [
+    {"name":"Brian costanzo","points":13,"tiebreaker":45,"picks":["SEA","SF","TB","BUF","BAL","CHI","DET","JAX","PIT","NYJ","MIN","WAS","LV","ARI","NYG","DEN"]},
+    {"name":"Maggie Burns","points":13,"tiebreaker":44,"picks":["SEA","SF","CIN","BUF","IND","CHI","DET","JAX","PIT","NYJ","MIN","PHI","LV","LAC","NYG","DEN"]},
+    {"name":"Sandy Hudson","points":6,"tiebreaker":38,"picks":["SEA","SF","CIN","HOU","IND","CAR","NO","CLE","PIT","TEN","GB","PHI","MIA","ARI","DAL","DEN"]},
+    {"name":"Sydney Jacobs","points":12,"tiebreaker":37,"picks":["SEA","SF","CIN","BUF","BAL","CAR","DET","JAX","ATL","NYJ","MIN","WAS","LV","LAC","NYG","KC"]},
+    {"name":"Beth Gulding","points":10,"tiebreaker":43,"picks":["SEA","LAR","CIN","BUF","IND","CHI","DET","JAX","PIT","NYJ","GB","PHI","MIA","LAC","DAL","KC"]},
+    {"name":"Bonnie Schendell","points":9,"tiebreaker":42,"picks":["SEA","LAR","TB","HOU","BAL","CHI","DET","JAX","PIT","NYJ","GB","PHI","MIA","LAC","DAL","KC"]},
+    {"name":"BringBackPatThePatriot","points":13,"tiebreaker":51,"picks":["SEA","LAR","CIN","HOU","BAL","CHI","DET","JAX","PIT","NYJ","MIN","PHI","LV","LAC","NYG","KC"]},
+    {"name":"chris ware","points":8,"tiebreaker":34,"picks":["SEA","LAR","TB","BUF","BAL","CHI","NO","CLE","PIT","TEN","GB","WAS","MIA","ARI","NYG","KC"]},
+    {"name":"Jen Walton","points":10,"tiebreaker":53,"picks":["SEA","LAR","CIN","BUF","BAL","CAR","DET","CLE","PIT","TEN","GB","PHI","LV","LAC","NYG","KC"]},
+    {"name":"Jim Davis","points":13,"tiebreaker":44,"picks":["SEA","LAR","TB","BUF","BAL","CHI","DET","JAX","PIT","NYJ","MIN","PHI","LV","LAC","NYG","KC"]},
+    {"name":"Jim Sharifi","points":12,"tiebreaker":43,"picks":["SEA","LAR","CIN","BUF","BAL","CHI","DET","JAX","PIT","TEN","MIN","PHI","LV","LAC","DAL","KC"]},
+    {"name":"Liz Greene","points":10,"tiebreaker":51,"picks":["SEA","LAR","CIN","HOU","BAL","CHI","DET","JAX","PIT","NYJ","GB","WAS","LV","LAC","DAL","KC"]},
+    {"name":"Morgan Doxer","points":8,"tiebreaker":44,"picks":["SEA","LAR","TB","BUF","BAL","CAR","DET","JAX","PIT","TEN","GB","PHI","LV","LAC","DAL","DEN"]},
+    {"name":"Olin Greene","points":9,"tiebreaker":44,"picks":["SEA","LAR","CIN","HOU","BAL","CHI","DET","JAX","PIT","TEN","GB","PHI","LV","LAC","DAL","DEN"]},
+    {"name":"Rob Ham","points":12,"tiebreaker":40,"picks":["SEA","LAR","CIN","HOU","BAL","CHI","DET","JAX","PIT","NYJ","MIN","PHI","LV","LAC","NYG","DEN"]},
+    {"name":"Shaine Anderson","points":12,"tiebreaker":43,"picks":["SEA","LAR","CIN","BUF","BAL","CHI","DET","JAX","PIT","TEN","MIN","PHI","LV","LAC","DAL","KC"]},
+    {"name":"Stacy Maggard","points":12,"tiebreaker":38,"picks":["SEA","LAR","CIN","BUF","BAL","CHI","DET","JAX","PIT","TEN","MIN","PHI","LV","LAC","NYG","DEN"]},
+    {"name":"Susan Bornt","points":10,"tiebreaker":53,"picks":["SEA","LAR","TB","BUF","BAL","CHI","DET","JAX","PIT","TEN","GB","PHI","MIA","LAC","NYG","KC"]},
+    {"name":"Tayler Kenney","points":12,"tiebreaker":34,"picks":["SEA","LAR","CIN","BUF","BAL","CHI","DET","JAX","PIT","TEN","MIN","PHI","LV","LAC","NYG","DEN"]},
+    {"name":"Aaron Cahn","points":7,"tiebreaker":27,"picks":["NE","LAR","CIN","HOU","BAL","CHI","DET","JAX","ATL","TEN","GB","PHI","LV","LAC","DAL","DEN"]}
+  ],
+  "finalGameTotal": 41,
+  "weeklyWinner": "Jim Davis"
+}
