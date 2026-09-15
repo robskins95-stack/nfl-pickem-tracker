@@ -1,0 +1,10 @@
+{
+  "season": 2026,
+  "week": 2,
+  "status": "pre-lock",
+  "oddsNote": "Initial board. Moneylines/implied probabilities will be stored with source and timestamp before lock.",
+  "robTiebreaker": 48,
+  "games": [
+    {"away":"DET","home":"BUF","pick":"BUF"},{"away":"PHI","home":"TEN","pick":"PHI"},{"away":"PIT","home":"NE","pick":"NE"},{"away":"MIN","home":"CHI","pick":"CHI"},{"away":"CAR","home":"ATL","pick":"CAR"},{"away":"GB","home":"NYJ","pick":"GB"},{"away":"NO","home":"BAL","pick":"BAL"},{"away":"CIN","home":"HOU","pick":"HOU"},{"away":"CLE","home":"TB","pick":"TB"},{"away":"JAC","home":"DEN","pick":"DEN"},{"away":"LV","home":"LAC","pick":"LAC"},{"away":"SEA","home":"ARI","pick":"SEA"},{"away":"MIA","home":"SF","pick":"SF"},{"away":"WAS","home":"DAL","pick":"DAL"},{"away":"IND","home":"KC","pick":"KC"},{"away":"NYG","home":"LAR","pick":"LAR"}
+  ]
+}
