@@ -1,1 +1,137 @@
-const $=s=>document.querySelector(s),name=new URLSearchParams(location.search).get('name');async function getWeek(n){try{const r=await fetch(`data/2026/week-${String(n).padStart(2,'0')}.json`);return r.ok?await r.json():null}catch{return null}}const pct=n=>`${Math.round(n)}%`,winnerNames=w=>w.weeklyWinners?.length?w.weeklyWinners:(w.weeklyWinner?[w.weeklyWinner]:[]),matchPlayer=(x,n)=>x.name.toLowerCase()===n.toLowerCase()||x.name.split(' ')[0].toLowerCase()===n.toLowerCase();function preFinalScore(w,p){let s=0;for(let i=0;i<w.games.length-1;i++)if(w.games[i].winner&&p.picks[i]===w.games[i].winner)s++;return s}function finalGameContext(w,p){if(!w.games?.length||!p?.picks?.length)return null;const i=w.games.length-1,g=w.games[i],pick=p.picks[i];if(!pick)return null;const playerPre=preFinalScore(w,p),others=(w.players||[]).filter(x=>x!==p).map(x=>preFinalScore(w,x)),bestOther=others.length?Math.max(...others):playerPre,diff=playerPre-bestOther,away=pick===g.away,pr=away?g.awayNoVigWinPct:g.homeNoVigWinPct,ow=away?g.awayPoolPct:g.homePoolPct;return{diff,pick,pr,ow,isDog:pr<50,g,playerPre,bestOther}}async function load(){if(!name)throw Error('No player selected');$('#name').textContent=name;document.title=`${name} — NextWeekGPT`;const [w1,w2,registry]=await Promise.all([getWeek(1),getWeek(2),fetch('data/players.json').then(r=>r.json()).catch(()=>({players:[]}))]),weeks=[w1,w2].filter(Boolean),finals=weeks.filter(w=>w.status==='final');let picks=0,wins=0,dogs=0,dogWins=0,prob=0,own=0,pts=0,weeklyWins=0;const history=[],situations=[];finals.forEach(w=>{const p=(w.players||[]).find(x=>matchPlayer(x,name));if(!p)return;pts+=p.points||0;if(winnerNames(w).includes(p.name))weeklyWins++;const detail=p.picks.map((pick,i)=>{const g=w.games[i],away=pick===g.away,pr=away?g.awayNoVigWinPct:g.homeNoVigWinPct,ow=away?g.awayPoolPct:g.homePoolPct,win=pick===g.winner;picks++;wins+=win?1:0;if(pr<50){dogs++;dogWins+=win?1:0}prob+=pr||0;own+=ow||0;return{pick,g,pr,ow,win}});const finalCtx=finalGameContext(w,p);if(finalCtx)situations.push({week:w.week,...finalCtx});history.push({w,p,detail,finalCtx})});$('#summary').innerHTML=[['Points',pts],['Accuracy',picks?pct(wins/picks*100):'—'],['Underdog rate',picks?pct(dogs/picks*100):'—'],['Dog record',`${dogWins}-${dogs-dogWins}`],['Avg implied',picks?pct(prob/picks):'—'],['Avg ownership',picks?pct(own/picks):'—'],['Weekly wins',weeklyWins],['Picks tracked',picks]].map(([l,v])=>`<div class="card"><div class="label">${l}</div><div class="value small-value">${v}</div></div>`).join('');const buckets=[{label:'Trailing by 1',test:x=>x.diff===-1},{label:'Tied for lead',test:x=>x.diff===0},{label:'Leading by 1',test:x=>x.diff===1}];$('#mnf').innerHTML=`<div class="cards">${buckets.map(b=>{const a=situations.filter(b.test),dog=a.filter(x=>x.isDog),avgPick=a.length?a.reduce((s,x)=>s+x.pr,0)/a.length:null,avgDog=dog.length?dog.reduce((s,x)=>s+x.pr,0)/dog.length:null;return `<div class="card"><div class="label">${b.label}</div><div class="value small-value">${a.length?`${dog.length}/${a.length} dogs`:'—'}</div><div class="muted">Dog rate: ${a.length?pct(dog.length/a.length*100):'—'}<br>Avg pick market: ${avgPick==null?'—':avgPick.toFixed(1)+'%'}<br>Avg dog strength: ${avgDog==null?'—':avgDog.toFixed(1)+'%'}</div></div>`}).join('')}</div>${situations.length?`<div class="note profile-note">Final-game leverage is derived from standings before the last game on the weekly slate. A 45% pick is treated as a modest underdog; a 30% pick as a much larger underdog.</div>`:'<p class="muted">No finalized final-game situations yet.</p>'}`;const reg=registry.players.find(x=>matchPlayer(x,name));$('#notes').innerHTML=reg?.notes?.length?reg.notes.map(n=>`<div class="note profile-note">${n}</div>`).join(''):'<p class="muted">No manually confirmed tendencies yet. Let the data cook.</p>';$('#history').innerHTML=history.length?history.map(h=>{const c=h.finalCtx,pos=c?(c.diff===-1?'1 back':c.diff===0?'tied for lead':c.diff===1?'1 ahead':c.diff>1?`${c.diff} ahead`:`${Math.abs(c.diff)} back`):'—';return `<section class="history-week"><h3><a href="week.html?season=2026&week=${h.w.week}">Week ${h.w.week}</a> — ${h.p.points} points • Final total ${h.p.tiebreaker??'—'}</h3>${c?`<p class="muted">Entering final game: ${pos} • Picked ${c.pick} at ${c.pr?.toFixed(1)}% market probability${c.isDog?' (underdog)':''}</p>`:''}<div class="pick-chips">${h.detail.map(x=>`<span class="chip ${x.win?'correct':'wrong'}" title="${x.g.away} @ ${x.g.home}; market ${x.pr?.toFixed(1)}%; pool ${x.ow}%">${x.pick} <small>${x.pr?.toFixed(0)}% / ${x.ow}%</small></span>`).join('')}</div></section>`}).join(''):'<p class="muted">No finalized picks stored for this player yet.</p>'}load().catch(e=>document.querySelector('main').innerHTML=`<section class="panel"><h2>${e.message}</h2><p><a href="index.html">Return to season</a></p></section>`);
+const $ = (selector) => document.querySelector(selector);
+const name = new URLSearchParams(location.search).get('name');
+
+async function getWeek(number) {
+  try {
+    const response = await fetch(`data/2026/week-${String(number).padStart(2, '0')}.json`);
+    return response.ok ? response.json() : null;
+  } catch {
+    return null;
+  }
+}
+
+const pct = (number) => `${Math.round(number)}%`;
+const winnerNames = (week) => week.weeklyWinners?.length
+  ? week.weeklyWinners
+  : (week.weeklyWinner ? [week.weeklyWinner] : []);
+const matchPlayer = (player, playerName) => player.name.toLowerCase() === playerName.toLowerCase()
+  || player.name.split(' ')[0].toLowerCase() === playerName.toLowerCase();
+const formatWeeklyWins = (value) => Number.isInteger(value)
+  ? String(value)
+  : value.toFixed(2).replace(/0+$/, '').replace(/\.$/, '');
+
+function preFinalScore(week, player) {
+  let score = 0;
+  for (let index = 0; index < week.games.length - 1; index++) {
+    if (week.games[index].winner && player.picks[index] === week.games[index].winner) score++;
+  }
+  return score;
+}
+
+function finalGameContext(week, player) {
+  if (!week.games?.length || !player?.picks?.length) return null;
+  const index = week.games.length - 1;
+  const game = week.games[index];
+  const pick = player.picks[index];
+  if (!pick) return null;
+  const playerPre = preFinalScore(week, player);
+  const others = (week.players || []).filter((candidate) => candidate !== player).map((candidate) => preFinalScore(week, candidate));
+  const bestOther = others.length ? Math.max(...others) : playerPre;
+  const diff = playerPre - bestOther;
+  const away = pick === game.away;
+  const probability = away ? game.awayNoVigWinPct : game.homeNoVigWinPct;
+  const ownership = away ? game.awayPoolPct : game.homePoolPct;
+  return { diff, pick, probability, ownership, isDog: probability < 50, game, playerPre, bestOther };
+}
+
+async function load() {
+  if (!name) throw Error('No player selected');
+  $('#name').textContent = name;
+  document.title = `${name} — NextWeekGPT`;
+  const [week1, week2, registry] = await Promise.all([
+    getWeek(1),
+    getWeek(2),
+    fetch('data/players.json').then((response) => response.json()).catch(() => ({ players: [] })),
+  ]);
+  const weeks = [week1, week2].filter(Boolean);
+  const finals = weeks.filter((week) => week.status === 'final');
+  let picks = 0;
+  let wins = 0;
+  let dogs = 0;
+  let dogWins = 0;
+  let probability = 0;
+  let ownership = 0;
+  let pts = 0;
+  let weeklyWins = 0;
+  const history = [];
+  const situations = [];
+
+  finals.forEach((week) => {
+    const player = (week.players || []).find((candidate) => matchPlayer(candidate, name));
+    if (!player) return;
+    pts += player.points || 0;
+    const winners = winnerNames(week);
+    if (winners.includes(player.name)) weeklyWins += 1 / winners.length;
+
+    const detail = player.picks.map((pick, index) => {
+      const game = week.games[index];
+      const away = pick === game.away;
+      const pickProbability = away ? game.awayNoVigWinPct : game.homeNoVigWinPct;
+      const pickOwnership = away ? game.awayPoolPct : game.homePoolPct;
+      const win = pick === game.winner;
+      picks++;
+      wins += win ? 1 : 0;
+      if (pickProbability < 50) {
+        dogs++;
+        dogWins += win ? 1 : 0;
+      }
+      probability += pickProbability || 0;
+      ownership += pickOwnership || 0;
+      return { pick, game, probability: pickProbability, ownership: pickOwnership, win };
+    });
+    const finalContext = finalGameContext(week, player);
+    if (finalContext) situations.push({ week: week.week, ...finalContext });
+    history.push({ week, player, detail, finalContext });
+  });
+
+  $('#summary').innerHTML = [
+    ['Points', pts],
+    ['Accuracy', picks ? pct(wins / picks * 100) : '—'],
+    ['Underdog rate', picks ? pct(dogs / picks * 100) : '—'],
+    ['Dog record', `${dogWins}-${dogs - dogWins}`],
+    ['Avg implied', picks ? pct(probability / picks) : '—'],
+    ['Avg ownership', picks ? pct(ownership / picks) : '—'],
+    ['Weekly wins', formatWeeklyWins(weeklyWins)],
+    ['Picks tracked', picks],
+  ].map(([label, value]) => `<div class="card"><div class="label">${label}</div><div class="value small-value">${value}</div></div>`).join('');
+
+  const buckets = [
+    { label: 'Trailing by 1', test: (situation) => situation.diff === -1 },
+    { label: 'Tied for lead', test: (situation) => situation.diff === 0 },
+    { label: 'Leading by 1', test: (situation) => situation.diff === 1 },
+  ];
+  $('#mnf').innerHTML = `<div class="cards">${buckets.map((bucket) => {
+    const matches = situations.filter(bucket.test);
+    const dogPicks = matches.filter((situation) => situation.isDog);
+    const avgPick = matches.length ? matches.reduce((sum, situation) => sum + situation.probability, 0) / matches.length : null;
+    const avgDog = dogPicks.length ? dogPicks.reduce((sum, situation) => sum + situation.probability, 0) / dogPicks.length : null;
+    return `<div class="card"><div class="label">${bucket.label}</div><div class="value small-value">${matches.length ? `${dogPicks.length}/${matches.length} dogs` : '—'}</div><div class="muted">Dog rate: ${matches.length ? pct(dogPicks.length / matches.length * 100) : '—'}<br>Avg pick market: ${avgPick == null ? '—' : `${avgPick.toFixed(1)}%`}<br>Avg dog strength: ${avgDog == null ? '—' : `${avgDog.toFixed(1)}%`}</div></div>`;
+  }).join('')}</div>${situations.length ? '<div class="note profile-note">Final-game leverage is derived from standings before the last game on the weekly slate. A 45% pick is treated as a modest underdog; a 30% pick as a much larger underdog.</div>' : '<p class="muted">No finalized final-game situations yet.</p>'}`;
+
+  const registered = registry.players.find((player) => matchPlayer(player, name));
+  $('#notes').innerHTML = registered?.notes?.length
+    ? registered.notes.map((note) => `<div class="note profile-note">${note}</div>`).join('')
+    : '<p class="muted">No manually confirmed tendencies yet. Let the data cook.</p>';
+
+  $('#history').innerHTML = history.length ? history.map((item) => {
+    const context = item.finalContext;
+    const position = context
+      ? (context.diff === -1 ? '1 back' : context.diff === 0 ? 'tied for lead' : context.diff === 1 ? '1 ahead' : context.diff > 1 ? `${context.diff} ahead` : `${Math.abs(context.diff)} back`)
+      : '—';
+    return `<section class="history-week"><h3><a href="week.html?season=2026&week=${item.week.week}">Week ${item.week.week}</a> — ${item.player.points} points • Final total ${item.player.tiebreaker ?? '—'}</h3>${context ? `<p class="muted">Entering final game: ${position} • Picked ${context.pick} at ${context.probability?.toFixed(1)}% market probability${context.isDog ? ' (underdog)' : ''}</p>` : ''}<div class="pick-chips">${item.detail.map((pick) => `<span class="chip ${pick.win ? 'correct' : 'wrong'}" title="${pick.game.away} @ ${pick.game.home}; market ${pick.probability?.toFixed(1)}%; pool ${pick.ownership}%">${pick.pick} <small>${pick.probability?.toFixed(0)}% / ${pick.ownership}%</small></span>`).join('')}</div></section>`;
+  }).join('') : '<p class="muted">No finalized picks stored for this player yet.</p>';
+}
+
+load().catch((error) => {
+  document.querySelector('main').innerHTML = `<section class="panel"><h2>${error.message}</h2><p><a href="index.html">Return to season</a></p></section>`;
+});
