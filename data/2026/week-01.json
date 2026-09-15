@@ -2,12 +2,7 @@
   "season": 2026,
   "week": 1,
   "status": "final",
-  "odds": {
-    "source": "VegasInsider Week 1 consensus board",
-    "sourceUpdated": "2026-09-14T19:35:00-04:00",
-    "method": "Moneyline implied probabilities are normalized to remove sportsbook vig: raw implied probability for negative ML = abs(ML)/(abs(ML)+100), positive ML = 100/(ML+100); each side divided by the two-side total.",
-    "note": "Odds are the archived Week 1 consensus values available after the slate; they are intended as a consistent market baseline for retrospective pool analysis and may differ slightly from the exact price at each game's lock."
-  },
+  "odds": {"source":"VegasInsider Week 1 consensus board","sourceUpdated":"2026-09-14T19:35:00-04:00","method":"Moneyline implied probabilities are normalized to remove sportsbook vig: raw implied probability for negative ML = abs(ML)/(abs(ML)+100), positive ML = 100/(ML+100); each side divided by the two-side total.","note":"Odds are the archived Week 1 consensus values available after the slate; they are intended as a consistent market baseline for retrospective pool analysis and may differ slightly from the exact price at each game's lock."},
   "games": [
     {"away":"NE","home":"SEA","awayScore":10,"homeScore":13,"winner":"SEA","awayMoneyline":142,"homeMoneyline":-170,"awayNoVigWinPct":39.62,"homeNoVigWinPct":60.38,"awayPoolPicks":1,"homePoolPicks":19,"awayPoolPct":5,"homePoolPct":95},
     {"away":"SF","home":"LAR","awayScore":27,"homeScore":7,"winner":"SF","awayMoneyline":180,"homeMoneyline":-218,"awayNoVigWinPct":34.25,"homeNoVigWinPct":65.75,"awayPoolPicks":4,"homePoolPicks":16,"awayPoolPct":20,"homePoolPct":80},
@@ -49,5 +44,6 @@
     {"name":"Aaron Cahn","points":7,"tiebreaker":27,"picks":["NE","LAR","CIN","HOU","BAL","CHI","DET","JAX","ATL","TEN","GB","PHI","LV","LAC","DAL","DEN"]}
   ],
   "finalGameTotal": 41,
-  "weeklyWinner": "Jim Davis"
+  "weeklyWinners": ["Jim Davis","Maggie Burns"],
+  "winnerNote": "Jim Davis and Maggie Burns tied for first with 13 correct and identical tiebreaker guesses of 44; actual DEN-KC total was 41."
 }
