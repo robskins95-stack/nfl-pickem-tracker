@@ -1,0 +1,9 @@
+{
+  "players": [
+    {"id":"rob","name":"Rob","notes":["Tracker owner","Strategy: maximize weekly win probability; use leverage when standings justify it"]},
+    {"id":"brian","name":"Brian","notes":["Week 1 co-leader entering final game","Selected live underdogs NYG and DEN in Week 1"]},
+    {"id":"maggie","name":"Maggie","notes":["Week 1 co-leader entering final game","Selected live underdogs NYG and DEN in Week 1"]},
+    {"id":"sandy-hudson","name":"Sandy Hudson","notes":["Known tendency: picks Denver"]},
+    {"id":"morgan-doxer","name":"Morgan Doxer","notes":["Known Eagles fan"]}
+  ]
+}
