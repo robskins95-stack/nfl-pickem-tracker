@@ -1,1 +1,185 @@
-const $=s=>document.querySelector(s),pct=n=>`${Math.round(n)}%`,slug=n=>encodeURIComponent(n),winnerNames=w=>w.weeklyWinners?.length?w.weeklyWinners:(w.weeklyWinner?[w.weeklyWinner]:[]);async function getWeek(n){try{const r=await fetch(`data/2026/week-${String(n).padStart(2,'0')}.json`);return r.ok?await r.json():null}catch{return null}}function gameForPick(w,i,pick){const g=w.games[i];if(!g)return null;const away=pick===g.away;return{g,win:g.winner?pick===g.winner:null,prob:away?g.awayNoVigWinPct:g.homeNoVigWinPct,own:away?g.awayPoolPct:g.homePoolPct}}async function load(){const [w1,w2]=await Promise.all([getWeek(1),getWeek(2)]),weeks=[w1,w2].filter(Boolean),finals=weeks.filter(w=>w.status==='final');const names=[...new Set(finals.flatMap(w=>(w.players||[]).map(p=>p.name)))];const stats=names.map(name=>{let picks=0,wins=0,dogs=0,dogWins=0,prob=0,own=0,pts=0,weeklyWins=0;finals.forEach(w=>{const p=w.players.find(x=>x.name===name);if(!p)return;pts+=p.points||0;if(winnerNames(w).includes(name))weeklyWins++;p.picks.forEach((pick,i)=>{const x=gameForPick(w,i,pick);if(!x)return;picks++;if(x.win){wins++;if(x.prob<50)dogWins++}if(x.prob<50)dogs++;prob+=x.prob||0;own+=x.own||0})});return{name,picks,wins,pts,weeklyWins,accuracy:picks?wins/picks*100:0,underdogRate:picks?dogs/picks*100:0,dogWins,avgProb:picks?prob/picks:0,avgOwn:picks?own/picks:0}}).sort((a,b)=>b.pts-a.pts||b.accuracy-a.accuracy);$('#summary').innerHTML=[['Season','2026'],['Weeks stored',weeks.length],['Final weeks',finals.length],['Players',names.length]].map(([l,v])=>`<div class="card"><div class="label">${l}</div><div class="value">${v}</div></div>`).join('');$('#weeks').innerHTML=weeks.map(w=>{const winners=winnerNames(w);return `<a class="week-card" href="week.html?season=2026&week=${w.week}"><span class="eyebrow">${w.status==='final'?'FINAL':'CURRENT'}</span><b>Week ${w.week}</b><small>${w.status==='final'?`${winners.length>1?'Winners':'Winner'}: ${winners.length?winners.join(' & '):'TBD'}`:'Pre-lock board'}</small></a>`}).join('');$('#leaderboard').innerHTML=`<thead><tr><th>Player</th><th>Pts</th><th>Accuracy</th><th>Dog rate</th><th>Avg market</th><th>Avg ownership</th><th>Weekly wins</th></tr></thead><tbody>${stats.map(s=>`<tr><td><a href="player.html?name=${slug(s.name)}">${s.name}</a></td><td>${s.pts}</td><td>${pct(s.accuracy)}</td><td>${pct(s.underdogRate)}</td><td>${pct(s.avgProb)}</td><td>${pct(s.avgOwn)}</td><td>${s.weeklyWins}</td></tr>`).join('')}</tbody>`;$('#players').innerHTML=stats.map(s=>`<a class="player" href="player.html?name=${slug(s.name)}"><h3>${s.name}</h3><div class="stats"><div class="stat"><b>${pct(s.accuracy)}</b><span>Accuracy</span></div><div class="stat"><b>${pct(s.underdogRate)}</b><span>Underdog rate</span></div><div class="stat"><b>${pct(s.avgProb)}</b><span>Avg implied %</span></div><div class="stat"><b>${pct(s.avgOwn)}</b><span>Avg pool ownership</span></div></div></a>`).join('')}load().catch(e=>document.body.insertAdjacentHTML('beforeend',`<p class="error">Data load error: ${e.message}</p>`));
+const $ = (selector) => document.querySelector(selector);
+const pct = (number) => `${Math.round(number)}%`;
+const slug = (name) => encodeURIComponent(name);
+const winnerNames = (week) => week.weeklyWinners?.length
+  ? week.weeklyWinners
+  : (week.weeklyWinner ? [week.weeklyWinner] : []);
+
+const leaderboardColumns = [
+  { key: 'name', label: 'Player', type: 'text' },
+  { key: 'pts', label: 'Pts', type: 'number' },
+  { key: 'accuracy', label: 'Accuracy', type: 'number' },
+  { key: 'underdogRate', label: 'Dog rate', type: 'number' },
+  { key: 'avgProb', label: 'Avg market', type: 'number' },
+  { key: 'avgOwn', label: 'Avg ownership', type: 'number' },
+  { key: 'weeklyWins', label: 'Weekly wins', type: 'number' },
+];
+
+let leaderboardStats = [];
+let leaderboardSort = { key: 'pts', direction: 'desc' };
+
+async function getWeek(number) {
+  try {
+    const response = await fetch(`data/2026/week-${String(number).padStart(2, '0')}.json`);
+    return response.ok ? response.json() : null;
+  } catch {
+    return null;
+  }
+}
+
+function gameForPick(week, index, pick) {
+  const game = week.games[index];
+  if (!game) return null;
+  const away = pick === game.away;
+  return {
+    game,
+    win: game.winner ? pick === game.winner : null,
+    probability: away ? game.awayNoVigWinPct : game.homeNoVigWinPct,
+    ownership: away ? game.awayPoolPct : game.homePoolPct,
+  };
+}
+
+function formatWeeklyWins(value) {
+  return Number.isInteger(value) ? String(value) : value.toFixed(2).replace(/0+$/, '').replace(/\.$/, '');
+}
+
+function sortedLeaderboardStats() {
+  const column = leaderboardColumns.find(({ key }) => key === leaderboardSort.key);
+  const multiplier = leaderboardSort.direction === 'asc' ? 1 : -1;
+  return [...leaderboardStats].sort((a, b) => {
+    const comparison = column.type === 'text'
+      ? a[column.key].localeCompare(b[column.key])
+      : a[column.key] - b[column.key];
+    return comparison ? comparison * multiplier : a.name.localeCompare(b.name);
+  });
+}
+
+function renderLeaderboard() {
+  const table = $('#leaderboard');
+  const headers = leaderboardColumns.map((column) => {
+    const active = column.key === leaderboardSort.key;
+    const indicator = active ? (leaderboardSort.direction === 'asc' ? ' ▲' : ' ▼') : '';
+    const ariaSort = active
+      ? ` aria-sort="${leaderboardSort.direction === 'asc' ? 'ascending' : 'descending'}"`
+      : '';
+    return `<th class="sortable" data-sort="${column.key}" tabindex="0" role="button"${ariaSort} title="Sort by ${column.label}">${column.label}<span class="sort-indicator">${indicator}</span></th>`;
+  }).join('');
+
+  table.innerHTML = `<thead><tr>${headers}</tr></thead><tbody>${sortedLeaderboardStats().map((stat) => `<tr>
+    <td><a href="player.html?name=${slug(stat.name)}">${stat.name}</a></td>
+    <td>${stat.pts}</td>
+    <td>${pct(stat.accuracy)}</td>
+    <td>${pct(stat.underdogRate)}</td>
+    <td>${pct(stat.avgProb)}</td>
+    <td>${pct(stat.avgOwn)}</td>
+    <td>${formatWeeklyWins(stat.weeklyWins)}</td>
+  </tr>`).join('')}</tbody>`;
+
+  const changeSort = (key) => {
+    if (leaderboardSort.key === key) {
+      leaderboardSort.direction = leaderboardSort.direction === 'asc' ? 'desc' : 'asc';
+    } else {
+      leaderboardSort = {
+        key,
+        direction: key === 'name' ? 'asc' : 'desc',
+      };
+    }
+    renderLeaderboard();
+  };
+
+  table.querySelectorAll('th[data-sort]').forEach((header) => {
+    header.addEventListener('click', () => changeSort(header.dataset.sort));
+    header.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        changeSort(header.dataset.sort);
+      }
+    });
+  });
+}
+
+async function load() {
+  const [week1, week2] = await Promise.all([getWeek(1), getWeek(2)]);
+  const weeks = [week1, week2].filter(Boolean);
+  const finals = weeks.filter((week) => week.status === 'final');
+  const names = [...new Set(finals.flatMap((week) => (week.players || []).map((player) => player.name)))];
+
+  leaderboardStats = names.map((name) => {
+    let picks = 0;
+    let wins = 0;
+    let dogs = 0;
+    let dogWins = 0;
+    let probability = 0;
+    let ownership = 0;
+    let pts = 0;
+    let weeklyWins = 0;
+
+    finals.forEach((week) => {
+      const player = week.players.find((candidate) => candidate.name === name);
+      if (!player) return;
+      pts += player.points || 0;
+
+      const winners = winnerNames(week);
+      if (winners.includes(name)) weeklyWins += 1 / winners.length;
+
+      player.picks.forEach((pick, index) => {
+        const result = gameForPick(week, index, pick);
+        if (!result) return;
+        picks++;
+        if (result.win) {
+          wins++;
+          if (result.probability < 50) dogWins++;
+        }
+        if (result.probability < 50) dogs++;
+        probability += result.probability || 0;
+        ownership += result.ownership || 0;
+      });
+    });
+
+    return {
+      name,
+      picks,
+      wins,
+      pts,
+      weeklyWins,
+      accuracy: picks ? wins / picks * 100 : 0,
+      underdogRate: picks ? dogs / picks * 100 : 0,
+      dogWins,
+      avgProb: picks ? probability / picks : 0,
+      avgOwn: picks ? ownership / picks : 0,
+    };
+  });
+
+  $('#summary').innerHTML = [
+    ['Season', '2026'],
+    ['Weeks stored', weeks.length],
+    ['Final weeks', finals.length],
+    ['Players', names.length],
+  ].map(([label, value]) => `<div class="card"><div class="label">${label}</div><div class="value">${value}</div></div>`).join('');
+
+  $('#weeks').innerHTML = weeks.map((week) => {
+    const winners = winnerNames(week);
+    return `<a class="week-card" href="week.html?season=2026&week=${week.week}">
+      <span class="eyebrow">${week.status === 'final' ? 'FINAL' : 'CURRENT'}</span>
+      <b>Week ${week.week}</b>
+      <small>${week.status === 'final' ? `${winners.length > 1 ? 'Winners' : 'Winner'}: ${winners.length ? winners.join(' & ') : 'TBD'}` : 'Pre-lock board'}</small>
+    </a>`;
+  }).join('');
+
+  renderLeaderboard();
+
+  $('#players').innerHTML = leaderboardStats
+    .slice()
+    .sort((a, b) => b.pts - a.pts || b.accuracy - a.accuracy)
+    .map((stat) => `<a class="player" href="player.html?name=${slug(stat.name)}">
+      <h3>${stat.name}</h3>
+      <div class="stats">
+        <div class="stat"><b>${pct(stat.accuracy)}</b><span>Accuracy</span></div>
+        <div class="stat"><b>${pct(stat.underdogRate)}</b><span>Underdog rate</span></div>
+        <div class="stat"><b>${pct(stat.avgProb)}</b><span>Avg implied %</span></div>
+        <div class="stat"><b>${pct(stat.avgOwn)}</b><span>Avg pool ownership</span></div>
+      </div>
+    </a>`).join('');
+}
+
+load().catch((error) => document.body.insertAdjacentHTML('beforeend', `<p class="error">Data load error: ${error.message}</p>`));
