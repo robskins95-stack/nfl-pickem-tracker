@@ -1,10 +1,492 @@
 {
   "season": 2026,
   "week": 2,
-  "status": "pre-lock",
+  "status": "partial-lock",
   "oddsNote": "Initial board. Moneylines/implied probabilities will be stored with source and timestamp before lock.",
   "robTiebreaker": 48,
   "games": [
-    {"away":"DET","home":"BUF","pick":"BUF"},{"away":"PHI","home":"TEN","pick":"PHI"},{"away":"PIT","home":"NE","pick":"NE"},{"away":"MIN","home":"CHI","pick":"CHI"},{"away":"CAR","home":"ATL","pick":"CAR"},{"away":"GB","home":"NYJ","pick":"GB"},{"away":"NO","home":"BAL","pick":"BAL"},{"away":"CIN","home":"HOU","pick":"HOU"},{"away":"CLE","home":"TB","pick":"TB"},{"away":"JAC","home":"DEN","pick":"DEN"},{"away":"LV","home":"LAC","pick":"LAC"},{"away":"SEA","home":"ARI","pick":"SEA"},{"away":"MIA","home":"SF","pick":"SF"},{"away":"WAS","home":"DAL","pick":"DAL"},{"away":"IND","home":"KC","pick":"KC"},{"away":"NYG","home":"LAR","pick":"LAR"}
+    {
+      "away": "DET",
+      "home": "BUF",
+      "pick": "BUF",
+      "awayScore": 31,
+      "homeScore": 41,
+      "winner": "BUF",
+      "awayPoolPicks": 3,
+      "homePoolPicks": 17,
+      "awayPoolPct": 15,
+      "homePoolPct": 85
+    },
+    {
+      "away": "PHI",
+      "home": "TEN",
+      "pick": "PHI",
+      "awayPoolPicks": 20,
+      "homePoolPicks": 0,
+      "awayPoolPct": 100,
+      "homePoolPct": 0
+    },
+    {
+      "away": "PIT",
+      "home": "NE",
+      "pick": "NE",
+      "awayPoolPicks": 9,
+      "homePoolPicks": 11,
+      "awayPoolPct": 45,
+      "homePoolPct": 55
+    },
+    {
+      "away": "MIN",
+      "home": "CHI",
+      "pick": "CHI",
+      "awayPoolPicks": 2,
+      "homePoolPicks": 18,
+      "awayPoolPct": 10,
+      "homePoolPct": 90
+    },
+    {
+      "away": "CAR",
+      "home": "ATL",
+      "pick": "CAR",
+      "awayPoolPicks": 12,
+      "homePoolPicks": 8,
+      "awayPoolPct": 60,
+      "homePoolPct": 40
+    },
+    {
+      "away": "GB",
+      "home": "NYJ",
+      "pick": "GB",
+      "awayPoolPicks": 16,
+      "homePoolPicks": 4,
+      "awayPoolPct": 80,
+      "homePoolPct": 20
+    },
+    {
+      "away": "NO",
+      "home": "BAL",
+      "pick": "BAL",
+      "awayPoolPicks": 2,
+      "homePoolPicks": 18,
+      "awayPoolPct": 10,
+      "homePoolPct": 90
+    },
+    {
+      "away": "CIN",
+      "home": "HOU",
+      "pick": "CIN",
+      "awayPoolPicks": 12,
+      "homePoolPicks": 8,
+      "awayPoolPct": 60,
+      "homePoolPct": 40
+    },
+    {
+      "away": "CLE",
+      "home": "TB",
+      "pick": "TB",
+      "awayPoolPicks": 4,
+      "homePoolPicks": 16,
+      "awayPoolPct": 20,
+      "homePoolPct": 80
+    },
+    {
+      "away": "JAC",
+      "home": "DEN",
+      "pick": "JAC"
+    },
+    {
+      "away": "LV",
+      "home": "LAC",
+      "pick": "LAC"
+    },
+    {
+      "away": "SEA",
+      "home": "ARI",
+      "pick": "SEA"
+    },
+    {
+      "away": "MIA",
+      "home": "SF",
+      "pick": "SF"
+    },
+    {
+      "away": "WAS",
+      "home": "DAL",
+      "pick": "DAL"
+    },
+    {
+      "away": "IND",
+      "home": "KC",
+      "pick": "KC"
+    },
+    {
+      "away": "NYG",
+      "home": "LAR",
+      "pick": "LAR"
+    }
+  ],
+  "lockSnapshots": [
+    {
+      "capturedAt": "2026-09-20T13:02:00-04:00",
+      "label": "Sunday 1:00 PM ET lock",
+      "source": "CBS Pick'em screenshot supplied by user",
+      "poolSize": 20,
+      "games": [
+        {
+          "away": "DET",
+          "home": "BUF",
+          "awayPoolPicks": 3,
+          "homePoolPicks": 17,
+          "awayPoolPct": 15,
+          "homePoolPct": 85
+        },
+        {
+          "away": "CIN",
+          "home": "HOU",
+          "awayPoolPicks": 12,
+          "homePoolPicks": 8,
+          "awayPoolPct": 60,
+          "homePoolPct": 40
+        },
+        {
+          "away": "PIT",
+          "home": "NE",
+          "awayPoolPicks": 9,
+          "homePoolPicks": 11,
+          "awayPoolPct": 45,
+          "homePoolPct": 55
+        },
+        {
+          "away": "CLE",
+          "home": "TB",
+          "awayPoolPicks": 4,
+          "homePoolPicks": 16,
+          "awayPoolPct": 20,
+          "homePoolPct": 80
+        },
+        {
+          "away": "CAR",
+          "home": "ATL",
+          "awayPoolPicks": 12,
+          "homePoolPicks": 8,
+          "awayPoolPct": 60,
+          "homePoolPct": 40
+        },
+        {
+          "away": "NO",
+          "home": "BAL",
+          "awayPoolPicks": 2,
+          "homePoolPicks": 18,
+          "awayPoolPct": 10,
+          "homePoolPct": 90
+        },
+        {
+          "away": "MIN",
+          "home": "CHI",
+          "awayPoolPicks": 2,
+          "homePoolPicks": 18,
+          "awayPoolPct": 10,
+          "homePoolPct": 90
+        },
+        {
+          "away": "GB",
+          "home": "NYJ",
+          "awayPoolPicks": 16,
+          "homePoolPicks": 4,
+          "awayPoolPct": 80,
+          "homePoolPct": 20
+        },
+        {
+          "away": "PHI",
+          "home": "TEN",
+          "awayPoolPicks": 20,
+          "homePoolPicks": 0,
+          "awayPoolPct": 100,
+          "homePoolPct": 0
+        }
+      ],
+      "players": [
+        {
+          "name": "Brian costanzo",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "HOU",
+            "PIT@NE": "PIT",
+            "CLE@TB": "TB",
+            "CAR@ATL": "CAR",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "NYJ",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "BringBackPatThePatriot",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "HOU",
+            "PIT@NE": "NE",
+            "CLE@TB": "TB",
+            "CAR@ATL": "CAR",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Jim Davis",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "HOU",
+            "PIT@NE": "NE",
+            "CLE@TB": "TB",
+            "CAR@ATL": "CAR",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Maggie Burns",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "HOU",
+            "PIT@NE": "PIT",
+            "CLE@TB": "CLE",
+            "CAR@ATL": "ATL",
+            "NO@BAL": "NO",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "NYJ",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Rob Ham",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "CIN",
+            "PIT@NE": "NE",
+            "CLE@TB": "TB",
+            "CAR@ATL": "CAR",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Shaine Anderson",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "CIN",
+            "PIT@NE": "NE",
+            "CLE@TB": "TB",
+            "CAR@ATL": "CAR",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Stacy Maggard",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "HOU",
+            "PIT@NE": "NE",
+            "CLE@TB": "TB",
+            "CAR@ATL": "CAR",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Tayler Kenney",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "CIN",
+            "PIT@NE": "NE",
+            "CLE@TB": "TB",
+            "CAR@ATL": "ATL",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Beth Gulding",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "CIN",
+            "PIT@NE": "PIT",
+            "CLE@TB": "TB",
+            "CAR@ATL": "ATL",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Jen Walton",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "CIN",
+            "PIT@NE": "NE",
+            "CLE@TB": "CLE",
+            "CAR@ATL": "ATL",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Liz Greene",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "HOU",
+            "PIT@NE": "NE",
+            "CLE@TB": "TB",
+            "CAR@ATL": "CAR",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Bonnie Schendell",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "CIN",
+            "PIT@NE": "PIT",
+            "CLE@TB": "TB",
+            "CAR@ATL": "CAR",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Olin Greene",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "CIN",
+            "PIT@NE": "NE",
+            "CLE@TB": "TB",
+            "CAR@ATL": "CAR",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "chris ware",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "HOU",
+            "PIT@NE": "PIT",
+            "CLE@TB": "TB",
+            "CAR@ATL": "ATL",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Morgan Doxer",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "CIN",
+            "PIT@NE": "PIT",
+            "CLE@TB": "TB",
+            "CAR@ATL": "ATL",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Aaron Cahn",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "CIN",
+            "PIT@NE": "NE",
+            "CLE@TB": "TB",
+            "CAR@ATL": "CAR",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Sandy Hudson",
+          "picks": {
+            "DET@BUF": "BUF",
+            "CIN@HOU": "CIN",
+            "PIT@NE": "PIT",
+            "CLE@TB": "CLE",
+            "CAR@ATL": "CAR",
+            "NO@BAL": "NO",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "NYJ",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Jim Sharifi",
+          "picks": {
+            "DET@BUF": "DET",
+            "CIN@HOU": "HOU",
+            "PIT@NE": "NE",
+            "CLE@TB": "TB",
+            "CAR@ATL": "ATL",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "MIN",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Sydney Jacobs",
+          "picks": {
+            "DET@BUF": "DET",
+            "CIN@HOU": "CIN",
+            "PIT@NE": "PIT",
+            "CLE@TB": "CLE",
+            "CAR@ATL": "CAR",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "CHI",
+            "GB@NYJ": "NYJ",
+            "PHI@TEN": "PHI"
+          }
+        },
+        {
+          "name": "Susan Bornt",
+          "picks": {
+            "DET@BUF": "DET",
+            "CIN@HOU": "CIN",
+            "PIT@NE": "PIT",
+            "CLE@TB": "TB",
+            "CAR@ATL": "ATL",
+            "NO@BAL": "BAL",
+            "MIN@CHI": "MIN",
+            "GB@NYJ": "GB",
+            "PHI@TEN": "PHI"
+          }
+        }
+      ]
+    }
   ]
 }
