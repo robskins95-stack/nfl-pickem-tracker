@@ -1,79 +1,28 @@
 {
   "season": 2026,
   "week": 2,
-  "status": "partial-lock",
-  "oddsNote": "Initial board. Moneylines/implied probabilities will be stored with source and timestamp before lock.",
-  "robTiebreaker": 48,
+  "status": "final",
+  "oddsNote": "Week 2 results and complete pool picks are final. Market moneylines/no-vig probabilities have not yet been backfilled; do not infer them from pick ownership.",
+  "robTiebreaker": 44,
   "games": [
     {
       "away": "DET",
       "home": "BUF",
-      "pick": "BUF",
       "awayScore": 31,
       "homeScore": 41,
       "winner": "BUF",
+      "pick": "BUF",
       "awayPoolPicks": 3,
       "homePoolPicks": 17,
       "awayPoolPct": 15,
       "homePoolPct": 85
     },
     {
-      "away": "PHI",
-      "home": "TEN",
-      "pick": "PHI",
-      "awayPoolPicks": 20,
-      "homePoolPicks": 0,
-      "awayPoolPct": 100,
-      "homePoolPct": 0
-    },
-    {
-      "away": "PIT",
-      "home": "NE",
-      "pick": "NE",
-      "awayPoolPicks": 9,
-      "homePoolPicks": 11,
-      "awayPoolPct": 45,
-      "homePoolPct": 55
-    },
-    {
-      "away": "MIN",
-      "home": "CHI",
-      "pick": "CHI",
-      "awayPoolPicks": 2,
-      "homePoolPicks": 18,
-      "awayPoolPct": 10,
-      "homePoolPct": 90
-    },
-    {
-      "away": "CAR",
-      "home": "ATL",
-      "pick": "CAR",
-      "awayPoolPicks": 12,
-      "homePoolPicks": 8,
-      "awayPoolPct": 60,
-      "homePoolPct": 40
-    },
-    {
-      "away": "GB",
-      "home": "NYJ",
-      "pick": "GB",
-      "awayPoolPicks": 16,
-      "homePoolPicks": 4,
-      "awayPoolPct": 80,
-      "homePoolPct": 20
-    },
-    {
-      "away": "NO",
-      "home": "BAL",
-      "pick": "BAL",
-      "awayPoolPicks": 2,
-      "homePoolPicks": 18,
-      "awayPoolPct": 10,
-      "homePoolPct": 90
-    },
-    {
       "away": "CIN",
       "home": "HOU",
+      "awayScore": 20,
+      "homeScore": 6,
+      "winner": "CIN",
       "pick": "CIN",
       "awayPoolPicks": 12,
       "homePoolPicks": 8,
@@ -81,8 +30,23 @@
       "homePoolPct": 40
     },
     {
+      "away": "PIT",
+      "home": "NE",
+      "awayScore": 3,
+      "homeScore": 20,
+      "winner": "NE",
+      "pick": "NE",
+      "awayPoolPicks": 9,
+      "homePoolPicks": 11,
+      "awayPoolPct": 45,
+      "homePoolPct": 55
+    },
+    {
       "away": "CLE",
       "home": "TB",
+      "awayScore": 23,
+      "homeScore": 19,
+      "winner": "CLE",
       "pick": "TB",
       "awayPoolPicks": 4,
       "homePoolPicks": 16,
@@ -90,39 +54,148 @@
       "homePoolPct": 80
     },
     {
+      "away": "CAR",
+      "home": "ATL",
+      "awayScore": 34,
+      "homeScore": 3,
+      "winner": "CAR",
+      "pick": "CAR",
+      "awayPoolPicks": 12,
+      "homePoolPicks": 8,
+      "awayPoolPct": 60,
+      "homePoolPct": 40
+    },
+    {
+      "away": "NO",
+      "home": "BAL",
+      "awayScore": 24,
+      "homeScore": 17,
+      "winner": "NO",
+      "pick": "BAL",
+      "awayPoolPicks": 2,
+      "homePoolPicks": 18,
+      "awayPoolPct": 10,
+      "homePoolPct": 90
+    },
+    {
+      "away": "MIN",
+      "home": "CHI",
+      "awayScore": 9,
+      "homeScore": 3,
+      "winner": "MIN",
+      "pick": "CHI",
+      "awayPoolPicks": 2,
+      "homePoolPicks": 18,
+      "awayPoolPct": 10,
+      "homePoolPct": 90
+    },
+    {
+      "away": "GB",
+      "home": "NYJ",
+      "awayScore": 20,
+      "homeScore": 17,
+      "winner": "GB",
+      "pick": "GB",
+      "awayPoolPicks": 16,
+      "homePoolPicks": 4,
+      "awayPoolPct": 80,
+      "homePoolPct": 20
+    },
+    {
+      "away": "PHI",
+      "home": "TEN",
+      "awayScore": 24,
+      "homeScore": 20,
+      "winner": "PHI",
+      "pick": "PHI",
+      "awayPoolPicks": 20,
+      "homePoolPicks": 0,
+      "awayPoolPct": 100,
+      "homePoolPct": 0
+    },
+    {
       "away": "JAC",
       "home": "DEN",
-      "pick": "JAC"
+      "awayScore": 13,
+      "homeScore": 20,
+      "winner": "DEN",
+      "pick": "JAC",
+      "awayPoolPicks": 10,
+      "homePoolPicks": 10,
+      "awayPoolPct": 50,
+      "homePoolPct": 50
     },
     {
       "away": "LV",
       "home": "LAC",
-      "pick": "LAC"
-    },
-    {
-      "away": "SEA",
-      "home": "ARI",
-      "pick": "SEA"
-    },
-    {
-      "away": "MIA",
-      "home": "SF",
-      "pick": "SF"
+      "awayScore": 26,
+      "homeScore": 14,
+      "winner": "LV",
+      "pick": "LAC",
+      "awayPoolPicks": 8,
+      "homePoolPicks": 12,
+      "awayPoolPct": 40,
+      "homePoolPct": 60
     },
     {
       "away": "WAS",
       "home": "DAL",
-      "pick": "DAL"
+      "awayScore": 20,
+      "homeScore": 37,
+      "winner": "DAL",
+      "pick": "DAL",
+      "awayPoolPicks": 11,
+      "homePoolPicks": 9,
+      "awayPoolPct": 55,
+      "homePoolPct": 45
+    },
+    {
+      "away": "SEA",
+      "home": "ARI",
+      "awayScore": 31,
+      "homeScore": 7,
+      "winner": "SEA",
+      "pick": "SEA",
+      "awayPoolPicks": 18,
+      "homePoolPicks": 2,
+      "awayPoolPct": 90,
+      "homePoolPct": 10
+    },
+    {
+      "away": "MIA",
+      "home": "SF",
+      "awayScore": 13,
+      "homeScore": 35,
+      "winner": "SF",
+      "pick": "SF",
+      "awayPoolPicks": 1,
+      "homePoolPicks": 19,
+      "awayPoolPct": 5,
+      "homePoolPct": 95
     },
     {
       "away": "IND",
       "home": "KC",
-      "pick": "KC"
+      "awayScore": 30,
+      "homeScore": 33,
+      "winner": "KC",
+      "pick": "KC",
+      "awayPoolPicks": 0,
+      "homePoolPicks": 20,
+      "awayPoolPct": 0,
+      "homePoolPct": 100
     },
     {
       "away": "NYG",
       "home": "LAR",
-      "pick": "LAR"
+      "awayScore": 6,
+      "homeScore": 28,
+      "winner": "LAR",
+      "pick": "NYG",
+      "awayPoolPicks": 5,
+      "homePoolPicks": 15,
+      "awayPoolPct": 25,
+      "homePoolPct": 75
     }
   ],
   "lockSnapshots": [
@@ -486,6 +559,474 @@
             "PHI@TEN": "PHI"
           }
         }
+      ]
+    }
+  ],
+  "resultSource": "CBS Pick'em final Week 2 standings screenshots supplied by user on 2026-09-22.",
+  "finalGameTotal": 34,
+  "weeklyWinners": [
+    "Sandy Hudson"
+  ],
+  "winnerNote": "Sandy Hudson won Week 2 on the tiebreaker after four players finished with 11 correct. Sandy's 38 was 4 points from the actual NYG-LAR total of 34; BringBackPatThePatriot and Shaine Anderson had 48, and Jen Walton had 52.",
+  "players": [
+    {
+      "name": "Sandy Hudson",
+      "points": 11,
+      "tiebreaker": 38,
+      "picks": [
+        "BUF",
+        "CIN",
+        "PIT",
+        "CLE",
+        "CAR",
+        "NO",
+        "CHI",
+        "NYJ",
+        "PHI",
+        "DEN",
+        "LAC",
+        "DAL",
+        "SEA",
+        "SF",
+        "KC",
+        "NYG"
+      ]
+    },
+    {
+      "name": "BringBackPatThePatriot",
+      "points": 11,
+      "tiebreaker": 48,
+      "picks": [
+        "BUF",
+        "HOU",
+        "NE",
+        "TB",
+        "CAR",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "DEN",
+        "LAC",
+        "DAL",
+        "SEA",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Shaine Anderson",
+      "points": 11,
+      "tiebreaker": 48,
+      "picks": [
+        "BUF",
+        "CIN",
+        "NE",
+        "TB",
+        "CAR",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "JAC",
+        "LAC",
+        "DAL",
+        "SEA",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Jen Walton",
+      "points": 11,
+      "tiebreaker": 52,
+      "picks": [
+        "BUF",
+        "CIN",
+        "NE",
+        "CLE",
+        "ATL",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "DEN",
+        "LV",
+        "WAS",
+        "SEA",
+        "MIA",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Bonnie Schendell",
+      "points": 10,
+      "tiebreaker": 42,
+      "picks": [
+        "BUF",
+        "CIN",
+        "PIT",
+        "TB",
+        "CAR",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "JAC",
+        "LAC",
+        "DAL",
+        "SEA",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Rob Ham",
+      "points": 10,
+      "tiebreaker": 44,
+      "picks": [
+        "BUF",
+        "CIN",
+        "NE",
+        "TB",
+        "CAR",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "JAC",
+        "LAC",
+        "DAL",
+        "SEA",
+        "SF",
+        "KC",
+        "NYG"
+      ]
+    },
+    {
+      "name": "Aaron Cahn",
+      "points": 10,
+      "tiebreaker": 44,
+      "picks": [
+        "BUF",
+        "CIN",
+        "NE",
+        "TB",
+        "CAR",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "JAC",
+        "LAC",
+        "WAS",
+        "SEA",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Stacy Maggard",
+      "points": 10,
+      "tiebreaker": 45,
+      "picks": [
+        "BUF",
+        "HOU",
+        "NE",
+        "TB",
+        "CAR",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "DEN",
+        "LAC",
+        "DAL",
+        "ARI",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Beth Gulding",
+      "points": 10,
+      "tiebreaker": 45,
+      "picks": [
+        "BUF",
+        "CIN",
+        "PIT",
+        "TB",
+        "ATL",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "JAC",
+        "LV",
+        "DAL",
+        "SEA",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Olin Greene",
+      "points": 10,
+      "tiebreaker": 47,
+      "picks": [
+        "BUF",
+        "CIN",
+        "NE",
+        "TB",
+        "CAR",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "JAC",
+        "LAC",
+        "WAS",
+        "SEA",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Jim Davis",
+      "points": 10,
+      "tiebreaker": 48,
+      "picks": [
+        "BUF",
+        "HOU",
+        "NE",
+        "TB",
+        "CAR",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "DEN",
+        "LAC",
+        "WAS",
+        "SEA",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Jim Sharifi",
+      "points": 10,
+      "tiebreaker": 49,
+      "picks": [
+        "DET",
+        "HOU",
+        "NE",
+        "TB",
+        "ATL",
+        "BAL",
+        "MIN",
+        "GB",
+        "PHI",
+        "DEN",
+        "LAC",
+        "DAL",
+        "SEA",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Susan Bornt",
+      "points": 10,
+      "tiebreaker": 57,
+      "picks": [
+        "DET",
+        "CIN",
+        "PIT",
+        "TB",
+        "ATL",
+        "BAL",
+        "MIN",
+        "GB",
+        "PHI",
+        "DEN",
+        "LV",
+        "WAS",
+        "SEA",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Morgan Doxer",
+      "points": 9,
+      "tiebreaker": 35,
+      "picks": [
+        "BUF",
+        "CIN",
+        "PIT",
+        "TB",
+        "ATL",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "JAC",
+        "LV",
+        "WAS",
+        "SEA",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Maggie Burns",
+      "points": 9,
+      "tiebreaker": 37,
+      "picks": [
+        "BUF",
+        "HOU",
+        "PIT",
+        "CLE",
+        "ATL",
+        "NO",
+        "CHI",
+        "NYJ",
+        "PHI",
+        "DEN",
+        "LV",
+        "WAS",
+        "SEA",
+        "SF",
+        "KC",
+        "NYG"
+      ]
+    },
+    {
+      "name": "Tayler Kenney",
+      "points": 9,
+      "tiebreaker": 31,
+      "picks": [
+        "BUF",
+        "CIN",
+        "NE",
+        "TB",
+        "ATL",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "JAC",
+        "LV",
+        "WAS",
+        "SEA",
+        "SF",
+        "KC",
+        "NYG"
+      ]
+    },
+    {
+      "name": "chris ware",
+      "points": 9,
+      "tiebreaker": 49,
+      "picks": [
+        "BUF",
+        "HOU",
+        "PIT",
+        "TB",
+        "ATL",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "DEN",
+        "LAC",
+        "DAL",
+        "SEA",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Liz Greene",
+      "points": 9,
+      "tiebreaker": 50,
+      "picks": [
+        "BUF",
+        "HOU",
+        "NE",
+        "TB",
+        "CAR",
+        "BAL",
+        "CHI",
+        "GB",
+        "PHI",
+        "JAC",
+        "LAC",
+        "WAS",
+        "SEA",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Sydney Jacobs",
+      "points": 8,
+      "tiebreaker": 41,
+      "picks": [
+        "DET",
+        "CIN",
+        "PIT",
+        "CLE",
+        "CAR",
+        "BAL",
+        "CHI",
+        "NYJ",
+        "PHI",
+        "JAC",
+        "LV",
+        "WAS",
+        "ARI",
+        "SF",
+        "KC",
+        "LAR"
+      ]
+    },
+    {
+      "name": "Brian costanzo",
+      "points": 8,
+      "tiebreaker": 45,
+      "picks": [
+        "BUF",
+        "HOU",
+        "PIT",
+        "TB",
+        "CAR",
+        "BAL",
+        "CHI",
+        "NYJ",
+        "PHI",
+        "DEN",
+        "LV",
+        "WAS",
+        "SEA",
+        "SF",
+        "KC",
+        "NYG"
       ]
     }
   ]
