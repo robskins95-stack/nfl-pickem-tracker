@@ -106,6 +106,7 @@ async function load() {
 
   leaderboardStats = names.map((name) => {
     let picks = 0;
+    let marketPicks = 0;
     let wins = 0;
     let dogs = 0;
     let dogWins = 0;
@@ -126,12 +127,15 @@ async function load() {
         const result = gameForPick(week, index, pick);
         if (!result) return;
         picks++;
-        if (result.win) {
-          wins++;
-          if (result.probability < 50) dogWins++;
+        if (result.win) wins++;
+        if (Number.isFinite(result.probability)) {
+          marketPicks++;
+          if (result.probability < 50) {
+            dogs++;
+            if (result.win) dogWins++;
+          }
+          probability += result.probability;
         }
-        if (result.probability < 50) dogs++;
-        probability += result.probability || 0;
         ownership += result.ownership || 0;
       });
     });
@@ -143,9 +147,9 @@ async function load() {
       pts,
       weeklyWins,
       accuracy: picks ? wins / picks * 100 : 0,
-      underdogRate: picks ? dogs / picks * 100 : 0,
+      underdogRate: marketPicks ? dogs / marketPicks * 100 : 0,
       dogWins,
-      avgProb: picks ? probability / picks : 0,
+      avgProb: marketPicks ? probability / marketPicks : 0,
       avgOwn: picks ? ownership / picks : 0,
     };
   });
