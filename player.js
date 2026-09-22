@@ -41,7 +41,7 @@ function finalGameContext(week, player) {
   const away = pick === game.away;
   const probability = away ? game.awayNoVigWinPct : game.homeNoVigWinPct;
   const ownership = away ? game.awayPoolPct : game.homePoolPct;
-  return { diff, pick, probability, ownership, isDog: probability < 50, game, playerPre, bestOther };
+  return { diff, pick, probability, ownership, isDog: Number.isFinite(probability) ? probability < 50 : null, game, playerPre, bestOther };
 }
 
 async function load() {
@@ -56,6 +56,7 @@ async function load() {
   const weeks = [week1, week2].filter(Boolean);
   const finals = weeks.filter((week) => week.status === 'final');
   let picks = 0;
+  let marketPicks = 0;
   let wins = 0;
   let dogs = 0;
   let dogWins = 0;
@@ -81,11 +82,14 @@ async function load() {
       const win = pick === game.winner;
       picks++;
       wins += win ? 1 : 0;
-      if (pickProbability < 50) {
-        dogs++;
-        dogWins += win ? 1 : 0;
+      if (Number.isFinite(pickProbability)) {
+        marketPicks++;
+        if (pickProbability < 50) {
+          dogs++;
+          dogWins += win ? 1 : 0;
+        }
+        probability += pickProbability;
       }
-      probability += pickProbability || 0;
       ownership += pickOwnership || 0;
       return { pick, game, probability: pickProbability, ownership: pickOwnership, win };
     });
@@ -97,9 +101,9 @@ async function load() {
   $('#summary').innerHTML = [
     ['Points', pts],
     ['Accuracy', picks ? pct(wins / picks * 100) : '—'],
-    ['Underdog rate', picks ? pct(dogs / picks * 100) : '—'],
+    ['Underdog rate', marketPicks ? pct(dogs / marketPicks * 100) : '—'],
     ['Dog record', `${dogWins}-${dogs - dogWins}`],
-    ['Avg implied', picks ? pct(probability / picks) : '—'],
+    ['Avg implied', marketPicks ? pct(probability / marketPicks) : '—'],
     ['Avg ownership', picks ? pct(ownership / picks) : '—'],
     ['Weekly wins', formatWeeklyWins(weeklyWins)],
     ['Picks tracked', picks],
@@ -112,10 +116,11 @@ async function load() {
   ];
   $('#mnf').innerHTML = `<div class="cards">${buckets.map((bucket) => {
     const matches = situations.filter(bucket.test);
-    const dogPicks = matches.filter((situation) => situation.isDog);
-    const avgPick = matches.length ? matches.reduce((sum, situation) => sum + situation.probability, 0) / matches.length : null;
+    const marketMatches = matches.filter((situation) => Number.isFinite(situation.probability));
+    const dogPicks = marketMatches.filter((situation) => situation.isDog);
+    const avgPick = marketMatches.length ? marketMatches.reduce((sum, situation) => sum + situation.probability, 0) / marketMatches.length : null;
     const avgDog = dogPicks.length ? dogPicks.reduce((sum, situation) => sum + situation.probability, 0) / dogPicks.length : null;
-    return `<div class="card"><div class="label">${bucket.label}</div><div class="value small-value">${matches.length ? `${dogPicks.length}/${matches.length} dogs` : '—'}</div><div class="muted">Dog rate: ${matches.length ? pct(dogPicks.length / matches.length * 100) : '—'}<br>Avg pick market: ${avgPick == null ? '—' : `${avgPick.toFixed(1)}%`}<br>Avg dog strength: ${avgDog == null ? '—' : `${avgDog.toFixed(1)}%`}</div></div>`;
+    return `<div class="card"><div class="label">${bucket.label}</div><div class="value small-value">${marketMatches.length ? `${dogPicks.length}/${marketMatches.length} dogs` : (matches.length ? 'market TBD' : '—')}</div><div class="muted">Dog rate: ${marketMatches.length ? pct(dogPicks.length / marketMatches.length * 100) : '—'}<br>Avg pick market: ${avgPick == null ? '—' : `${avgPick.toFixed(1)}%`}<br>Avg dog strength: ${avgDog == null ? '—' : `${avgDog.toFixed(1)}%`}</div></div>`;
   }).join('')}</div>${situations.length ? '<div class="note profile-note">Final-game leverage is derived from standings before the last game on the weekly slate. A 45% pick is treated as a modest underdog; a 30% pick as a much larger underdog.</div>' : '<p class="muted">No finalized final-game situations yet.</p>'}`;
 
   const registered = registry.players.find((player) => matchPlayer(player, name));
@@ -128,7 +133,13 @@ async function load() {
     const position = context
       ? (context.diff === -1 ? '1 back' : context.diff === 0 ? 'tied for lead' : context.diff === 1 ? '1 ahead' : context.diff > 1 ? `${context.diff} ahead` : `${Math.abs(context.diff)} back`)
       : '—';
-    return `<section class="history-week"><h3><a href="week.html?season=2026&week=${item.week.week}">Week ${item.week.week}</a> — ${item.player.points} points • Final total ${item.player.tiebreaker ?? '—'}</h3>${context ? `<p class="muted">Entering final game: ${position} • Picked ${context.pick} at ${context.probability?.toFixed(1)}% market probability${context.isDog ? ' (underdog)' : ''}</p>` : ''}<div class="pick-chips">${item.detail.map((pick) => `<span class="chip ${pick.win ? 'correct' : 'wrong'}" title="${pick.game.away} @ ${pick.game.home}; market ${pick.probability?.toFixed(1)}%; pool ${pick.ownership}%">${pick.pick} <small>${pick.probability?.toFixed(0)}% / ${pick.ownership}%</small></span>`).join('')}</div></section>`;
+    const contextMarket = context && Number.isFinite(context.probability)
+      ? `${context.probability.toFixed(1)}% market probability${context.isDog ? ' (underdog)' : ''}`
+      : 'market odds TBD';
+    return `<section class="history-week"><h3><a href="week.html?season=2026&week=${item.week.week}">Week ${item.week.week}</a> — ${item.player.points} points • Final total ${item.player.tiebreaker ?? '—'}</h3>${context ? `<p class="muted">Entering final game: ${position} • Picked ${context.pick} • ${contextMarket}</p>` : ''}<div class="pick-chips">${item.detail.map((pick) => {
+      const market = Number.isFinite(pick.probability) ? `${pick.probability.toFixed(0)}%` : '—';
+      return `<span class="chip ${pick.win ? 'correct' : 'wrong'}" title="${pick.game.away} @ ${pick.game.home}; market ${market}; pool ${pick.ownership}%">${pick.pick} <small>${market} / ${pick.ownership}%</small></span>`;
+    }).join('')}</div></section>`;
   }).join('') : '<p class="muted">No finalized picks stored for this player yet.</p>';
 }
 
