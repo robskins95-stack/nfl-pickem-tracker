@@ -29,7 +29,7 @@ async function getWeek(number) {
 
 function gameForPick(week, index, pick) {
   const game = week.games[index];
-  if (!game) return null;
+  if (!game || !pick) return null;
   const away = pick === game.away;
   return {
     game,
@@ -79,10 +79,7 @@ function renderLeaderboard() {
     if (leaderboardSort.key === key) {
       leaderboardSort.direction = leaderboardSort.direction === 'asc' ? 'desc' : 'asc';
     } else {
-      leaderboardSort = {
-        key,
-        direction: key === 'name' ? 'asc' : 'desc',
-      };
+      leaderboardSort = { key, direction: key === 'name' ? 'asc' : 'desc' };
     }
     renderLeaderboard();
   };
@@ -99,8 +96,8 @@ function renderLeaderboard() {
 }
 
 async function load() {
-  const [week1, week2] = await Promise.all([getWeek(1), getWeek(2)]);
-  const weeks = [week1, week2].filter(Boolean);
+  const weekNumbers = Array.from({ length: 18 }, (_, index) => index + 1);
+  const weeks = (await Promise.all(weekNumbers.map(getWeek))).filter(Boolean);
   const finals = weeks.filter((week) => week.status === 'final');
   const names = [...new Set(finals.flatMap((week) => (week.players || []).map((player) => player.name)))];
 
@@ -141,11 +138,7 @@ async function load() {
     });
 
     return {
-      name,
-      picks,
-      wins,
-      pts,
-      weeklyWins,
+      name, picks, wins, pts, weeklyWins,
       accuracy: picks ? wins / picks * 100 : 0,
       underdogRate: marketPicks ? dogs / marketPicks * 100 : 0,
       dogWins,
@@ -163,10 +156,13 @@ async function load() {
 
   $('#weeks').innerHTML = weeks.map((week) => {
     const winners = winnerNames(week);
+    const detail = week.status === 'final'
+      ? `${winners.length > 1 ? 'Winners' : 'Winner'}: ${winners.length ? winners.join(' & ') : 'TBD'}`
+      : (week.capturedAt ? `Snapshot: ${new Date(week.capturedAt).toLocaleString([], { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })}` : 'Current week');
     return `<a class="week-card" href="week.html?season=2026&week=${week.week}">
       <span class="eyebrow">${week.status === 'final' ? 'FINAL' : 'CURRENT'}</span>
       <b>Week ${week.week}</b>
-      <small>${week.status === 'final' ? `${winners.length > 1 ? 'Winners' : 'Winner'}: ${winners.length ? winners.join(' & ') : 'TBD'}` : 'Pre-lock board'}</small>
+      <small>${detail}</small>
     </a>`;
   }).join('');
 
