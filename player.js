@@ -48,12 +48,11 @@ async function load() {
   if (!name) throw Error('No player selected');
   $('#name').textContent = name;
   document.title = `${name} — NextWeekGPT`;
-  const [week1, week2, registry] = await Promise.all([
-    getWeek(1),
-    getWeek(2),
+  const [storedWeeks, registry] = await Promise.all([
+    Promise.all(Array.from({ length: 18 }, (_, index) => getWeek(index + 1))),
     fetch('data/players.json').then((response) => response.json()).catch(() => ({ players: [] })),
   ]);
-  const weeks = [week1, week2].filter(Boolean);
+  const weeks = storedWeeks.filter(Boolean);
   const finals = weeks.filter((week) => week.status === 'final');
   let picks = 0;
   let marketPicks = 0;
@@ -76,6 +75,7 @@ async function load() {
 
     const detail = player.picks.map((pick, index) => {
       const game = week.games[index];
+      if (!pick) return { pick: null, game, probability: null, ownership: null, win: null };
       const away = pick === game.away;
       const pickProbability = away ? game.awayNoVigWinPct : game.homeNoVigWinPct;
       const pickOwnership = away ? game.awayPoolPct : game.homePoolPct;
@@ -137,6 +137,7 @@ async function load() {
       ? `${context.probability.toFixed(1)}% market probability${context.isDog ? ' (underdog)' : ''}`
       : 'market odds TBD';
     return `<section class="history-week"><h3><a href="week.html?season=2026&week=${item.week.week}">Week ${item.week.week}</a> — ${item.player.points} points • Final total ${item.player.tiebreaker ?? '—'}</h3>${context ? `<p class="muted">Entering final game: ${position} • Picked ${context.pick} • ${contextMarket}</p>` : ''}<div class="pick-chips">${item.detail.map((pick) => {
+      if (!pick.pick) return `<span class="chip" title="${pick.game.away} @ ${pick.game.home}; no pick submitted">—</span>`;
       const market = Number.isFinite(pick.probability) ? `${pick.probability.toFixed(0)}%` : '—';
       return `<span class="chip ${pick.win ? 'correct' : 'wrong'}" title="${pick.game.away} @ ${pick.game.home}; market ${market}; pool ${pick.ownership}%">${pick.pick} <small>${market} / ${pick.ownership}%</small></span>`;
     }).join('')}</div></section>`;
