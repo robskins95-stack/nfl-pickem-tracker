@@ -1,0 +1,725 @@
+{
+  "season": 2026,
+  "week": 6,
+  "status": "current",
+  "capturedAt": "2026-10-18T20:24:00-04:00",
+  "oddsNote": "Week 6 current standings snapshot from CBS Pick'em. Market moneylines/no-vig probabilities have not yet been added; do not infer them from pool ownership.",
+  "robTiebreaker": 44,
+  "games": [
+    {
+      "away": "SEA",
+      "home": "DEN",
+      "awayScore": 14,
+      "homeScore": 17,
+      "winner": "DEN",
+      "awayPoolPicks": 8,
+      "homePoolPicks": 10,
+      "awayPoolPct": 40,
+      "homePoolPct": 50,
+      "noPickPoolPicks": 2,
+      "noPickPoolPct": 10
+    },
+    {
+      "away": "HOU",
+      "home": "JAC",
+      "awayScore": 34,
+      "homeScore": 31,
+      "winner": "HOU",
+      "awayPoolPicks": 1,
+      "homePoolPicks": 18,
+      "awayPoolPct": 5,
+      "homePoolPct": 90,
+      "noPickPoolPicks": 1,
+      "noPickPoolPct": 5
+    },
+    {
+      "away": "CHI",
+      "home": "ATL",
+      "awayScore": 31,
+      "homeScore": 23,
+      "winner": "CHI",
+      "awayPoolPicks": 10,
+      "homePoolPicks": 10,
+      "awayPoolPct": 50,
+      "homePoolPct": 50
+    },
+    {
+      "away": "BAL",
+      "home": "CLE",
+      "awayScore": 10,
+      "homeScore": 13,
+      "winner": "CLE",
+      "awayPoolPicks": 15,
+      "homePoolPicks": 5,
+      "awayPoolPct": 75,
+      "homePoolPct": 25
+    },
+    {
+      "away": "TEN",
+      "home": "IND",
+      "awayScore": 26,
+      "homeScore": 20,
+      "winner": "TEN",
+      "awayPoolPicks": 0,
+      "homePoolPicks": 20,
+      "awayPoolPct": 0,
+      "homePoolPct": 100
+    },
+    {
+      "away": "NYJ",
+      "home": "NE",
+      "awayScore": 19,
+      "homeScore": 26,
+      "winner": "NE",
+      "awayPoolPicks": 1,
+      "homePoolPicks": 19,
+      "awayPoolPct": 5,
+      "homePoolPct": 95
+    },
+    {
+      "away": "NO",
+      "home": "NYG",
+      "awayScore": 34,
+      "homeScore": 27,
+      "winner": "NO",
+      "awayPoolPicks": 6,
+      "homePoolPicks": 14,
+      "awayPoolPct": 30,
+      "homePoolPct": 70
+    },
+    {
+      "away": "CAR",
+      "home": "PHI",
+      "awayScore": 25,
+      "homeScore": 14,
+      "winner": "CAR",
+      "awayPoolPicks": 7,
+      "homePoolPicks": 13,
+      "awayPoolPct": 35,
+      "homePoolPct": 65
+    },
+    {
+      "away": "PIT",
+      "home": "TB",
+      "awayScore": 26,
+      "homeScore": 19,
+      "winner": "PIT",
+      "awayPoolPicks": 18,
+      "homePoolPicks": 2,
+      "awayPoolPct": 90,
+      "homePoolPct": 10
+    },
+    {
+      "away": "ARI",
+      "home": "LAR",
+      "awayScore": 18,
+      "homeScore": 16,
+      "winner": "ARI",
+      "awayPoolPicks": 0,
+      "homePoolPicks": 20,
+      "awayPoolPct": 0,
+      "homePoolPct": 100
+    },
+    {
+      "away": "LAC",
+      "home": "KC",
+      "awayScore": 6,
+      "homeScore": 22,
+      "winner": "KC",
+      "awayPoolPicks": 0,
+      "homePoolPicks": 20,
+      "awayPoolPct": 0,
+      "homePoolPct": 100
+    },
+    {
+      "away": "BUF",
+      "home": "LV",
+      "awayScore": 33,
+      "homeScore": 30,
+      "winner": "BUF",
+      "awayPoolPicks": 17,
+      "homePoolPicks": 3,
+      "awayPoolPct": 85,
+      "homePoolPct": 15
+    },
+    {
+      "away": "DAL",
+      "home": "GB",
+      "winner": null,
+      "awayPoolPicks": 4,
+      "homePoolPicks": 16,
+      "awayPoolPct": 20,
+      "homePoolPct": 80,
+      "status": "in_progress"
+    },
+    {
+      "away": "WAS",
+      "home": "SF",
+      "winner": null,
+      "status": "scheduled"
+    }
+  ],
+  "players": [
+    {
+      "name": "Shaine Anderson",
+      "points": 8,
+      "seasonPoints": 58,
+      "rank": 1,
+      "tiebreaker": null,
+      "picks": [
+        "DEN",
+        "JAC",
+        "CHI",
+        "BAL",
+        "IND",
+        "NE",
+        "NO",
+        "CAR",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Beth Gulding",
+      "points": 7,
+      "seasonPoints": 56,
+      "rank": 2,
+      "tiebreaker": null,
+      "picks": [
+        "DEN",
+        "JAC",
+        "CHI",
+        "CLE",
+        "IND",
+        "NE",
+        "NYG",
+        "PHI",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "chris ware",
+      "points": 7,
+      "seasonPoints": 50,
+      "rank": 2,
+      "tiebreaker": null,
+      "picks": [
+        "DEN",
+        "JAC",
+        "CHI",
+        "BAL",
+        "IND",
+        "NE",
+        "NO",
+        "PHI",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Sandy Hudson",
+      "points": 7,
+      "seasonPoints": 48,
+      "rank": 2,
+      "tiebreaker": null,
+      "picks": [
+        "DEN",
+        "JAC",
+        "CHI",
+        "CLE",
+        "IND",
+        "NE",
+        "NYG",
+        "PHI",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "DAL",
+        null
+      ]
+    },
+    {
+      "name": "BringBackPatThePatriot",
+      "points": 6,
+      "seasonPoints": 57,
+      "rank": 5,
+      "tiebreaker": null,
+      "picks": [
+        "DEN",
+        "JAC",
+        "ATL",
+        "BAL",
+        "IND",
+        "NE",
+        "NYG",
+        "CAR",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Jim Davis",
+      "points": 6,
+      "seasonPoints": 57,
+      "rank": 5,
+      "tiebreaker": null,
+      "picks": [
+        "SEA",
+        "JAC",
+        "CHI",
+        "BAL",
+        "IND",
+        "NE",
+        "NO",
+        "PHI",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "DAL",
+        null
+      ]
+    },
+    {
+      "name": "Jim Sharifi",
+      "points": 6,
+      "seasonPoints": 56,
+      "rank": 5,
+      "tiebreaker": null,
+      "picks": [
+        "DEN",
+        "JAC",
+        "CHI",
+        "BAL",
+        "IND",
+        "NE",
+        "NYG",
+        "PHI",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Maggie Burns",
+      "points": 6,
+      "seasonPoints": 56,
+      "rank": 5,
+      "tiebreaker": null,
+      "picks": [
+        "DEN",
+        "JAC",
+        "CHI",
+        "CLE",
+        "IND",
+        "NYJ",
+        "NYG",
+        "PHI",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Jen Walton",
+      "points": 6,
+      "seasonPoints": 51,
+      "rank": 5,
+      "tiebreaker": null,
+      "picks": [
+        null,
+        "JAC",
+        "CHI",
+        "CLE",
+        "IND",
+        "NE",
+        "NYG",
+        "PHI",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Rob Ham",
+      "points": 6,
+      "seasonPoints": 51,
+      "rank": 5,
+      "tiebreaker": 44,
+      "picks": [
+        "SEA",
+        "HOU",
+        "ATL",
+        "BAL",
+        "IND",
+        "NE",
+        "NO",
+        "PHI",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "DAL",
+        "SF"
+      ]
+    },
+    {
+      "name": "Brian costanzo",
+      "points": 6,
+      "seasonPoints": 48,
+      "rank": 5,
+      "tiebreaker": null,
+      "picks": [
+        "DEN",
+        "JAC",
+        "CHI",
+        "CLE",
+        "IND",
+        "NE",
+        "NYG",
+        "PHI",
+        "PIT",
+        "LAR",
+        "KC",
+        "LV",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Stacy Maggard",
+      "points": 5,
+      "seasonPoints": 56,
+      "rank": 12,
+      "tiebreaker": null,
+      "picks": [
+        "SEA",
+        "JAC",
+        "ATL",
+        "BAL",
+        "IND",
+        "NE",
+        "NO",
+        "CAR",
+        "TB",
+        "LAR",
+        "KC",
+        "BUF",
+        "DAL",
+        null
+      ]
+    },
+    {
+      "name": "Bonnie Schendell",
+      "points": 5,
+      "seasonPoints": 53,
+      "rank": 12,
+      "tiebreaker": null,
+      "picks": [
+        "DEN",
+        "JAC",
+        "ATL",
+        "BAL",
+        "IND",
+        "NE",
+        "NYG",
+        "PHI",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Liz Greene",
+      "points": 5,
+      "seasonPoints": 53,
+      "rank": 12,
+      "tiebreaker": null,
+      "picks": [
+        null,
+        null,
+        "ATL",
+        "BAL",
+        "IND",
+        "NE",
+        "NYG",
+        "CAR",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Olin Greene",
+      "points": 5,
+      "seasonPoints": 50,
+      "rank": 12,
+      "tiebreaker": null,
+      "picks": [
+        "SEA",
+        "JAC",
+        "ATL",
+        "BAL",
+        "IND",
+        "NE",
+        "NYG",
+        "CAR",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Tayler Kenney",
+      "points": 5,
+      "seasonPoints": 50,
+      "rank": 12,
+      "tiebreaker": null,
+      "picks": [
+        "DEN",
+        "JAC",
+        "ATL",
+        "BAL",
+        "IND",
+        "NE",
+        "NYG",
+        "PHI",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Aaron Cahn",
+      "points": 5,
+      "seasonPoints": 46,
+      "rank": 12,
+      "tiebreaker": null,
+      "picks": [
+        "SEA",
+        "JAC",
+        "ATL",
+        "BAL",
+        "IND",
+        "NE",
+        "NYG",
+        "CAR",
+        "PIT",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Susan Bornt",
+      "points": 4,
+      "seasonPoints": 55,
+      "rank": 18,
+      "tiebreaker": null,
+      "picks": [
+        "SEA",
+        "JAC",
+        "CHI",
+        "BAL",
+        "IND",
+        "NE",
+        "NYG",
+        "PHI",
+        "PIT",
+        "LAR",
+        "KC",
+        "LV",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Sydney Jacobs",
+      "points": 4,
+      "seasonPoints": 50,
+      "rank": 18,
+      "tiebreaker": null,
+      "picks": [
+        "SEA",
+        "JAC",
+        "ATL",
+        "BAL",
+        "IND",
+        "NE",
+        "NYG",
+        "CAR",
+        "PIT",
+        "LAR",
+        "KC",
+        "LV",
+        "GB",
+        null
+      ]
+    },
+    {
+      "name": "Morgan Doxer",
+      "points": 4,
+      "seasonPoints": 46,
+      "rank": 18,
+      "tiebreaker": null,
+      "picks": [
+        "SEA",
+        "JAC",
+        "ATL",
+        "BAL",
+        "IND",
+        "NE",
+        "NO",
+        "PHI",
+        "TB",
+        "LAR",
+        "KC",
+        "BUF",
+        "GB",
+        null
+      ]
+    }
+  ],
+  "lockSnapshots": [
+    {
+      "capturedAt": "2026-10-18T20:24:00-04:00",
+      "label": "Sunday night lock",
+      "source": "CBS Pick'em screenshots supplied by user",
+      "poolSize": 20,
+      "note": "Twelve games were final. DAL@GB had just locked and all 20 picks were visible. WAS@SF remained hidden for other players; Rob Ham's SF pick and tiebreaker 44 were visible. Jen Walton missed SEA@DEN; Liz Greene missed SEA@DEN and HOU@JAC.",
+      "games": [
+        {
+          "away": "SEA",
+          "home": "DEN",
+          "awayPoolPicks": 8,
+          "homePoolPicks": 10,
+          "noPickPoolPicks": 2
+        },
+        {
+          "away": "HOU",
+          "home": "JAC",
+          "awayPoolPicks": 1,
+          "homePoolPicks": 18,
+          "noPickPoolPicks": 1
+        },
+        {
+          "away": "CHI",
+          "home": "ATL",
+          "awayPoolPicks": 10,
+          "homePoolPicks": 10
+        },
+        {
+          "away": "BAL",
+          "home": "CLE",
+          "awayPoolPicks": 15,
+          "homePoolPicks": 5
+        },
+        {
+          "away": "TEN",
+          "home": "IND",
+          "awayPoolPicks": 0,
+          "homePoolPicks": 20
+        },
+        {
+          "away": "NYJ",
+          "home": "NE",
+          "awayPoolPicks": 1,
+          "homePoolPicks": 19
+        },
+        {
+          "away": "NO",
+          "home": "NYG",
+          "awayPoolPicks": 6,
+          "homePoolPicks": 14
+        },
+        {
+          "away": "CAR",
+          "home": "PHI",
+          "awayPoolPicks": 7,
+          "homePoolPicks": 13
+        },
+        {
+          "away": "PIT",
+          "home": "TB",
+          "awayPoolPicks": 18,
+          "homePoolPicks": 2
+        },
+        {
+          "away": "ARI",
+          "home": "LAR",
+          "awayPoolPicks": 0,
+          "homePoolPicks": 20
+        },
+        {
+          "away": "LAC",
+          "home": "KC",
+          "awayPoolPicks": 0,
+          "homePoolPicks": 20
+        },
+        {
+          "away": "BUF",
+          "home": "LV",
+          "awayPoolPicks": 17,
+          "homePoolPicks": 3
+        },
+        {
+          "away": "DAL",
+          "home": "GB",
+          "awayPoolPicks": 4,
+          "homePoolPicks": 16
+        }
+      ]
+    }
+  ],
+  "resultSource": {
+    "source": "CBS Pick'em Week 6 live standings screenshots supplied by user",
+    "capturedAt": "2026-10-18T20:24:00-04:00",
+    "images": [
+      "IMG_1235.jpeg",
+      "IMG_1236.jpeg"
+    ],
+    "poolSize": 20,
+    "note": "Current snapshot after twelve final games and at the DAL@GB Sunday-night lock. WAS@SF Monday-night picks remain hidden except Rob Ham's own SF pick."
+  }
+}
