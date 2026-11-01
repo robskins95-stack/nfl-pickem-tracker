@@ -3,7 +3,7 @@
   "week": 6,
   "status": "final",
   "capturedAt": "2026-10-21T19:13:00-04:00",
-  "oddsNote": "Week 6 final results from CBS Pick'em. Market moneylines/no-vig probabilities have not yet been backfilled; do not infer them from pool ownership.",
+  "oddsNote": "Historical market odds backfilled from archived closing moneyline pairs. Exact last-second quote times are unavailable; see oddsMetadata per game and docs/market-odds.md. No probabilities were inferred from pool ownership, spreads, or results.",
   "robTiebreaker": 44,
   "games": [
     {
@@ -17,7 +17,35 @@
       "awayPoolPct": 40,
       "homePoolPct": 50,
       "noPickPoolPicks": 2,
-      "noPickPoolPct": 10
+      "noPickPoolPct": 10,
+      "awayMoneyline": -145,
+      "homeMoneyline": 125,
+      "awayImpliedWinPct": 59.18,
+      "homeImpliedWinPct": 44.44,
+      "awayNoVigWinPct": 57.11,
+      "homeNoVigWinPct": 42.89,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "SEA",
+        "sourceHome": "DEN",
+        "scheduledKickoffLabel": "Thu, Oct 15, 8:15 PM ET",
+        "booksReported": 9,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -148,
+          "homeMoneyline": 126,
+          "sourceClosingAsOfLabel": "October 15, 2026 at 8:12 PM ET.",
+          "awayNoVigWinPct": 57.42,
+          "awayProbabilityDifferencePp": 0.31,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "HOU",
@@ -30,7 +58,35 @@
       "awayPoolPct": 5,
       "homePoolPct": 90,
       "noPickPoolPicks": 1,
-      "noPickPoolPct": 5
+      "noPickPoolPct": 5,
+      "awayMoneyline": 120,
+      "homeMoneyline": -136,
+      "awayImpliedWinPct": 45.45,
+      "homeImpliedWinPct": 57.63,
+      "awayNoVigWinPct": 44.1,
+      "homeNoVigWinPct": 55.9,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "HOU",
+        "sourceHome": "JAX",
+        "scheduledKickoffLabel": "Sun, Oct 18, 9:30 AM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 118,
+          "homeMoneyline": -138,
+          "sourceClosingAsOfLabel": "October 18, 2026 at 9:32 AM ET.",
+          "awayNoVigWinPct": 44.17,
+          "awayProbabilityDifferencePp": 0.07,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "CHI",
@@ -41,7 +97,35 @@
       "awayPoolPicks": 10,
       "homePoolPicks": 10,
       "awayPoolPct": 50,
-      "homePoolPct": 50
+      "homePoolPct": 50,
+      "awayMoneyline": -110,
+      "homeMoneyline": -102,
+      "awayImpliedWinPct": 52.38,
+      "homeImpliedWinPct": 50.5,
+      "awayNoVigWinPct": 50.92,
+      "homeNoVigWinPct": 49.08,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "CHI",
+        "sourceHome": "ATL",
+        "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -118,
+          "homeMoneyline": -102,
+          "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+          "awayNoVigWinPct": 51.74,
+          "awayProbabilityDifferencePp": 0.82,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "BAL",
@@ -52,7 +136,35 @@
       "awayPoolPicks": 15,
       "homePoolPicks": 5,
       "awayPoolPct": 75,
-      "homePoolPct": 25
+      "homePoolPct": 25,
+      "awayMoneyline": -175,
+      "homeMoneyline": 150,
+      "awayImpliedWinPct": 63.64,
+      "homeImpliedWinPct": 40.0,
+      "awayNoVigWinPct": 61.4,
+      "homeNoVigWinPct": 38.6,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "BAL",
+        "sourceHome": "CLE",
+        "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -174,
+          "homeMoneyline": 146,
+          "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+          "awayNoVigWinPct": 60.97,
+          "awayProbabilityDifferencePp": -0.43,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "TEN",
@@ -63,7 +175,35 @@
       "awayPoolPicks": 0,
       "homePoolPicks": 20,
       "awayPoolPct": 0,
-      "homePoolPct": 100
+      "homePoolPct": 100,
+      "awayMoneyline": 240,
+      "homeMoneyline": -295,
+      "awayImpliedWinPct": 29.41,
+      "homeImpliedWinPct": 74.68,
+      "awayNoVigWinPct": 28.25,
+      "homeNoVigWinPct": 71.75,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "TEN",
+        "sourceHome": "IND",
+        "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 235,
+          "homeMoneyline": -290,
+          "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+          "awayNoVigWinPct": 28.64,
+          "awayProbabilityDifferencePp": 0.39,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "NYJ",
@@ -74,7 +214,35 @@
       "awayPoolPicks": 1,
       "homePoolPicks": 19,
       "awayPoolPct": 5,
-      "homePoolPct": 95
+      "homePoolPct": 95,
+      "awayMoneyline": 275,
+      "homeMoneyline": -345,
+      "awayImpliedWinPct": 26.67,
+      "homeImpliedWinPct": 77.53,
+      "awayNoVigWinPct": 25.59,
+      "homeNoVigWinPct": 74.41,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "NYJ",
+        "sourceHome": "NE",
+        "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 280,
+          "homeMoneyline": -350,
+          "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+          "awayNoVigWinPct": 25.28,
+          "awayProbabilityDifferencePp": -0.31,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "NO",
@@ -85,7 +253,35 @@
       "awayPoolPicks": 6,
       "homePoolPicks": 14,
       "awayPoolPct": 30,
-      "homePoolPct": 70
+      "homePoolPct": 70,
+      "awayMoneyline": -108,
+      "homeMoneyline": -110,
+      "awayImpliedWinPct": 51.92,
+      "homeImpliedWinPct": 52.38,
+      "awayNoVigWinPct": 49.78,
+      "homeNoVigWinPct": 50.22,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "NO",
+        "sourceHome": "NYG",
+        "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -110,
+          "homeMoneyline": -106,
+          "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+          "awayNoVigWinPct": 50.45,
+          "awayProbabilityDifferencePp": 0.67,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "CAR",
@@ -96,7 +292,35 @@
       "awayPoolPicks": 7,
       "homePoolPicks": 13,
       "awayPoolPct": 35,
-      "homePoolPct": 65
+      "homePoolPct": 65,
+      "awayMoneyline": -160,
+      "homeMoneyline": 130,
+      "awayImpliedWinPct": 61.54,
+      "homeImpliedWinPct": 43.48,
+      "awayNoVigWinPct": 58.6,
+      "homeNoVigWinPct": 41.4,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "CAR",
+        "sourceHome": "PHI",
+        "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -156,
+          "homeMoneyline": 132,
+          "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+          "awayNoVigWinPct": 58.57,
+          "awayProbabilityDifferencePp": -0.03,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "PIT",
@@ -107,7 +331,35 @@
       "awayPoolPicks": 18,
       "homePoolPicks": 2,
       "awayPoolPct": 90,
-      "homePoolPct": 10
+      "homePoolPct": 10,
+      "awayMoneyline": -140,
+      "homeMoneyline": 120,
+      "awayImpliedWinPct": 58.33,
+      "homeImpliedWinPct": 45.45,
+      "awayNoVigWinPct": 56.2,
+      "homeNoVigWinPct": 43.8,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "PIT",
+        "sourceHome": "TB",
+        "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -142,
+          "homeMoneyline": 120,
+          "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+          "awayNoVigWinPct": 56.35,
+          "awayProbabilityDifferencePp": 0.15,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "ARI",
@@ -118,7 +370,35 @@
       "awayPoolPicks": 0,
       "homePoolPicks": 20,
       "awayPoolPct": 0,
-      "homePoolPct": 100
+      "homePoolPct": 100,
+      "awayMoneyline": 600,
+      "homeMoneyline": -800,
+      "awayImpliedWinPct": 14.29,
+      "homeImpliedWinPct": 88.89,
+      "awayNoVigWinPct": 13.85,
+      "homeNoVigWinPct": 86.15,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "ARI",
+        "sourceHome": "LAR",
+        "scheduledKickoffLabel": "Sun, Oct 18, 4:05 PM ET",
+        "booksReported": 9,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 560,
+          "homeMoneyline": -800,
+          "sourceClosingAsOfLabel": "October 18, 2026 at 4:03 PM ET.",
+          "awayNoVigWinPct": 14.56,
+          "awayProbabilityDifferencePp": 0.71,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "LAC",
@@ -129,7 +409,35 @@
       "awayPoolPicks": 0,
       "homePoolPicks": 20,
       "awayPoolPct": 0,
-      "homePoolPct": 100
+      "homePoolPct": 100,
+      "awayMoneyline": 320,
+      "homeMoneyline": -429,
+      "awayImpliedWinPct": 23.81,
+      "homeImpliedWinPct": 81.1,
+      "awayNoVigWinPct": 22.7,
+      "homeNoVigWinPct": 77.3,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "LAC",
+        "sourceHome": "KC",
+        "scheduledKickoffLabel": "Sun, Oct 18, 4:25 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 310,
+          "homeMoneyline": -390,
+          "sourceClosingAsOfLabel": "October 18, 2026 at 4:06 PM ET.",
+          "awayNoVigWinPct": 23.46,
+          "awayProbabilityDifferencePp": 0.76,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "BUF",
@@ -140,7 +448,35 @@
       "awayPoolPicks": 17,
       "homePoolPicks": 3,
       "awayPoolPct": 85,
-      "homePoolPct": 15
+      "homePoolPct": 15,
+      "awayMoneyline": -240,
+      "homeMoneyline": 195,
+      "awayImpliedWinPct": 70.59,
+      "homeImpliedWinPct": 33.9,
+      "awayNoVigWinPct": 67.56,
+      "homeNoVigWinPct": 32.44,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "BUF",
+        "sourceHome": "LV",
+        "scheduledKickoffLabel": "Sun, Oct 18, 4:25 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -245,
+          "homeMoneyline": 200,
+          "sourceClosingAsOfLabel": "October 18, 2026 at 4:06 PM ET.",
+          "awayNoVigWinPct": 68.06,
+          "awayProbabilityDifferencePp": 0.5,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "DAL",
@@ -152,7 +488,35 @@
       "homePoolPct": 80,
       "status": "final",
       "awayScore": 13,
-      "homeScore": 23
+      "homeScore": 23,
+      "awayMoneyline": -115,
+      "homeMoneyline": 100,
+      "awayImpliedWinPct": 53.49,
+      "homeImpliedWinPct": 50.0,
+      "awayNoVigWinPct": 51.69,
+      "homeNoVigWinPct": 48.31,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "DAL",
+        "sourceHome": "GB",
+        "scheduledKickoffLabel": "Sun, Oct 18, 8:20 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -112,
+          "homeMoneyline": -104,
+          "sourceClosingAsOfLabel": "October 18, 2026 at 8:20 PM ET.",
+          "awayNoVigWinPct": 50.89,
+          "awayProbabilityDifferencePp": -0.8,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "WAS",
@@ -164,7 +528,35 @@
       "awayPoolPicks": 1,
       "homePoolPicks": 19,
       "awayPoolPct": 5,
-      "homePoolPct": 95
+      "homePoolPct": 95,
+      "awayMoneyline": 300,
+      "homeMoneyline": -375,
+      "awayImpliedWinPct": 25.0,
+      "homeImpliedWinPct": 78.95,
+      "awayNoVigWinPct": 24.05,
+      "homeNoVigWinPct": 75.95,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "WAS",
+        "sourceHome": "SF",
+        "scheduledKickoffLabel": "Mon, Oct 19, 8:15 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 330,
+          "homeMoneyline": -420,
+          "sourceClosingAsOfLabel": "October 19, 2026 at 8:00 PM ET.",
+          "awayNoVigWinPct": 22.36,
+          "awayProbabilityDifferencePp": -1.69,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     }
   ],
   "players": [
@@ -734,5 +1126,13 @@
   "weeklyWinners": [
     "Shaine Anderson"
   ],
-  "winnerNote": "Shaine Anderson won Week 6 outright with 10 correct picks."
+  "winnerNote": "Shaine Anderson won Week 6 outright with 10 correct picks.",
+  "odds": {
+    "source": "Probetrics archived closing market board",
+    "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+    "retrievedOn": "2026-11-01",
+    "lineType": "archived_closing",
+    "method": "For negative American ML, raw p = abs(ML)/(abs(ML)+100); for positive ML, raw p = 100/(ML+100). No-vig p = raw p / (raw away p + raw home p). Percentages rounded to two decimals.",
+    "note": "Closing is the source label. Scheduled kickoff is not a quote timestamp. The secondary FanDuel archive is retained separately for source comparison; no best-price mixing."
+  }
 }

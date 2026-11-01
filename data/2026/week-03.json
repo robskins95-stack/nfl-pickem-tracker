@@ -3,7 +3,7 @@
   "week": 3,
   "status": "final",
   "capturedAt": "2026-09-29T16:33:00-04:00",
-  "oddsNote": "Week 3 results and complete pool picks are final. Market moneylines/no-vig probabilities have not yet been backfilled; do not infer them from pick ownership.",
+  "oddsNote": "Historical market odds backfilled from archived closing moneyline pairs. Exact last-second quote times are unavailable; see oddsMetadata per game and docs/market-odds.md. No probabilities were inferred from pool ownership, spreads, or results.",
   "robTiebreaker": 44,
   "games": [
     {
@@ -18,7 +18,36 @@
       "awayPoolPct": 95,
       "homePoolPct": 0,
       "noPickPoolPicks": 1,
-      "noPickPoolPct": 5
+      "noPickPoolPct": 5,
+      "awayMoneyline": -250,
+      "homeMoneyline": 205,
+      "awayImpliedWinPct": 71.43,
+      "homeImpliedWinPct": 32.79,
+      "awayNoVigWinPct": 68.54,
+      "homeNoVigWinPct": 31.46,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "ATL",
+        "sourceHome": "GB",
+        "scheduledKickoffLabel": "Thu, Sep 24, 8:15 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -240,
+          "homeMoneyline": 198,
+          "sourceClosingAsOfLabel": "September 24, 2026 at 8:00 PM ET.",
+          "awayNoVigWinPct": 67.78,
+          "awayProbabilityDifferencePp": -0.76,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        },
+        "orientationWarning": "Tracker home/away labels differ from both archives. Odds mapped by team identity; picks, scores and game order preserved pending venue correction."
+      }
     },
     {
       "away": "LAC",
@@ -30,7 +59,35 @@
       "awayPoolPicks": 0,
       "homePoolPicks": 20,
       "awayPoolPct": 0,
-      "homePoolPct": 100
+      "homePoolPct": 100,
+      "awayMoneyline": 274,
+      "homeMoneyline": -340,
+      "awayImpliedWinPct": 26.74,
+      "homeImpliedWinPct": 77.27,
+      "awayNoVigWinPct": 25.71,
+      "homeNoVigWinPct": 74.29,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "LAC",
+        "sourceHome": "BUF",
+        "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 300,
+          "homeMoneyline": -375,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 24.05,
+          "awayProbabilityDifferencePp": -1.66,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "CAR",
@@ -42,7 +99,35 @@
       "awayPoolPicks": 14,
       "homePoolPicks": 6,
       "awayPoolPct": 70,
-      "homePoolPct": 30
+      "homePoolPct": 30,
+      "awayMoneyline": -130,
+      "homeMoneyline": 110,
+      "awayImpliedWinPct": 56.52,
+      "homeImpliedWinPct": 47.62,
+      "awayNoVigWinPct": 54.27,
+      "homeNoVigWinPct": 45.73,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "CAR",
+        "sourceHome": "CLE",
+        "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -132,
+          "homeMoneyline": 112,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 54.67,
+          "awayProbabilityDifferencePp": 0.4,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "NYJ",
@@ -54,7 +139,35 @@
       "awayPoolPicks": 5,
       "homePoolPicks": 15,
       "awayPoolPct": 25,
-      "homePoolPct": 75
+      "homePoolPct": 75,
+      "awayMoneyline": 260,
+      "homeMoneyline": -325,
+      "awayImpliedWinPct": 27.78,
+      "homeImpliedWinPct": 76.47,
+      "awayNoVigWinPct": 26.65,
+      "homeNoVigWinPct": 73.35,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "NYJ",
+        "sourceHome": "DET",
+        "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 270,
+          "homeMoneyline": -330,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 26.04,
+          "awayProbabilityDifferencePp": -0.61,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "HOU",
@@ -66,7 +179,35 @@
       "awayPoolPicks": 13,
       "homePoolPicks": 7,
       "awayPoolPct": 65,
-      "homePoolPct": 35
+      "homePoolPct": 35,
+      "awayMoneyline": -125,
+      "homeMoneyline": 106,
+      "awayImpliedWinPct": 55.56,
+      "homeImpliedWinPct": 48.54,
+      "awayNoVigWinPct": 53.37,
+      "homeNoVigWinPct": 46.63,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "HOU",
+        "sourceHome": "IND",
+        "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -124,
+          "homeMoneyline": 106,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 1:03 PM ET.",
+          "awayNoVigWinPct": 53.28,
+          "awayProbabilityDifferencePp": -0.09,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "NE",
@@ -78,7 +219,35 @@
       "awayPoolPicks": 4,
       "homePoolPicks": 16,
       "awayPoolPct": 20,
-      "homePoolPct": 80
+      "homePoolPct": 80,
+      "awayMoneyline": 136,
+      "homeMoneyline": -161,
+      "awayImpliedWinPct": 42.37,
+      "homeImpliedWinPct": 61.69,
+      "awayNoVigWinPct": 40.72,
+      "homeNoVigWinPct": 59.28,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "NE",
+        "sourceHome": "JAX",
+        "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 134,
+          "homeMoneyline": -158,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 41.1,
+          "awayProbabilityDifferencePp": 0.38,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "KC",
@@ -90,7 +259,35 @@
       "awayPoolPicks": 20,
       "homePoolPicks": 0,
       "awayPoolPct": 100,
-      "homePoolPct": 0
+      "homePoolPct": 0,
+      "awayMoneyline": -600,
+      "homeMoneyline": 440,
+      "awayImpliedWinPct": 85.71,
+      "homeImpliedWinPct": 18.52,
+      "awayNoVigWinPct": 82.23,
+      "homeNoVigWinPct": 17.77,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "KC",
+        "sourceHome": "MIA",
+        "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -620,
+          "homeMoneyline": 460,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 82.82,
+          "awayProbabilityDifferencePp": 0.59,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "TEN",
@@ -102,7 +299,35 @@
       "awayPoolPicks": 8,
       "homePoolPicks": 12,
       "awayPoolPct": 40,
-      "homePoolPct": 60
+      "homePoolPct": 60,
+      "awayMoneyline": 120,
+      "homeMoneyline": -134,
+      "awayImpliedWinPct": 45.45,
+      "homeImpliedWinPct": 57.26,
+      "awayNoVigWinPct": 44.25,
+      "homeNoVigWinPct": 55.75,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "TEN",
+        "sourceHome": "NYG",
+        "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 120,
+          "homeMoneyline": -142,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 43.65,
+          "awayProbabilityDifferencePp": -0.6,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "CIN",
@@ -114,7 +339,35 @@
       "awayPoolPicks": 13,
       "homePoolPicks": 7,
       "awayPoolPct": 65,
-      "homePoolPct": 35
+      "homePoolPct": 35,
+      "awayMoneyline": -174,
+      "homeMoneyline": 146,
+      "awayImpliedWinPct": 63.5,
+      "homeImpliedWinPct": 40.65,
+      "awayNoVigWinPct": 60.97,
+      "homeNoVigWinPct": 39.03,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "CIN",
+        "sourceHome": "PIT",
+        "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -174,
+          "homeMoneyline": 146,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 60.97,
+          "awayProbabilityDifferencePp": 0.0,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "SEA",
@@ -126,7 +379,35 @@
       "awayPoolPicks": 18,
       "homePoolPicks": 2,
       "awayPoolPct": 90,
-      "homePoolPct": 10
+      "homePoolPct": 10,
+      "awayMoneyline": -410,
+      "homeMoneyline": 320,
+      "awayImpliedWinPct": 80.39,
+      "homeImpliedWinPct": 23.81,
+      "awayNoVigWinPct": 77.15,
+      "homeNoVigWinPct": 22.85,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "SEA",
+        "sourceHome": "WAS",
+        "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -480,
+          "homeMoneyline": 330,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 1:03 PM ET.",
+          "awayNoVigWinPct": 78.06,
+          "awayProbabilityDifferencePp": 0.91,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "ARI",
@@ -138,7 +419,35 @@
       "homePoolPct": 100,
       "awayScore": 30,
       "homeScore": 36,
-      "winner": "SF"
+      "winner": "SF",
+      "awayMoneyline": 305,
+      "homeMoneyline": -380,
+      "awayImpliedWinPct": 24.69,
+      "homeImpliedWinPct": 79.17,
+      "awayNoVigWinPct": 23.77,
+      "homeNoVigWinPct": 76.23,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "ARI",
+        "sourceHome": "SF",
+        "scheduledKickoffLabel": "Sun, Sep 27, 4:05 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 315,
+          "homeMoneyline": -400,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 3:00 PM ET.",
+          "awayNoVigWinPct": 23.15,
+          "awayProbabilityDifferencePp": -0.62,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "MIN",
@@ -150,7 +459,35 @@
       "homePoolPct": 30,
       "awayScore": 23,
       "homeScore": 16,
-      "winner": "MIN"
+      "winner": "MIN",
+      "awayMoneyline": -115,
+      "homeMoneyline": -105,
+      "awayImpliedWinPct": 53.49,
+      "homeImpliedWinPct": 51.22,
+      "awayNoVigWinPct": 51.08,
+      "homeNoVigWinPct": 48.92,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "MIN",
+        "sourceHome": "TB",
+        "scheduledKickoffLabel": "Sun, Sep 27, 4:05 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -112,
+          "homeMoneyline": -104,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 4:00 PM ET.",
+          "awayNoVigWinPct": 50.89,
+          "awayProbabilityDifferencePp": -0.19,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "BAL",
@@ -162,7 +499,35 @@
       "homePoolPct": 25,
       "awayScore": 34,
       "homeScore": 31,
-      "winner": "BAL"
+      "winner": "BAL",
+      "awayMoneyline": -174,
+      "homeMoneyline": 150,
+      "awayImpliedWinPct": 63.5,
+      "homeImpliedWinPct": 40.0,
+      "awayNoVigWinPct": 61.35,
+      "homeNoVigWinPct": 38.65,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "BAL",
+        "sourceHome": "DAL",
+        "scheduledKickoffLabel": "Sun, Sep 27, 4:25 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -176,
+          "homeMoneyline": 148,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 4:00 PM ET.",
+          "awayNoVigWinPct": 61.26,
+          "awayProbabilityDifferencePp": -0.09,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "LV",
@@ -174,7 +539,35 @@
       "homePoolPct": 50,
       "awayScore": 35,
       "homeScore": 27,
-      "winner": "LV"
+      "winner": "LV",
+      "awayMoneyline": 170,
+      "homeMoneyline": -185,
+      "awayImpliedWinPct": 37.04,
+      "homeImpliedWinPct": 64.91,
+      "awayNoVigWinPct": 36.33,
+      "homeNoVigWinPct": 63.67,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "LV",
+        "sourceHome": "NO",
+        "scheduledKickoffLabel": "Sun, Sep 27, 4:25 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 158,
+          "homeMoneyline": -188,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 4:00 PM ET.",
+          "awayNoVigWinPct": 37.26,
+          "awayProbabilityDifferencePp": 0.93,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "LAR",
@@ -186,7 +579,35 @@
       "awayPoolPicks": 10,
       "homePoolPicks": 10,
       "awayPoolPct": 50,
-      "homePoolPct": 50
+      "homePoolPct": 50,
+      "awayMoneyline": -115,
+      "homeMoneyline": -102,
+      "awayImpliedWinPct": 53.49,
+      "homeImpliedWinPct": 50.5,
+      "awayNoVigWinPct": 51.44,
+      "homeNoVigWinPct": 48.56,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "LAR",
+        "sourceHome": "DEN",
+        "scheduledKickoffLabel": "Sun, Sep 27, 8:20 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -110,
+          "homeMoneyline": -106,
+          "sourceClosingAsOfLabel": "September 27, 2026 at 8:20 PM ET.",
+          "awayNoVigWinPct": 50.45,
+          "awayProbabilityDifferencePp": -0.99,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "PHI",
@@ -198,7 +619,35 @@
       "awayPoolPicks": 20,
       "homePoolPicks": 0,
       "awayPoolPct": 100,
-      "homePoolPct": 0
+      "homePoolPct": 0,
+      "awayMoneyline": -195,
+      "homeMoneyline": 160,
+      "awayImpliedWinPct": 66.1,
+      "homeImpliedWinPct": 38.46,
+      "awayNoVigWinPct": 63.22,
+      "homeNoVigWinPct": 36.78,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "PHI",
+        "sourceHome": "CHI",
+        "scheduledKickoffLabel": "Mon, Sep 28, 8:15 PM ET",
+        "booksReported": 9,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -198,
+          "homeMoneyline": 166,
+          "sourceClosingAsOfLabel": "September 28, 2026 at 7:00 PM ET.",
+          "awayNoVigWinPct": 63.86,
+          "awayProbabilityDifferencePp": 0.64,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     }
   ],
   "players": [
@@ -1362,5 +1811,13 @@
   "weeklyWinners": [
     "Susan Bornt"
   ],
-  "winnerNote": "Susan Bornt won outright with 12 correct picks; Maggie Burns finished second with 11. Actual PHI-CHI total was 34."
+  "winnerNote": "Susan Bornt won outright with 12 correct picks; Maggie Burns finished second with 11. Actual PHI-CHI total was 34.",
+  "odds": {
+    "source": "Probetrics archived closing market board",
+    "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+    "retrievedOn": "2026-11-01",
+    "lineType": "archived_closing",
+    "method": "For negative American ML, raw p = abs(ML)/(abs(ML)+100); for positive ML, raw p = 100/(ML+100). No-vig p = raw p / (raw away p + raw home p). Percentages rounded to two decimals.",
+    "note": "Closing is the source label. Scheduled kickoff is not a quote timestamp. The secondary FanDuel archive is retained separately for source comparison; no best-price mixing."
+  }
 }

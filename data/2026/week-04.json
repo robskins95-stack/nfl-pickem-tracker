@@ -3,7 +3,7 @@
   "week": 4,
   "status": "final",
   "capturedAt": "2026-10-06T15:40:00-04:00",
-  "oddsNote": "Week 4 results and complete pool picks are final. Market moneylines/no-vig probabilities have not yet been backfilled; do not infer them from pick ownership.",
+  "oddsNote": "Historical market odds backfilled from archived closing moneyline pairs. Exact last-second quote times are unavailable; see oddsMetadata per game and docs/market-odds.md. No probabilities were inferred from pool ownership, spreads, or results.",
   "robTiebreaker": 44,
   "games": [
     {
@@ -16,7 +16,35 @@
       "awayPoolPicks": 16,
       "homePoolPicks": 4,
       "awayPoolPct": 80,
-      "homePoolPct": 20
+      "homePoolPct": 20,
+      "awayMoneyline": -148,
+      "homeMoneyline": 130,
+      "awayImpliedWinPct": 59.68,
+      "homeImpliedWinPct": 43.48,
+      "awayNoVigWinPct": 57.85,
+      "homeNoVigWinPct": 42.15,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "PIT",
+        "sourceHome": "CLE",
+        "scheduledKickoffLabel": "Thu, Oct 1, 8:15 PM ET",
+        "booksReported": 9,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -148,
+          "homeMoneyline": 126,
+          "sourceClosingAsOfLabel": "October 1, 2026 at 8:00 PM ET.",
+          "awayNoVigWinPct": 57.42,
+          "awayProbabilityDifferencePp": -0.43,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "IND",
@@ -28,7 +56,35 @@
       "awayPoolPicks": 7,
       "homePoolPicks": 13,
       "awayPoolPct": 35,
-      "homePoolPct": 65
+      "homePoolPct": 65,
+      "awayMoneyline": -230,
+      "homeMoneyline": 190,
+      "awayImpliedWinPct": 69.7,
+      "homeImpliedWinPct": 34.48,
+      "awayNoVigWinPct": 66.9,
+      "homeNoVigWinPct": 33.1,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "IND",
+        "sourceHome": "WAS",
+        "scheduledKickoffLabel": "Sun, Oct 4, 9:30 AM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -225,
+          "homeMoneyline": 188,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 9:30 AM ET.",
+          "awayNoVigWinPct": 66.6,
+          "awayProbabilityDifferencePp": -0.3,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "NE",
@@ -40,7 +96,35 @@
       "awayPoolPicks": 0,
       "homePoolPicks": 20,
       "awayPoolPct": 0,
-      "homePoolPct": 100
+      "homePoolPct": 100,
+      "awayMoneyline": 275,
+      "homeMoneyline": -325,
+      "awayImpliedWinPct": 26.67,
+      "homeImpliedWinPct": 76.47,
+      "awayNoVigWinPct": 25.86,
+      "homeNoVigWinPct": 74.14,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "NE",
+        "sourceHome": "BUF",
+        "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 280,
+          "homeMoneyline": -350,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 1:03 PM ET.",
+          "awayNoVigWinPct": 25.28,
+          "awayProbabilityDifferencePp": -0.58,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "TEN",
@@ -52,7 +136,35 @@
       "awayPoolPicks": 0,
       "homePoolPicks": 20,
       "awayPoolPct": 0,
-      "homePoolPct": 100
+      "homePoolPct": 100,
+      "awayMoneyline": 546,
+      "homeMoneyline": -750,
+      "awayImpliedWinPct": 15.48,
+      "homeImpliedWinPct": 88.24,
+      "awayNoVigWinPct": 14.93,
+      "homeNoVigWinPct": 85.07,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "TEN",
+        "sourceHome": "BAL",
+        "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 530,
+          "homeMoneyline": -750,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 15.25,
+          "awayProbabilityDifferencePp": 0.32,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "NYJ",
@@ -64,7 +176,35 @@
       "awayPoolPicks": 2,
       "homePoolPicks": 18,
       "awayPoolPct": 10,
-      "homePoolPct": 90
+      "homePoolPct": 90,
+      "awayMoneyline": 160,
+      "homeMoneyline": -193,
+      "awayImpliedWinPct": 38.46,
+      "homeImpliedWinPct": 65.87,
+      "awayNoVigWinPct": 36.86,
+      "homeNoVigWinPct": 63.14,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "NYJ",
+        "sourceHome": "CHI",
+        "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 158,
+          "homeMoneyline": -188,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 12:00 PM ET.",
+          "awayNoVigWinPct": 37.26,
+          "awayProbabilityDifferencePp": 0.4,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "JAC",
@@ -76,7 +216,35 @@
       "awayPoolPicks": 4,
       "homePoolPicks": 16,
       "awayPoolPct": 20,
-      "homePoolPct": 80
+      "homePoolPct": 80,
+      "awayMoneyline": 125,
+      "homeMoneyline": -145,
+      "awayImpliedWinPct": 44.44,
+      "homeImpliedWinPct": 59.18,
+      "awayNoVigWinPct": 42.89,
+      "homeNoVigWinPct": 57.11,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "JAX",
+        "sourceHome": "CIN",
+        "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 122,
+          "homeMoneyline": -144,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 1:03 PM ET.",
+          "awayNoVigWinPct": 43.29,
+          "awayProbabilityDifferencePp": 0.4,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "DAL",
@@ -88,7 +256,35 @@
       "awayPoolPicks": 9,
       "homePoolPicks": 11,
       "awayPoolPct": 45,
-      "homePoolPct": 55
+      "homePoolPct": 55,
+      "awayMoneyline": 130,
+      "homeMoneyline": -155,
+      "awayImpliedWinPct": 43.48,
+      "homeImpliedWinPct": 60.78,
+      "awayNoVigWinPct": 41.7,
+      "homeNoVigWinPct": 58.3,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "DAL",
+        "sourceHome": "HOU",
+        "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 136,
+          "homeMoneyline": -162,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 1:03 PM ET.",
+          "awayNoVigWinPct": 40.66,
+          "awayProbabilityDifferencePp": -1.04,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "ARI",
@@ -100,7 +296,35 @@
       "awayPoolPicks": 9,
       "homePoolPicks": 11,
       "awayPoolPct": 45,
-      "homePoolPct": 55
+      "homePoolPct": 55,
+      "awayMoneyline": -140,
+      "homeMoneyline": 120,
+      "awayImpliedWinPct": 58.33,
+      "homeImpliedWinPct": 45.45,
+      "awayNoVigWinPct": 56.2,
+      "homeNoVigWinPct": 43.8,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "ARI",
+        "sourceHome": "NYG",
+        "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -130,
+          "homeMoneyline": 110,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 1:03 PM ET.",
+          "awayNoVigWinPct": 54.27,
+          "awayProbabilityDifferencePp": -1.93,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "LAR",
@@ -112,7 +336,35 @@
       "awayPoolPicks": 7,
       "homePoolPicks": 13,
       "awayPoolPct": 35,
-      "homePoolPct": 65
+      "homePoolPct": 65,
+      "awayMoneyline": -190,
+      "homeMoneyline": 160,
+      "awayImpliedWinPct": 65.52,
+      "homeImpliedWinPct": 38.46,
+      "awayNoVigWinPct": 63.01,
+      "homeNoVigWinPct": 36.99,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "LAR",
+        "sourceHome": "PHI",
+        "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -190,
+          "homeMoneyline": 160,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 1:03 PM ET.",
+          "awayNoVigWinPct": 63.01,
+          "awayProbabilityDifferencePp": 0.0,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "GB",
@@ -124,7 +376,35 @@
       "awayPoolPicks": 16,
       "homePoolPicks": 4,
       "awayPoolPct": 80,
-      "homePoolPct": 20
+      "homePoolPct": 20,
+      "awayMoneyline": -155,
+      "homeMoneyline": 131,
+      "awayImpliedWinPct": 60.78,
+      "homeImpliedWinPct": 43.29,
+      "awayNoVigWinPct": 58.4,
+      "homeNoVigWinPct": 41.6,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "GB",
+        "sourceHome": "TB",
+        "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -152,
+          "homeMoneyline": 128,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 1:03 PM ET.",
+          "awayNoVigWinPct": 57.9,
+          "awayProbabilityDifferencePp": -0.5,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "MIA",
@@ -136,7 +416,35 @@
       "awayPoolPicks": 0,
       "homePoolPicks": 20,
       "awayPoolPct": 0,
-      "homePoolPct": 100
+      "homePoolPct": 100,
+      "awayMoneyline": 400,
+      "homeMoneyline": -600,
+      "awayImpliedWinPct": 20.0,
+      "homeImpliedWinPct": 85.71,
+      "awayNoVigWinPct": 18.92,
+      "homeNoVigWinPct": 81.08,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "MIA",
+        "sourceHome": "MIN",
+        "scheduledKickoffLabel": "Sun, Oct 4, 4:05 PM ET",
+        "booksReported": 9,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 390,
+          "homeMoneyline": -510,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 3:00 PM ET.",
+          "awayNoVigWinPct": 19.62,
+          "awayProbabilityDifferencePp": 0.7,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "KC",
@@ -148,7 +456,35 @@
       "awayPoolPicks": 18,
       "homePoolPicks": 2,
       "awayPoolPct": 90,
-      "homePoolPct": 10
+      "homePoolPct": 10,
+      "awayMoneyline": -230,
+      "homeMoneyline": 190,
+      "awayImpliedWinPct": 69.7,
+      "homeImpliedWinPct": 34.48,
+      "awayNoVigWinPct": 66.9,
+      "homeNoVigWinPct": 33.1,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "KC",
+        "sourceHome": "LV",
+        "scheduledKickoffLabel": "Sun, Oct 4, 4:25 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -225,
+          "homeMoneyline": 188,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 4:00 PM ET.",
+          "awayNoVigWinPct": 66.6,
+          "awayProbabilityDifferencePp": -0.3,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "DEN",
@@ -160,7 +496,35 @@
       "awayPoolPicks": 2,
       "homePoolPicks": 18,
       "awayPoolPct": 10,
-      "homePoolPct": 90
+      "homePoolPct": 90,
+      "awayMoneyline": 140,
+      "homeMoneyline": -170,
+      "awayImpliedWinPct": 41.67,
+      "homeImpliedWinPct": 62.96,
+      "awayNoVigWinPct": 39.82,
+      "homeNoVigWinPct": 60.18,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "DEN",
+        "sourceHome": "SF",
+        "scheduledKickoffLabel": "Sun, Oct 4, 4:25 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 132,
+          "homeMoneyline": -156,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 4:22 PM ET.",
+          "awayNoVigWinPct": 41.43,
+          "awayProbabilityDifferencePp": 1.61,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "LAC",
@@ -172,7 +536,35 @@
       "awayPoolPicks": 0,
       "homePoolPicks": 20,
       "awayPoolPct": 0,
-      "homePoolPct": 100
+      "homePoolPct": 100,
+      "awayMoneyline": 275,
+      "homeMoneyline": -330,
+      "awayImpliedWinPct": 26.67,
+      "homeImpliedWinPct": 76.74,
+      "awayNoVigWinPct": 25.79,
+      "homeNoVigWinPct": 74.21,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "LAC",
+        "sourceHome": "SEA",
+        "scheduledKickoffLabel": "Sun, Oct 4, 4:25 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 295,
+          "homeMoneyline": -370,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 4:00 PM ET.",
+          "awayNoVigWinPct": 24.33,
+          "awayProbabilityDifferencePp": -1.46,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "DET",
@@ -184,7 +576,35 @@
       "awayPoolPicks": 16,
       "homePoolPicks": 4,
       "awayPoolPct": 80,
-      "homePoolPct": 20
+      "homePoolPct": 20,
+      "awayMoneyline": -225,
+      "homeMoneyline": 185,
+      "awayImpliedWinPct": 69.23,
+      "homeImpliedWinPct": 35.09,
+      "awayNoVigWinPct": 66.36,
+      "homeNoVigWinPct": 33.64,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "DET",
+        "sourceHome": "CAR",
+        "scheduledKickoffLabel": "Sun, Oct 4, 8:20 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -230,
+          "homeMoneyline": 190,
+          "sourceClosingAsOfLabel": "October 4, 2026 at 8:22 PM ET.",
+          "awayNoVigWinPct": 66.9,
+          "awayProbabilityDifferencePp": 0.54,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "ATL",
@@ -196,7 +616,35 @@
       "awayPoolPicks": 5,
       "homePoolPicks": 15,
       "awayPoolPct": 25,
-      "homePoolPct": 75
+      "homePoolPct": 75,
+      "awayMoneyline": -105,
+      "homeMoneyline": -113,
+      "awayImpliedWinPct": 51.22,
+      "homeImpliedWinPct": 53.05,
+      "awayNoVigWinPct": 49.12,
+      "homeNoVigWinPct": 50.88,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "ATL",
+        "sourceHome": "NO",
+        "scheduledKickoffLabel": "Mon, Oct 5, 8:15 PM ET",
+        "booksReported": 8,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -106,
+          "homeMoneyline": -110,
+          "sourceClosingAsOfLabel": "October 5, 2026 at 8:15 PM ET.",
+          "awayNoVigWinPct": 49.55,
+          "awayProbabilityDifferencePp": 0.43,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     }
   ],
   "players": [
@@ -715,5 +1163,13 @@
   "weeklyWinners": [
     "Bonnie Schendell"
   ],
-  "winnerNote": "Bonnie Schendell won outright with 12 correct picks. Jim Sharifi and Jim Davis finished with 11. Actual ATL-NO total was 69."
+  "winnerNote": "Bonnie Schendell won outright with 12 correct picks. Jim Sharifi and Jim Davis finished with 11. Actual ATL-NO total was 69.",
+  "odds": {
+    "source": "Probetrics archived closing market board",
+    "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+    "retrievedOn": "2026-11-01",
+    "lineType": "archived_closing",
+    "method": "For negative American ML, raw p = abs(ML)/(abs(ML)+100); for positive ML, raw p = 100/(ML+100). No-vig p = raw p / (raw away p + raw home p). Percentages rounded to two decimals.",
+    "note": "Closing is the source label. Scheduled kickoff is not a quote timestamp. The secondary FanDuel archive is retained separately for source comparison; no best-price mixing."
+  }
 }

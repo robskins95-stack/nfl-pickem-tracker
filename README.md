@@ -44,3 +44,7 @@ Raw historical data should remain separate from derived analytics. That way, new
 ## Hosting
 
 This project is intended to run as a static site on GitHub Pages.
+
+## Historical market odds
+
+2026 Weeks 2–7 include archived closing moneylines, raw implied percentages, and no-vig win percentages, with per-game provenance and secondary-source checks. See [market odds methodology and limitations](docs/market-odds.md). Validate with `python3 scripts/validate_market_odds.py`.

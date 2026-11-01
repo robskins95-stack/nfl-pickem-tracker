@@ -1,0 +1,2644 @@
+{
+  "retrievedOn": "2026-11-01",
+  "records": [
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "DET",
+      "home": "BUF",
+      "awayMoneyline": 200,
+      "homeMoneyline": -242,
+      "spreadTeam": "BUF",
+      "spread": -5.5,
+      "total": 55.0,
+      "books": 7,
+      "scheduledKickoffLabel": "Thu, Sep 17, 8:15 PM ET",
+      "scores": [
+        31,
+        41
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 198,
+        "homeMoneyline": -240,
+        "sourceClosingAsOfLabel": "September 17, 2026 at 8:15 PM ET.",
+        "awayNoVigWinPct": 32.22,
+        "awayProbabilityDifferencePp": 0.2,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "CIN",
+      "home": "HOU",
+      "awayMoneyline": 130,
+      "homeMoneyline": -149,
+      "spreadTeam": "HOU",
+      "spread": -2.5,
+      "total": 45.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+      "scores": [
+        20,
+        6
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 130,
+        "homeMoneyline": -154,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 41.76,
+        "awayProbabilityDifferencePp": -0.32,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "PIT",
+      "home": "NE",
+      "awayMoneyline": 191,
+      "homeMoneyline": -230,
+      "spreadTeam": "NE",
+      "spread": -5.0,
+      "total": 41.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+      "scores": [
+        3,
+        20
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 194,
+        "homeMoneyline": -235,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 12:00 PM ET.",
+        "awayNoVigWinPct": 32.65,
+        "awayProbabilityDifferencePp": -0.37,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "CLE",
+      "home": "TB",
+      "awayMoneyline": 330,
+      "homeMoneyline": -425,
+      "spreadTeam": "TB",
+      "spread": -8.5,
+      "total": 41.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+      "scores": [
+        23,
+        19
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 340,
+        "homeMoneyline": -430,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 21.88,
+        "awayProbabilityDifferencePp": -0.44,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "CAR",
+      "home": "ATL",
+      "awayMoneyline": -145,
+      "homeMoneyline": 125,
+      "spreadTeam": "CAR",
+      "spread": -2.5,
+      "total": 43.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+      "scores": [
+        34,
+        3
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -142,
+        "homeMoneyline": 120,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 56.35,
+        "awayProbabilityDifferencePp": -0.76,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "NO",
+      "home": "BAL",
+      "awayMoneyline": 320,
+      "homeMoneyline": -420,
+      "spreadTeam": "BAL",
+      "spread": -8.5,
+      "total": 45.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+      "scores": [
+        24,
+        17
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 330,
+        "homeMoneyline": -420,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 22.36,
+        "awayProbabilityDifferencePp": -0.41,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "MIN",
+      "home": "CHI",
+      "awayMoneyline": 180,
+      "homeMoneyline": -215,
+      "spreadTeam": "CHI",
+      "spread": -4.5,
+      "total": 46.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+      "scores": [
+        9,
+        3
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 180,
+        "homeMoneyline": -215,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 34.35,
+        "awayProbabilityDifferencePp": 0.0,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "GB",
+      "home": "NYJ",
+      "awayMoneyline": -172,
+      "homeMoneyline": 144,
+      "spreadTeam": "GB",
+      "spread": -3.0,
+      "total": 44.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+      "scores": [
+        20,
+        17
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -172,
+        "homeMoneyline": 134,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 1:03 PM ET.",
+        "awayNoVigWinPct": 59.67,
+        "awayProbabilityDifferencePp": -1.01,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "PHI",
+      "home": "TEN",
+      "awayMoneyline": -342,
+      "homeMoneyline": 275,
+      "spreadTeam": "PHI",
+      "spread": -7.0,
+      "total": 39.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+      "scores": [
+        24,
+        20
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -340,
+        "homeMoneyline": 275,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 74.34,
+        "awayProbabilityDifferencePp": -0.03,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "JAX",
+      "home": "DEN",
+      "awayMoneyline": 124,
+      "homeMoneyline": -145,
+      "spreadTeam": "DEN",
+      "spread": -2.5,
+      "total": 45.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 4:05 PM ET",
+      "scores": [
+        13,
+        20
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 124,
+        "homeMoneyline": -146,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 3:00 PM ET.",
+        "awayNoVigWinPct": 42.93,
+        "awayProbabilityDifferencePp": -0.07,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "LV",
+      "home": "LAC",
+      "awayMoneyline": 252,
+      "homeMoneyline": -300,
+      "spreadTeam": "LAC",
+      "spread": -6.5,
+      "total": 43.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 4:05 PM ET",
+      "scores": [
+        26,
+        14
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 250,
+        "homeMoneyline": -310,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 4:00 PM ET.",
+        "awayNoVigWinPct": 27.42,
+        "awayProbabilityDifferencePp": -0.05,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "WAS",
+      "home": "DAL",
+      "awayMoneyline": 180,
+      "homeMoneyline": -215,
+      "spreadTeam": "DAL",
+      "spread": -4.0,
+      "total": 51.0,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 4:25 PM ET",
+      "scores": [
+        20,
+        37
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 180,
+        "homeMoneyline": -215,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 4:00 PM ET.",
+        "awayNoVigWinPct": 34.35,
+        "awayProbabilityDifferencePp": 0.0,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "SEA",
+      "home": "ARI",
+      "awayMoneyline": -210,
+      "homeMoneyline": 180,
+      "spreadTeam": "SEA",
+      "spread": -4.0,
+      "total": 41.0,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 4:25 PM ET",
+      "scores": [
+        31,
+        7
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -210,
+        "homeMoneyline": 176,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 4:00 PM ET.",
+        "awayNoVigWinPct": 65.15,
+        "awayProbabilityDifferencePp": -0.33,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "MIA",
+      "home": "SF",
+      "awayMoneyline": 700,
+      "homeMoneyline": -1100,
+      "spreadTeam": "SF",
+      "spread": -13.0,
+      "total": 45.0,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 4:25 PM ET",
+      "scores": [
+        13,
+        35
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 660,
+        "homeMoneyline": -1000,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 4:00 PM ET.",
+        "awayNoVigWinPct": 12.64,
+        "awayProbabilityDifferencePp": 0.64,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "IND",
+      "home": "KC",
+      "awayMoneyline": 230,
+      "homeMoneyline": -280,
+      "spreadTeam": "KC",
+      "spread": -6.0,
+      "total": 46.0,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 20, 8:20 PM ET",
+      "scores": [
+        30,
+        33
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 225,
+        "homeMoneyline": -275,
+        "sourceClosingAsOfLabel": "September 20, 2026 at 8:19 PM ET.",
+        "awayNoVigWinPct": 29.56,
+        "awayProbabilityDifferencePp": 0.42,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 2,
+      "away": "NYG",
+      "home": "LAR",
+      "awayMoneyline": 240,
+      "homeMoneyline": -285,
+      "spreadTeam": "LAR",
+      "spread": -6.5,
+      "total": 47.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Mon, Sep 21, 8:15 PM ET",
+      "scores": [
+        6,
+        28
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 245,
+        "homeMoneyline": -300,
+        "sourceClosingAsOfLabel": "September 21, 2026 at 8:15 PM ET.",
+        "awayNoVigWinPct": 27.87,
+        "awayProbabilityDifferencePp": -0.56,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "ATL",
+      "home": "GB",
+      "awayMoneyline": 205,
+      "homeMoneyline": -250,
+      "spreadTeam": "GB",
+      "spread": -4.5,
+      "total": 43.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Thu, Sep 24, 8:15 PM ET",
+      "scores": [
+        35,
+        14
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -240,
+        "homeMoneyline": 198,
+        "sourceClosingAsOfLabel": "September 24, 2026 at 8:00 PM ET.",
+        "awayNoVigWinPct": 67.78,
+        "awayProbabilityDifferencePp": -0.76,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "LAC",
+      "home": "BUF",
+      "awayMoneyline": 274,
+      "homeMoneyline": -340,
+      "spreadTeam": "BUF",
+      "spread": -7.0,
+      "total": 50.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+      "scores": [
+        16,
+        24
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 300,
+        "homeMoneyline": -375,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 24.05,
+        "awayProbabilityDifferencePp": -1.66,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "CAR",
+      "home": "CLE",
+      "awayMoneyline": -130,
+      "homeMoneyline": 110,
+      "spreadTeam": "CAR",
+      "spread": -2.0,
+      "total": 41.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+      "scores": [
+        18,
+        21
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -132,
+        "homeMoneyline": 112,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 54.67,
+        "awayProbabilityDifferencePp": 0.4,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "NYJ",
+      "home": "DET",
+      "awayMoneyline": 260,
+      "homeMoneyline": -325,
+      "spreadTeam": "DET",
+      "spread": -7.0,
+      "total": 49.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+      "scores": [
+        24,
+        31
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 270,
+        "homeMoneyline": -330,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 26.04,
+        "awayProbabilityDifferencePp": -0.61,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "HOU",
+      "home": "IND",
+      "awayMoneyline": -125,
+      "homeMoneyline": 106,
+      "spreadTeam": "HOU",
+      "spread": -1.5,
+      "total": 42.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+      "scores": [
+        17,
+        19
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -124,
+        "homeMoneyline": 106,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 1:03 PM ET.",
+        "awayNoVigWinPct": 53.28,
+        "awayProbabilityDifferencePp": -0.09,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "NE",
+      "home": "JAX",
+      "awayMoneyline": 136,
+      "homeMoneyline": -161,
+      "spreadTeam": "JAX",
+      "spread": -3.0,
+      "total": 46.0,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+      "scores": [
+        6,
+        35
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 134,
+        "homeMoneyline": -158,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 41.1,
+        "awayProbabilityDifferencePp": 0.38,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "KC",
+      "home": "MIA",
+      "awayMoneyline": -600,
+      "homeMoneyline": 440,
+      "spreadTeam": "KC",
+      "spread": -10.0,
+      "total": 45.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+      "scores": [
+        24,
+        10
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -620,
+        "homeMoneyline": 460,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 82.82,
+        "awayProbabilityDifferencePp": 0.59,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "TEN",
+      "home": "NYG",
+      "awayMoneyline": 120,
+      "homeMoneyline": -134,
+      "spreadTeam": "NYG",
+      "spread": -2.5,
+      "total": 37.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+      "scores": [
+        7,
+        12
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 120,
+        "homeMoneyline": -142,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 43.65,
+        "awayProbabilityDifferencePp": -0.6,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "CIN",
+      "home": "PIT",
+      "awayMoneyline": -174,
+      "homeMoneyline": 146,
+      "spreadTeam": "CIN",
+      "spread": -3.0,
+      "total": 42.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+      "scores": [
+        27,
+        30
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -174,
+        "homeMoneyline": 146,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 60.97,
+        "awayProbabilityDifferencePp": 0.0,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "SEA",
+      "home": "WAS",
+      "awayMoneyline": -410,
+      "homeMoneyline": 320,
+      "spreadTeam": "SEA",
+      "spread": -8.5,
+      "total": 40.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 1:00 PM ET",
+      "scores": [
+        31,
+        33
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -480,
+        "homeMoneyline": 330,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 1:03 PM ET.",
+        "awayNoVigWinPct": 78.06,
+        "awayProbabilityDifferencePp": 0.91,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "ARI",
+      "home": "SF",
+      "awayMoneyline": 305,
+      "homeMoneyline": -380,
+      "spreadTeam": "SF",
+      "spread": -7.5,
+      "total": 48.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 4:05 PM ET",
+      "scores": [
+        30,
+        36
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 315,
+        "homeMoneyline": -400,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 3:00 PM ET.",
+        "awayNoVigWinPct": 23.15,
+        "awayProbabilityDifferencePp": -0.62,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "MIN",
+      "home": "TB",
+      "awayMoneyline": -115,
+      "homeMoneyline": -105,
+      "spreadTeam": "MIN",
+      "spread": -1.0,
+      "total": 42.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 4:05 PM ET",
+      "scores": [
+        23,
+        16
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -112,
+        "homeMoneyline": -104,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 4:00 PM ET.",
+        "awayNoVigWinPct": 50.89,
+        "awayProbabilityDifferencePp": -0.19,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "BAL",
+      "home": "DAL",
+      "awayMoneyline": -174,
+      "homeMoneyline": 150,
+      "spreadTeam": "BAL",
+      "spread": -3.5,
+      "total": 54.0,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 4:25 PM ET",
+      "scores": [
+        34,
+        31
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -176,
+        "homeMoneyline": 148,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 4:00 PM ET.",
+        "awayNoVigWinPct": 61.26,
+        "awayProbabilityDifferencePp": -0.09,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "LV",
+      "home": "NO",
+      "awayMoneyline": 170,
+      "homeMoneyline": -185,
+      "spreadTeam": "NO",
+      "spread": -3.5,
+      "total": 43.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Sep 27, 4:25 PM ET",
+      "scores": [
+        35,
+        27
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 158,
+        "homeMoneyline": -188,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 4:00 PM ET.",
+        "awayNoVigWinPct": 37.26,
+        "awayProbabilityDifferencePp": 0.93,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "LAR",
+      "home": "DEN",
+      "awayMoneyline": -115,
+      "homeMoneyline": -102,
+      "spreadTeam": "LAR",
+      "spread": -1.0,
+      "total": 44.0,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Sep 27, 8:20 PM ET",
+      "scores": [
+        26,
+        30
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -110,
+        "homeMoneyline": -106,
+        "sourceClosingAsOfLabel": "September 27, 2026 at 8:20 PM ET.",
+        "awayNoVigWinPct": 50.45,
+        "awayProbabilityDifferencePp": -0.99,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 3,
+      "away": "PHI",
+      "home": "CHI",
+      "awayMoneyline": -195,
+      "homeMoneyline": 160,
+      "spreadTeam": "PHI",
+      "spread": -3.5,
+      "total": 42.5,
+      "books": 9,
+      "scheduledKickoffLabel": "Mon, Sep 28, 8:15 PM ET",
+      "scores": [
+        7,
+        27
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-3",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-3",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -198,
+        "homeMoneyline": 166,
+        "sourceClosingAsOfLabel": "September 28, 2026 at 7:00 PM ET.",
+        "awayNoVigWinPct": 63.86,
+        "awayProbabilityDifferencePp": 0.64,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "PIT",
+      "home": "CLE",
+      "awayMoneyline": -148,
+      "homeMoneyline": 130,
+      "spreadTeam": "PIT",
+      "spread": -3.0,
+      "total": 38.0,
+      "books": 9,
+      "scheduledKickoffLabel": "Thu, Oct 1, 8:15 PM ET",
+      "scores": [
+        24,
+        27
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -148,
+        "homeMoneyline": 126,
+        "sourceClosingAsOfLabel": "October 1, 2026 at 8:00 PM ET.",
+        "awayNoVigWinPct": 57.42,
+        "awayProbabilityDifferencePp": -0.43,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "IND",
+      "home": "WAS",
+      "awayMoneyline": -230,
+      "homeMoneyline": 190,
+      "spreadTeam": "IND",
+      "spread": -5.0,
+      "total": 46.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Oct 4, 9:30 AM ET",
+      "scores": [
+        30,
+        13
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -225,
+        "homeMoneyline": 188,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 9:30 AM ET.",
+        "awayNoVigWinPct": 66.6,
+        "awayProbabilityDifferencePp": -0.3,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "NE",
+      "home": "BUF",
+      "awayMoneyline": 275,
+      "homeMoneyline": -325,
+      "spreadTeam": "BUF",
+      "spread": -7.0,
+      "total": 49.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+      "scores": [
+        29,
+        26
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 280,
+        "homeMoneyline": -350,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 1:03 PM ET.",
+        "awayNoVigWinPct": 25.28,
+        "awayProbabilityDifferencePp": -0.58,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "TEN",
+      "home": "BAL",
+      "awayMoneyline": 546,
+      "homeMoneyline": -750,
+      "spreadTeam": "BAL",
+      "spread": -11.5,
+      "total": 42.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+      "scores": [
+        18,
+        24
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 530,
+        "homeMoneyline": -750,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 15.25,
+        "awayProbabilityDifferencePp": 0.32,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "NYJ",
+      "home": "CHI",
+      "awayMoneyline": 160,
+      "homeMoneyline": -193,
+      "spreadTeam": "CHI",
+      "spread": -3.5,
+      "total": 43.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+      "scores": [
+        12,
+        23
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 158,
+        "homeMoneyline": -188,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 12:00 PM ET.",
+        "awayNoVigWinPct": 37.26,
+        "awayProbabilityDifferencePp": 0.4,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "JAX",
+      "home": "CIN",
+      "awayMoneyline": 125,
+      "homeMoneyline": -145,
+      "spreadTeam": "CIN",
+      "spread": -2.5,
+      "total": 51.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+      "scores": [
+        22,
+        17
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 122,
+        "homeMoneyline": -144,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 1:03 PM ET.",
+        "awayNoVigWinPct": 43.29,
+        "awayProbabilityDifferencePp": 0.4,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "DAL",
+      "home": "HOU",
+      "awayMoneyline": 130,
+      "homeMoneyline": -155,
+      "spreadTeam": "HOU",
+      "spread": -3.0,
+      "total": 48.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+      "scores": [
+        34,
+        30
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 136,
+        "homeMoneyline": -162,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 1:03 PM ET.",
+        "awayNoVigWinPct": 40.66,
+        "awayProbabilityDifferencePp": -1.04,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "ARI",
+      "home": "NYG",
+      "awayMoneyline": -140,
+      "homeMoneyline": 120,
+      "spreadTeam": "ARI",
+      "spread": -2.5,
+      "total": 44.0,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+      "scores": [
+        24,
+        36
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -130,
+        "homeMoneyline": 110,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 1:03 PM ET.",
+        "awayNoVigWinPct": 54.27,
+        "awayProbabilityDifferencePp": -1.93,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "LAR",
+      "home": "PHI",
+      "awayMoneyline": -190,
+      "homeMoneyline": 160,
+      "spreadTeam": "LAR",
+      "spread": -3.5,
+      "total": 42.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+      "scores": [
+        24,
+        20
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -190,
+        "homeMoneyline": 160,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 1:03 PM ET.",
+        "awayNoVigWinPct": 63.01,
+        "awayProbabilityDifferencePp": 0.0,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "GB",
+      "home": "TB",
+      "awayMoneyline": -155,
+      "homeMoneyline": 131,
+      "spreadTeam": "GB",
+      "spread": -2.5,
+      "total": 39.0,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 4, 1:00 PM ET",
+      "scores": [
+        17,
+        14
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -152,
+        "homeMoneyline": 128,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 1:03 PM ET.",
+        "awayNoVigWinPct": 57.9,
+        "awayProbabilityDifferencePp": -0.5,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "MIA",
+      "home": "MIN",
+      "awayMoneyline": 400,
+      "homeMoneyline": -600,
+      "spreadTeam": "MIN",
+      "spread": -10.0,
+      "total": 38.5,
+      "books": 9,
+      "scheduledKickoffLabel": "Sun, Oct 4, 4:05 PM ET",
+      "scores": [
+        10,
+        15
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 390,
+        "homeMoneyline": -510,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 3:00 PM ET.",
+        "awayNoVigWinPct": 19.62,
+        "awayProbabilityDifferencePp": 0.7,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "KC",
+      "home": "LV",
+      "awayMoneyline": -230,
+      "homeMoneyline": 190,
+      "spreadTeam": "KC",
+      "spread": -5.0,
+      "total": 47.0,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 4, 4:25 PM ET",
+      "scores": [
+        30,
+        27
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -225,
+        "homeMoneyline": 188,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 4:00 PM ET.",
+        "awayNoVigWinPct": 66.6,
+        "awayProbabilityDifferencePp": -0.3,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "DEN",
+      "home": "SF",
+      "awayMoneyline": 140,
+      "homeMoneyline": -170,
+      "spreadTeam": "SF",
+      "spread": -3.0,
+      "total": 48.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 4, 4:25 PM ET",
+      "scores": [
+        14,
+        24
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 132,
+        "homeMoneyline": -156,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 4:22 PM ET.",
+        "awayNoVigWinPct": 41.43,
+        "awayProbabilityDifferencePp": 1.61,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "LAC",
+      "home": "SEA",
+      "awayMoneyline": 275,
+      "homeMoneyline": -330,
+      "spreadTeam": "SEA",
+      "spread": -7.0,
+      "total": 42.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Oct 4, 4:25 PM ET",
+      "scores": [
+        23,
+        30
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 295,
+        "homeMoneyline": -370,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 4:00 PM ET.",
+        "awayNoVigWinPct": 24.33,
+        "awayProbabilityDifferencePp": -1.46,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "DET",
+      "home": "CAR",
+      "awayMoneyline": -225,
+      "homeMoneyline": 185,
+      "spreadTeam": "DET",
+      "spread": -4.5,
+      "total": 52.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 4, 8:20 PM ET",
+      "scores": [
+        26,
+        32
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -230,
+        "homeMoneyline": 190,
+        "sourceClosingAsOfLabel": "October 4, 2026 at 8:22 PM ET.",
+        "awayNoVigWinPct": 66.9,
+        "awayProbabilityDifferencePp": 0.54,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 4,
+      "away": "ATL",
+      "home": "NO",
+      "awayMoneyline": -105,
+      "homeMoneyline": -113,
+      "spreadTeam": "NO",
+      "spread": -1.0,
+      "total": 47.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Mon, Oct 5, 8:15 PM ET",
+      "scores": [
+        45,
+        24
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-4",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-4",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -106,
+        "homeMoneyline": -110,
+        "sourceClosingAsOfLabel": "October 5, 2026 at 8:15 PM ET.",
+        "awayNoVigWinPct": 49.55,
+        "awayProbabilityDifferencePp": 0.43,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "TB",
+      "home": "DAL",
+      "awayMoneyline": 400,
+      "homeMoneyline": -525,
+      "spreadTeam": "DAL",
+      "spread": -9.5,
+      "total": 49.0,
+      "books": 9,
+      "scheduledKickoffLabel": "Thu, Oct 8, 8:15 PM ET",
+      "scores": [
+        24,
+        16
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 360,
+        "homeMoneyline": -460,
+        "sourceClosingAsOfLabel": "October 8, 2026 at 7:00 PM ET.",
+        "awayNoVigWinPct": 20.93,
+        "awayProbabilityDifferencePp": 1.7,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "PHI",
+      "home": "JAX",
+      "awayMoneyline": 305,
+      "homeMoneyline": -400,
+      "spreadTeam": "JAX",
+      "spread": -8.0,
+      "total": 41.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 11, 9:30 AM ET",
+      "scores": [
+        17,
+        19
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 315,
+        "homeMoneyline": -400,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 9:00 AM ET.",
+        "awayNoVigWinPct": 23.15,
+        "awayProbabilityDifferencePp": -0.43,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "CIN",
+      "home": "MIA",
+      "awayMoneyline": -375,
+      "homeMoneyline": 300,
+      "spreadTeam": "CIN",
+      "spread": -7.0,
+      "total": 44.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 11, 1:00 PM ET",
+      "scores": [
+        31,
+        24
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -400,
+        "homeMoneyline": 285,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 75.49,
+        "awayProbabilityDifferencePp": -0.46,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "LV",
+      "home": "NE",
+      "awayMoneyline": 155,
+      "homeMoneyline": -190,
+      "spreadTeam": "NE",
+      "spread": -3.5,
+      "total": 45.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 11, 1:00 PM ET",
+      "scores": [
+        17,
+        45
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 146,
+        "homeMoneyline": -174,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 39.03,
+        "awayProbabilityDifferencePp": 1.59,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "MIN",
+      "home": "NO",
+      "awayMoneyline": -135,
+      "homeMoneyline": 120,
+      "spreadTeam": "MIN",
+      "spread": -2.5,
+      "total": 41.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 11, 1:00 PM ET",
+      "scores": [
+        23,
+        13
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -132,
+        "homeMoneyline": 112,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 54.67,
+        "awayProbabilityDifferencePp": -1.16,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "CLE",
+      "home": "NYJ",
+      "awayMoneyline": 120,
+      "homeMoneyline": -145,
+      "spreadTeam": "NYJ",
+      "spread": -2.5,
+      "total": 38.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 11, 1:00 PM ET",
+      "scores": [
+        12,
+        17
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 120,
+        "homeMoneyline": -142,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 43.65,
+        "awayProbabilityDifferencePp": 0.21,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "IND",
+      "home": "PIT",
+      "awayMoneyline": 135,
+      "homeMoneyline": -155,
+      "spreadTeam": "PIT",
+      "spread": -3.0,
+      "total": 41.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 11, 1:00 PM ET",
+      "scores": [
+        22,
+        34
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 130,
+        "homeMoneyline": -154,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 12:00 PM ET.",
+        "awayNoVigWinPct": 41.76,
+        "awayProbabilityDifferencePp": 0.58,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "HOU",
+      "home": "TEN",
+      "awayMoneyline": -325,
+      "homeMoneyline": 260,
+      "spreadTeam": "HOU",
+      "spread": -6.5,
+      "total": 37.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 11, 1:00 PM ET",
+      "scores": [
+        26,
+        3
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -300,
+        "homeMoneyline": 245,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 72.13,
+        "awayProbabilityDifferencePp": -1.22,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "NYG",
+      "home": "WAS",
+      "awayMoneyline": 155,
+      "homeMoneyline": -185,
+      "spreadTeam": "WAS",
+      "spread": -3.5,
+      "total": 41.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 11, 1:00 PM ET",
+      "scores": [
+        27,
+        27
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 142,
+        "homeMoneyline": -168,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 39.73,
+        "awayProbabilityDifferencePp": 2.07,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "CHI",
+      "home": "GB",
+      "awayMoneyline": -120,
+      "homeMoneyline": 100,
+      "spreadTeam": "CHI",
+      "spread": -1.0,
+      "total": 47.0,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 11, 1:00 PM ET",
+      "scores": [
+        7,
+        31
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -118,
+        "homeMoneyline": 100,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 51.98,
+        "awayProbabilityDifferencePp": -0.19,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "DEN",
+      "home": "LAC",
+      "awayMoneyline": -190,
+      "homeMoneyline": 159,
+      "spreadTeam": "DEN",
+      "spread": -3.5,
+      "total": 42.0,
+      "books": 9,
+      "scheduledKickoffLabel": "Sun, Oct 11, 4:05 PM ET",
+      "scores": [
+        23,
+        17
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -196,
+        "homeMoneyline": 164,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 3:00 PM ET.",
+        "awayNoVigWinPct": 63.61,
+        "awayProbabilityDifferencePp": 0.69,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "DET",
+      "home": "ARI",
+      "awayMoneyline": -245,
+      "homeMoneyline": 200,
+      "spreadTeam": "DET",
+      "spread": -5.5,
+      "total": 55.0,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 11, 4:25 PM ET",
+      "scores": [
+        45,
+        21
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -245,
+        "homeMoneyline": 200,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 4:22 PM ET.",
+        "awayNoVigWinPct": 68.06,
+        "awayProbabilityDifferencePp": -0.0,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "SF",
+      "home": "SEA",
+      "awayMoneyline": 139,
+      "homeMoneyline": -160,
+      "spreadTeam": "SEA",
+      "spread": -3.0,
+      "total": 46.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 11, 4:25 PM ET",
+      "scores": [
+        32,
+        29
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 138,
+        "homeMoneyline": -164,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 4:22 PM ET.",
+        "awayNoVigWinPct": 40.35,
+        "awayProbabilityDifferencePp": -0.12,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "BAL",
+      "home": "ATL",
+      "awayMoneyline": 145,
+      "homeMoneyline": -175,
+      "spreadTeam": "ATL",
+      "spread": -3.5,
+      "total": 44.0,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Oct 11, 8:20 PM ET",
+      "scores": [
+        30,
+        23
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 144,
+        "homeMoneyline": -172,
+        "sourceClosingAsOfLabel": "October 11, 2026 at 8:22 PM ET.",
+        "awayNoVigWinPct": 39.32,
+        "awayProbabilityDifferencePp": 0.24,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 5,
+      "away": "BUF",
+      "home": "LAR",
+      "awayMoneyline": 150,
+      "homeMoneyline": -175,
+      "spreadTeam": "LAR",
+      "spread": -3.5,
+      "total": 55.5,
+      "books": 9,
+      "scheduledKickoffLabel": "Mon, Oct 12, 8:15 PM ET",
+      "scores": [
+        37,
+        34
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-5",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-5",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 148,
+        "homeMoneyline": -176,
+        "sourceClosingAsOfLabel": "October 12, 2026 at 8:00 PM ET.",
+        "awayNoVigWinPct": 38.74,
+        "awayProbabilityDifferencePp": 0.14,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "SEA",
+      "home": "DEN",
+      "awayMoneyline": -145,
+      "homeMoneyline": 125,
+      "spreadTeam": "SEA",
+      "spread": -2.5,
+      "total": 40.5,
+      "books": 9,
+      "scheduledKickoffLabel": "Thu, Oct 15, 8:15 PM ET",
+      "scores": [
+        14,
+        17
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -148,
+        "homeMoneyline": 126,
+        "sourceClosingAsOfLabel": "October 15, 2026 at 8:12 PM ET.",
+        "awayNoVigWinPct": 57.42,
+        "awayProbabilityDifferencePp": 0.31,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "HOU",
+      "home": "JAX",
+      "awayMoneyline": 120,
+      "homeMoneyline": -136,
+      "spreadTeam": "JAX",
+      "spread": -2.5,
+      "total": 42.0,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 18, 9:30 AM ET",
+      "scores": [
+        34,
+        31
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 118,
+        "homeMoneyline": -138,
+        "sourceClosingAsOfLabel": "October 18, 2026 at 9:32 AM ET.",
+        "awayNoVigWinPct": 44.17,
+        "awayProbabilityDifferencePp": 0.07,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "CHI",
+      "home": "ATL",
+      "awayMoneyline": -110,
+      "homeMoneyline": -102,
+      "spreadTeam": "CHI",
+      "spread": -1.5,
+      "total": 51.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+      "scores": [
+        31,
+        23
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -118,
+        "homeMoneyline": -102,
+        "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 51.74,
+        "awayProbabilityDifferencePp": 0.82,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "BAL",
+      "home": "CLE",
+      "awayMoneyline": -175,
+      "homeMoneyline": 150,
+      "spreadTeam": "BAL",
+      "spread": -3.0,
+      "total": 39.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+      "scores": [
+        10,
+        13
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -174,
+        "homeMoneyline": 146,
+        "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 60.97,
+        "awayProbabilityDifferencePp": -0.43,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "TEN",
+      "home": "IND",
+      "awayMoneyline": 240,
+      "homeMoneyline": -295,
+      "spreadTeam": "IND",
+      "spread": -6.5,
+      "total": 43.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+      "scores": [
+        26,
+        20
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 235,
+        "homeMoneyline": -290,
+        "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 28.64,
+        "awayProbabilityDifferencePp": 0.39,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "NYJ",
+      "home": "NE",
+      "awayMoneyline": 275,
+      "homeMoneyline": -345,
+      "spreadTeam": "NE",
+      "spread": -7.5,
+      "total": 42.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+      "scores": [
+        19,
+        26
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 280,
+        "homeMoneyline": -350,
+        "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 25.28,
+        "awayProbabilityDifferencePp": -0.31,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "NO",
+      "home": "NYG",
+      "awayMoneyline": -108,
+      "homeMoneyline": -110,
+      "spreadTeam": "NO",
+      "spread": -1.0,
+      "total": 46.0,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+      "scores": [
+        34,
+        27
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -110,
+        "homeMoneyline": -106,
+        "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 50.45,
+        "awayProbabilityDifferencePp": 0.67,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "CAR",
+      "home": "PHI",
+      "awayMoneyline": -160,
+      "homeMoneyline": 130,
+      "spreadTeam": "CAR",
+      "spread": -3.0,
+      "total": 39.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+      "scores": [
+        25,
+        14
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -156,
+        "homeMoneyline": 132,
+        "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 58.57,
+        "awayProbabilityDifferencePp": -0.03,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "PIT",
+      "home": "TB",
+      "awayMoneyline": -140,
+      "homeMoneyline": 120,
+      "spreadTeam": "PIT",
+      "spread": -2.5,
+      "total": 37.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Oct 18, 1:00 PM ET",
+      "scores": [
+        26,
+        19
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -142,
+        "homeMoneyline": 120,
+        "sourceClosingAsOfLabel": "October 18, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 56.35,
+        "awayProbabilityDifferencePp": 0.15,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "ARI",
+      "home": "LAR",
+      "awayMoneyline": 600,
+      "homeMoneyline": -800,
+      "spreadTeam": "LAR",
+      "spread": -12.5,
+      "total": 51.5,
+      "books": 9,
+      "scheduledKickoffLabel": "Sun, Oct 18, 4:05 PM ET",
+      "scores": [
+        18,
+        16
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 560,
+        "homeMoneyline": -800,
+        "sourceClosingAsOfLabel": "October 18, 2026 at 4:03 PM ET.",
+        "awayNoVigWinPct": 14.56,
+        "awayProbabilityDifferencePp": 0.71,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "LAC",
+      "home": "KC",
+      "awayMoneyline": 320,
+      "homeMoneyline": -429,
+      "spreadTeam": "KC",
+      "spread": -7.5,
+      "total": 41.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 18, 4:25 PM ET",
+      "scores": [
+        6,
+        22
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 310,
+        "homeMoneyline": -390,
+        "sourceClosingAsOfLabel": "October 18, 2026 at 4:06 PM ET.",
+        "awayNoVigWinPct": 23.46,
+        "awayProbabilityDifferencePp": 0.76,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "BUF",
+      "home": "LV",
+      "awayMoneyline": -240,
+      "homeMoneyline": 195,
+      "spreadTeam": "BUF",
+      "spread": -4.5,
+      "total": 54.0,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Oct 18, 4:25 PM ET",
+      "scores": [
+        33,
+        30
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -245,
+        "homeMoneyline": 200,
+        "sourceClosingAsOfLabel": "October 18, 2026 at 4:06 PM ET.",
+        "awayNoVigWinPct": 68.06,
+        "awayProbabilityDifferencePp": 0.5,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "DAL",
+      "home": "GB",
+      "awayMoneyline": -115,
+      "homeMoneyline": 100,
+      "spreadTeam": "DAL",
+      "spread": -1.5,
+      "total": 54.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Oct 18, 8:20 PM ET",
+      "scores": [
+        13,
+        23
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -112,
+        "homeMoneyline": -104,
+        "sourceClosingAsOfLabel": "October 18, 2026 at 8:20 PM ET.",
+        "awayNoVigWinPct": 50.89,
+        "awayProbabilityDifferencePp": -0.8,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 6,
+      "away": "WAS",
+      "home": "SF",
+      "awayMoneyline": 300,
+      "homeMoneyline": -375,
+      "spreadTeam": "SF",
+      "spread": -7.5,
+      "total": 51.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Mon, Oct 19, 8:15 PM ET",
+      "scores": [
+        17,
+        23
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-6",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-6",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 330,
+        "homeMoneyline": -420,
+        "sourceClosingAsOfLabel": "October 19, 2026 at 8:00 PM ET.",
+        "awayNoVigWinPct": 22.36,
+        "awayProbabilityDifferencePp": -1.69,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "NE",
+      "home": "CHI",
+      "awayMoneyline": 135,
+      "homeMoneyline": -155,
+      "spreadTeam": "CHI",
+      "spread": -3.0,
+      "total": 50.5,
+      "books": 9,
+      "scheduledKickoffLabel": "Thu, Oct 22, 8:15 PM ET",
+      "scores": [
+        24,
+        30
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 134,
+        "homeMoneyline": -158,
+        "sourceClosingAsOfLabel": "October 22, 2026 at 8:00 PM ET.",
+        "awayNoVigWinPct": 41.1,
+        "awayProbabilityDifferencePp": -0.08,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "PIT",
+      "home": "NO",
+      "awayMoneyline": -160,
+      "homeMoneyline": 140,
+      "spreadTeam": "PIT",
+      "spread": -3.0,
+      "total": 43.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 25, 9:30 AM ET",
+      "scores": [
+        16,
+        10
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -166,
+        "homeMoneyline": 140,
+        "sourceClosingAsOfLabel": "October 25, 2026 at 9:30 AM ET.",
+        "awayNoVigWinPct": 59.96,
+        "awayProbabilityDifferencePp": 0.33,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "SF",
+      "home": "ATL",
+      "awayMoneyline": -148,
+      "homeMoneyline": 125,
+      "spreadTeam": "SF",
+      "spread": -2.5,
+      "total": 50.0,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 25, 1:00 PM ET",
+      "scores": [
+        20,
+        29
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -148,
+        "homeMoneyline": 126,
+        "sourceClosingAsOfLabel": "October 25, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 57.42,
+        "awayProbabilityDifferencePp": 0.11,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "CIN",
+      "home": "BAL",
+      "awayMoneyline": -162,
+      "homeMoneyline": 136,
+      "spreadTeam": "CIN",
+      "spread": -3.0,
+      "total": 46.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 25, 1:00 PM ET",
+      "scores": [
+        35,
+        13
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -162,
+        "homeMoneyline": 136,
+        "sourceClosingAsOfLabel": "October 25, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 59.34,
+        "awayProbabilityDifferencePp": -0.0,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "TB",
+      "home": "CAR",
+      "awayMoneyline": 140,
+      "homeMoneyline": -160,
+      "spreadTeam": "CAR",
+      "spread": -3.0,
+      "total": 44.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 25, 1:00 PM ET",
+      "scores": [
+        43,
+        13
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 134,
+        "homeMoneyline": -158,
+        "sourceClosingAsOfLabel": "October 25, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 41.1,
+        "awayProbabilityDifferencePp": 0.73,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "NYG",
+      "home": "HOU",
+      "awayMoneyline": 375,
+      "homeMoneyline": -500,
+      "spreadTeam": "HOU",
+      "spread": -10.0,
+      "total": 42.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 25, 1:00 PM ET",
+      "scores": [
+        27,
+        21
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 385,
+        "homeMoneyline": -500,
+        "sourceClosingAsOfLabel": "October 25, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 19.83,
+        "awayProbabilityDifferencePp": -0.34,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "IND",
+      "home": "MIN",
+      "awayMoneyline": 270,
+      "homeMoneyline": -340,
+      "spreadTeam": "MIN",
+      "spread": -6.5,
+      "total": 41.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 25, 1:00 PM ET",
+      "scores": [
+        10,
+        16
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 265,
+        "homeMoneyline": -330,
+        "sourceClosingAsOfLabel": "October 25, 2026 at 12:00 PM ET.",
+        "awayNoVigWinPct": 26.31,
+        "awayProbabilityDifferencePp": 0.4,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "MIA",
+      "home": "NYJ",
+      "awayMoneyline": 165,
+      "homeMoneyline": -200,
+      "spreadTeam": "NYJ",
+      "spread": -3.5,
+      "total": 39.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 25, 1:00 PM ET",
+      "scores": [
+        28,
+        25
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 166,
+        "homeMoneyline": -198,
+        "sourceClosingAsOfLabel": "October 25, 2026 at 1:00 PM ET.",
+        "awayNoVigWinPct": 36.14,
+        "awayProbabilityDifferencePp": -0.0,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "CLE",
+      "home": "TEN",
+      "awayMoneyline": -130,
+      "homeMoneyline": 110,
+      "spreadTeam": "CLE",
+      "spread": -1.5,
+      "total": 37.0,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 25, 1:00 PM ET",
+      "scores": [
+        27,
+        24
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -130,
+        "homeMoneyline": 110,
+        "sourceClosingAsOfLabel": "October 25, 2026 at 1:02 PM ET.",
+        "awayNoVigWinPct": 54.27,
+        "awayProbabilityDifferencePp": 0.0,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "DEN",
+      "home": "ARI",
+      "awayMoneyline": -230,
+      "homeMoneyline": 190,
+      "spreadTeam": "DEN",
+      "spread": -4.5,
+      "total": 44.5,
+      "books": 9,
+      "scheduledKickoffLabel": "Sun, Oct 25, 4:05 PM ET",
+      "scores": [
+        30,
+        16
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -230,
+        "homeMoneyline": 190,
+        "sourceClosingAsOfLabel": "October 25, 2026 at 3:00 PM ET.",
+        "awayNoVigWinPct": 66.9,
+        "awayProbabilityDifferencePp": 0.0,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "GB",
+      "home": "DET",
+      "awayMoneyline": 163,
+      "homeMoneyline": -197,
+      "spreadTeam": "DET",
+      "spread": -3.5,
+      "total": 55.5,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Oct 25, 4:25 PM ET",
+      "scores": [
+        17,
+        20
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 162,
+        "homeMoneyline": -194,
+        "sourceClosingAsOfLabel": "October 25, 2026 at 4:22 PM ET.",
+        "awayNoVigWinPct": 36.65,
+        "awayProbabilityDifferencePp": 0.21,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "LAR",
+      "home": "LV",
+      "awayMoneyline": -185,
+      "homeMoneyline": 150,
+      "spreadTeam": "LAR",
+      "spread": -3.5,
+      "total": 49.5,
+      "books": 8,
+      "scheduledKickoffLabel": "Sun, Oct 25, 4:25 PM ET",
+      "scores": [
+        35,
+        21
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -174,
+        "homeMoneyline": 146,
+        "sourceClosingAsOfLabel": "October 25, 2026 at 4:22 PM ET.",
+        "awayNoVigWinPct": 60.97,
+        "awayProbabilityDifferencePp": -0.9,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "KC",
+      "home": "SEA",
+      "awayMoneyline": 138,
+      "homeMoneyline": -159,
+      "spreadTeam": "SEA",
+      "spread": -3.0,
+      "total": 43.0,
+      "books": 7,
+      "scheduledKickoffLabel": "Sun, Oct 25, 8:20 PM ET",
+      "scores": [
+        3,
+        20
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": 138,
+        "homeMoneyline": -164,
+        "sourceClosingAsOfLabel": "October 25, 2026 at 8:19 PM ET.",
+        "awayNoVigWinPct": 40.35,
+        "awayProbabilityDifferencePp": -0.28,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    },
+    {
+      "season": 2026,
+      "week": 7,
+      "away": "DAL",
+      "home": "PHI",
+      "awayMoneyline": -225,
+      "homeMoneyline": 185,
+      "spreadTeam": "DAL",
+      "spread": -4.0,
+      "total": 43.5,
+      "books": 9,
+      "scheduledKickoffLabel": "Mon, Oct 26, 8:15 PM ET",
+      "scores": [
+        38,
+        21
+      ],
+      "primarySourceUrl": "https://www.probetrics.com/football/nfl/2026/week-7",
+      "crossCheck": {
+        "source": "The Odds Gap",
+        "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-7",
+        "bookmaker": "FanDuel",
+        "awayMoneyline": -215,
+        "homeMoneyline": 180,
+        "sourceClosingAsOfLabel": "October 26, 2026 at 7:00 PM ET.",
+        "awayNoVigWinPct": 65.65,
+        "awayProbabilityDifferencePp": -0.71,
+        "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "season": 2026,
   "week": 2,
   "status": "final",
-  "oddsNote": "Week 2 results and complete pool picks are final. Market moneylines/no-vig probabilities have not yet been backfilled; do not infer them from pick ownership.",
+  "oddsNote": "Historical market odds backfilled from archived closing moneyline pairs. Exact last-second quote times are unavailable; see oddsMetadata per game and docs/market-odds.md. No probabilities were inferred from pool ownership, spreads, or results.",
   "robTiebreaker": 44,
   "games": [
     {
@@ -15,7 +15,35 @@
       "awayPoolPicks": 3,
       "homePoolPicks": 17,
       "awayPoolPct": 15,
-      "homePoolPct": 85
+      "homePoolPct": 85,
+      "awayMoneyline": 200,
+      "homeMoneyline": -242,
+      "awayImpliedWinPct": 33.33,
+      "homeImpliedWinPct": 70.76,
+      "awayNoVigWinPct": 32.02,
+      "homeNoVigWinPct": 67.98,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "DET",
+        "sourceHome": "BUF",
+        "scheduledKickoffLabel": "Thu, Sep 17, 8:15 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 198,
+          "homeMoneyline": -240,
+          "sourceClosingAsOfLabel": "September 17, 2026 at 8:15 PM ET.",
+          "awayNoVigWinPct": 32.22,
+          "awayProbabilityDifferencePp": 0.2,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "CIN",
@@ -27,7 +55,35 @@
       "awayPoolPicks": 12,
       "homePoolPicks": 8,
       "awayPoolPct": 60,
-      "homePoolPct": 40
+      "homePoolPct": 40,
+      "awayMoneyline": 130,
+      "homeMoneyline": -149,
+      "awayImpliedWinPct": 43.48,
+      "homeImpliedWinPct": 59.84,
+      "awayNoVigWinPct": 42.08,
+      "homeNoVigWinPct": 57.92,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "CIN",
+        "sourceHome": "HOU",
+        "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 130,
+          "homeMoneyline": -154,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 41.76,
+          "awayProbabilityDifferencePp": -0.32,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "PIT",
@@ -39,7 +95,35 @@
       "awayPoolPicks": 9,
       "homePoolPicks": 11,
       "awayPoolPct": 45,
-      "homePoolPct": 55
+      "homePoolPct": 55,
+      "awayMoneyline": 191,
+      "homeMoneyline": -230,
+      "awayImpliedWinPct": 34.36,
+      "homeImpliedWinPct": 69.7,
+      "awayNoVigWinPct": 33.02,
+      "homeNoVigWinPct": 66.98,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "PIT",
+        "sourceHome": "NE",
+        "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 194,
+          "homeMoneyline": -235,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 12:00 PM ET.",
+          "awayNoVigWinPct": 32.65,
+          "awayProbabilityDifferencePp": -0.37,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "CLE",
@@ -51,7 +135,35 @@
       "awayPoolPicks": 4,
       "homePoolPicks": 16,
       "awayPoolPct": 20,
-      "homePoolPct": 80
+      "homePoolPct": 80,
+      "awayMoneyline": 330,
+      "homeMoneyline": -425,
+      "awayImpliedWinPct": 23.26,
+      "homeImpliedWinPct": 80.95,
+      "awayNoVigWinPct": 22.32,
+      "homeNoVigWinPct": 77.68,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "CLE",
+        "sourceHome": "TB",
+        "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 340,
+          "homeMoneyline": -430,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 21.88,
+          "awayProbabilityDifferencePp": -0.44,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "CAR",
@@ -63,7 +175,35 @@
       "awayPoolPicks": 12,
       "homePoolPicks": 8,
       "awayPoolPct": 60,
-      "homePoolPct": 40
+      "homePoolPct": 40,
+      "awayMoneyline": -145,
+      "homeMoneyline": 125,
+      "awayImpliedWinPct": 59.18,
+      "homeImpliedWinPct": 44.44,
+      "awayNoVigWinPct": 57.11,
+      "homeNoVigWinPct": 42.89,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "CAR",
+        "sourceHome": "ATL",
+        "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -142,
+          "homeMoneyline": 120,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 56.35,
+          "awayProbabilityDifferencePp": -0.76,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "NO",
@@ -75,7 +215,35 @@
       "awayPoolPicks": 2,
       "homePoolPicks": 18,
       "awayPoolPct": 10,
-      "homePoolPct": 90
+      "homePoolPct": 90,
+      "awayMoneyline": 320,
+      "homeMoneyline": -420,
+      "awayImpliedWinPct": 23.81,
+      "homeImpliedWinPct": 80.77,
+      "awayNoVigWinPct": 22.77,
+      "homeNoVigWinPct": 77.23,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "NO",
+        "sourceHome": "BAL",
+        "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 330,
+          "homeMoneyline": -420,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 22.36,
+          "awayProbabilityDifferencePp": -0.41,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "MIN",
@@ -87,7 +255,35 @@
       "awayPoolPicks": 2,
       "homePoolPicks": 18,
       "awayPoolPct": 10,
-      "homePoolPct": 90
+      "homePoolPct": 90,
+      "awayMoneyline": 180,
+      "homeMoneyline": -215,
+      "awayImpliedWinPct": 35.71,
+      "homeImpliedWinPct": 68.25,
+      "awayNoVigWinPct": 34.35,
+      "homeNoVigWinPct": 65.65,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "MIN",
+        "sourceHome": "CHI",
+        "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 180,
+          "homeMoneyline": -215,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 34.35,
+          "awayProbabilityDifferencePp": 0.0,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "GB",
@@ -99,7 +295,35 @@
       "awayPoolPicks": 16,
       "homePoolPicks": 4,
       "awayPoolPct": 80,
-      "homePoolPct": 20
+      "homePoolPct": 20,
+      "awayMoneyline": -172,
+      "homeMoneyline": 144,
+      "awayImpliedWinPct": 63.24,
+      "homeImpliedWinPct": 40.98,
+      "awayNoVigWinPct": 60.68,
+      "homeNoVigWinPct": 39.32,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "GB",
+        "sourceHome": "NYJ",
+        "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -172,
+          "homeMoneyline": 134,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 1:03 PM ET.",
+          "awayNoVigWinPct": 59.67,
+          "awayProbabilityDifferencePp": -1.01,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "PHI",
@@ -111,7 +335,35 @@
       "awayPoolPicks": 20,
       "homePoolPicks": 0,
       "awayPoolPct": 100,
-      "homePoolPct": 0
+      "homePoolPct": 0,
+      "awayMoneyline": -342,
+      "homeMoneyline": 275,
+      "awayImpliedWinPct": 77.38,
+      "homeImpliedWinPct": 26.67,
+      "awayNoVigWinPct": 74.37,
+      "homeNoVigWinPct": 25.63,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "PHI",
+        "sourceHome": "TEN",
+        "scheduledKickoffLabel": "Sun, Sep 20, 1:00 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -340,
+          "homeMoneyline": 275,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 1:00 PM ET.",
+          "awayNoVigWinPct": 74.34,
+          "awayProbabilityDifferencePp": -0.03,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "JAC",
@@ -123,7 +375,35 @@
       "awayPoolPicks": 10,
       "homePoolPicks": 10,
       "awayPoolPct": 50,
-      "homePoolPct": 50
+      "homePoolPct": 50,
+      "awayMoneyline": 124,
+      "homeMoneyline": -145,
+      "awayImpliedWinPct": 44.64,
+      "homeImpliedWinPct": 59.18,
+      "awayNoVigWinPct": 43.0,
+      "homeNoVigWinPct": 57.0,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "JAX",
+        "sourceHome": "DEN",
+        "scheduledKickoffLabel": "Sun, Sep 20, 4:05 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 124,
+          "homeMoneyline": -146,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 3:00 PM ET.",
+          "awayNoVigWinPct": 42.93,
+          "awayProbabilityDifferencePp": -0.07,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "LV",
@@ -135,7 +415,35 @@
       "awayPoolPicks": 8,
       "homePoolPicks": 12,
       "awayPoolPct": 40,
-      "homePoolPct": 60
+      "homePoolPct": 60,
+      "awayMoneyline": 252,
+      "homeMoneyline": -300,
+      "awayImpliedWinPct": 28.41,
+      "homeImpliedWinPct": 75.0,
+      "awayNoVigWinPct": 27.47,
+      "homeNoVigWinPct": 72.53,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "LV",
+        "sourceHome": "LAC",
+        "scheduledKickoffLabel": "Sun, Sep 20, 4:05 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 250,
+          "homeMoneyline": -310,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 4:00 PM ET.",
+          "awayNoVigWinPct": 27.42,
+          "awayProbabilityDifferencePp": -0.05,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "WAS",
@@ -147,7 +455,35 @@
       "awayPoolPicks": 11,
       "homePoolPicks": 9,
       "awayPoolPct": 55,
-      "homePoolPct": 45
+      "homePoolPct": 45,
+      "awayMoneyline": 180,
+      "homeMoneyline": -215,
+      "awayImpliedWinPct": 35.71,
+      "homeImpliedWinPct": 68.25,
+      "awayNoVigWinPct": 34.35,
+      "homeNoVigWinPct": 65.65,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "WAS",
+        "sourceHome": "DAL",
+        "scheduledKickoffLabel": "Sun, Sep 20, 4:25 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 180,
+          "homeMoneyline": -215,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 4:00 PM ET.",
+          "awayNoVigWinPct": 34.35,
+          "awayProbabilityDifferencePp": 0.0,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "SEA",
@@ -159,7 +495,35 @@
       "awayPoolPicks": 18,
       "homePoolPicks": 2,
       "awayPoolPct": 90,
-      "homePoolPct": 10
+      "homePoolPct": 10,
+      "awayMoneyline": -210,
+      "homeMoneyline": 180,
+      "awayImpliedWinPct": 67.74,
+      "homeImpliedWinPct": 35.71,
+      "awayNoVigWinPct": 65.48,
+      "homeNoVigWinPct": 34.52,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "SEA",
+        "sourceHome": "ARI",
+        "scheduledKickoffLabel": "Sun, Sep 20, 4:25 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": -210,
+          "homeMoneyline": 176,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 4:00 PM ET.",
+          "awayNoVigWinPct": 65.15,
+          "awayProbabilityDifferencePp": -0.33,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "MIA",
@@ -171,7 +535,35 @@
       "awayPoolPicks": 1,
       "homePoolPicks": 19,
       "awayPoolPct": 5,
-      "homePoolPct": 95
+      "homePoolPct": 95,
+      "awayMoneyline": 700,
+      "homeMoneyline": -1100,
+      "awayImpliedWinPct": 12.5,
+      "homeImpliedWinPct": 91.67,
+      "awayNoVigWinPct": 12.0,
+      "homeNoVigWinPct": 88.0,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "MIA",
+        "sourceHome": "SF",
+        "scheduledKickoffLabel": "Sun, Sep 20, 4:25 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 660,
+          "homeMoneyline": -1000,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 4:00 PM ET.",
+          "awayNoVigWinPct": 12.64,
+          "awayProbabilityDifferencePp": 0.64,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "IND",
@@ -183,7 +575,35 @@
       "awayPoolPicks": 0,
       "homePoolPicks": 20,
       "awayPoolPct": 0,
-      "homePoolPct": 100
+      "homePoolPct": 100,
+      "awayMoneyline": 230,
+      "homeMoneyline": -280,
+      "awayImpliedWinPct": 30.3,
+      "homeImpliedWinPct": 73.68,
+      "awayNoVigWinPct": 29.14,
+      "homeNoVigWinPct": 70.86,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "IND",
+        "sourceHome": "KC",
+        "scheduledKickoffLabel": "Sun, Sep 20, 8:20 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 225,
+          "homeMoneyline": -275,
+          "sourceClosingAsOfLabel": "September 20, 2026 at 8:19 PM ET.",
+          "awayNoVigWinPct": 29.56,
+          "awayProbabilityDifferencePp": 0.42,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     },
     {
       "away": "NYG",
@@ -195,7 +615,35 @@
       "awayPoolPicks": 5,
       "homePoolPicks": 15,
       "awayPoolPct": 25,
-      "homePoolPct": 75
+      "homePoolPct": 75,
+      "awayMoneyline": 240,
+      "homeMoneyline": -285,
+      "awayImpliedWinPct": 29.41,
+      "homeImpliedWinPct": 74.03,
+      "awayNoVigWinPct": 28.43,
+      "homeNoVigWinPct": 71.57,
+      "oddsMetadata": {
+        "source": "Probetrics",
+        "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+        "lineType": "archived_closing",
+        "retrievedOn": "2026-11-01",
+        "sourceQuoteTimestamp": null,
+        "sourceAway": "NYG",
+        "sourceHome": "LAR",
+        "scheduledKickoffLabel": "Mon, Sep 21, 8:15 PM ET",
+        "booksReported": 7,
+        "crossCheck": {
+          "source": "The Odds Gap",
+          "sourceUrl": "https://theoddsgap.com/weeklyslate/nfl/2026-week-2",
+          "bookmaker": "FanDuel",
+          "awayMoneyline": 245,
+          "homeMoneyline": -300,
+          "sourceClosingAsOfLabel": "September 21, 2026 at 8:15 PM ET.",
+          "awayNoVigWinPct": 27.87,
+          "awayProbabilityDifferencePp": -0.56,
+          "note": "Separate archived sportsbook pair; not substituted for the primary market pair. Closing labels/timestamps are the archive's claims, not proof of a last-second quote."
+        }
+      }
     }
   ],
   "lockSnapshots": [
@@ -1029,5 +1477,13 @@
         "NYG"
       ]
     }
-  ]
+  ],
+  "odds": {
+    "source": "Probetrics archived closing market board",
+    "sourceUrl": "https://www.probetrics.com/football/nfl/2026/week-2",
+    "retrievedOn": "2026-11-01",
+    "lineType": "archived_closing",
+    "method": "For negative American ML, raw p = abs(ML)/(abs(ML)+100); for positive ML, raw p = 100/(ML+100). No-vig p = raw p / (raw away p + raw home p). Percentages rounded to two decimals.",
+    "note": "Closing is the source label. Scheduled kickoff is not a quote timestamp. The secondary FanDuel archive is retained separately for source comparison; no best-price mixing."
+  }
 }
