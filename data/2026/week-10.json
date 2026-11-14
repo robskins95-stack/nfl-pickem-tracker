@@ -1,0 +1,322 @@
+{
+  "season": 2026,
+  "week": 10,
+  "status": "in_progress",
+  "capturedAt": "2026-11-14T17:16:00-05:00",
+  "robTiebreaker": null,
+  "completedGames": 1,
+  "expectedGames": 14,
+  "games": [
+    {
+      "away": "WAS",
+      "home": "NYG",
+      "awayScore": 24,
+      "homeScore": 21,
+      "winner": "WAS",
+      "awayPoolPicks": 8,
+      "awayPoolPct": 40,
+      "homePoolPicks": 11,
+      "homePoolPct": 55,
+      "noPickPoolPicks": 1,
+      "noPickPoolPct": 5,
+      "awayMoneyline": 110,
+      "awayImpliedWinPct": 47.62,
+      "awayNoVigWinPct": 45.73,
+      "homeMoneyline": -130,
+      "homeImpliedWinPct": 56.52,
+      "homeNoVigWinPct": 54.27,
+      "awaySpread": 1.5,
+      "homeSpread": -1.5,
+      "awaySpreadPrice": 100,
+      "homeSpreadPrice": -120,
+      "oddsMetadata": {
+        "source": "Oddy closing-odds archive",
+        "sourceUrl": "https://getoddy.com/nfl/games/commanders-giants-2026-11-12",
+        "bookmaker": "Hard Rock",
+        "lineType": "last_pregame",
+        "retrievedOn": "2026-11-14",
+        "note": "Hard Rock closing moneylines and spread prices listed as of Nov 12, 2026, 8:12 PM ET. No-vig probabilities computed from paired moneylines."
+      }
+    }
+  ],
+  "players": [
+    {
+      "name": "Shaine Anderson",
+      "points": 1,
+      "seasonPoints": 95,
+      "rank": 1,
+      "tiebreaker": null,
+      "picks": [
+        "WAS"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Olin Greene",
+      "points": 1,
+      "seasonPoints": 88,
+      "rank": 1,
+      "tiebreaker": null,
+      "picks": [
+        "WAS"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Jim Davis",
+      "points": 1,
+      "seasonPoints": 87,
+      "rank": 1,
+      "tiebreaker": null,
+      "picks": [
+        "WAS"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Liz Greene",
+      "points": 1,
+      "seasonPoints": 86,
+      "rank": 1,
+      "tiebreaker": null,
+      "picks": [
+        "WAS"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Rob Ham",
+      "points": 1,
+      "seasonPoints": 84,
+      "rank": 1,
+      "tiebreaker": null,
+      "picks": [
+        "WAS"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Stacy Maggard",
+      "points": 1,
+      "seasonPoints": 83,
+      "rank": 1,
+      "tiebreaker": null,
+      "picks": [
+        "WAS"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Sydney Jacobs",
+      "points": 1,
+      "seasonPoints": 82,
+      "rank": 1,
+      "tiebreaker": null,
+      "picks": [
+        "WAS"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Brian costanzo",
+      "points": 1,
+      "seasonPoints": 75,
+      "rank": 1,
+      "tiebreaker": null,
+      "picks": [
+        "WAS"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Jim Sharifi",
+      "points": 0,
+      "seasonPoints": 91,
+      "rank": 9,
+      "tiebreaker": null,
+      "picks": [
+        "NYG"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Maggie Burns",
+      "points": 0,
+      "seasonPoints": 90,
+      "rank": 9,
+      "tiebreaker": null,
+      "picks": [
+        "NYG"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "BringBackPatThePatriot",
+      "points": 0,
+      "seasonPoints": 88,
+      "rank": 9,
+      "tiebreaker": null,
+      "picks": [
+        "NYG"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Susan Bornt",
+      "points": 0,
+      "seasonPoints": 87,
+      "rank": 9,
+      "tiebreaker": null,
+      "picks": [
+        "NYG"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Beth Gulding",
+      "points": 0,
+      "seasonPoints": 86,
+      "rank": 9,
+      "tiebreaker": null,
+      "picks": [
+        "NYG"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Bonnie Schendell",
+      "points": 0,
+      "seasonPoints": 82,
+      "rank": 9,
+      "tiebreaker": null,
+      "picks": [
+        "NYG"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "chris ware",
+      "points": 0,
+      "seasonPoints": 82,
+      "rank": 9,
+      "tiebreaker": null,
+      "picks": [
+        "NYG"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Tayler Kenney",
+      "points": 0,
+      "seasonPoints": 80,
+      "rank": 9,
+      "tiebreaker": null,
+      "picks": [
+        "NYG"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Jen Walton",
+      "points": 0,
+      "seasonPoints": 79,
+      "rank": 9,
+      "tiebreaker": null,
+      "picks": [
+        "NYG"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Sandy Hudson",
+      "points": 0,
+      "seasonPoints": 79,
+      "rank": 9,
+      "tiebreaker": null,
+      "picks": [
+        "NYG"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Morgan Doxer",
+      "points": 0,
+      "seasonPoints": 78,
+      "rank": 9,
+      "tiebreaker": null,
+      "picks": [
+        "NYG"
+      ],
+      "pickStatuses": [
+        "observed"
+      ]
+    },
+    {
+      "name": "Aaron Cahn",
+      "points": 0,
+      "seasonPoints": 66,
+      "rank": 9,
+      "tiebreaker": null,
+      "picks": [
+        null
+      ],
+      "pickStatuses": [
+        "missed"
+      ]
+    }
+  ],
+  "finalGameTotal": null,
+  "weeklyWinners": [],
+  "winnerNote": null,
+  "resultSource": {
+    "source": "CBS Pick'em Week 10 standings screenshots supplied by user",
+    "images": [
+      "IMG_5638.png",
+      "IMG_5639.png"
+    ],
+    "capturedAt": "2026-11-14T17:16:00-05:00",
+    "poolSize": 20,
+    "note": "Week 10 Game 1 (WAS at NYG) only. 8 WAS, 11 NYG and 1 no pick. Names expanded from established Week 9 player roster. Season point totals and game-one rankings from screenshots. Remaining picks are locked or not yet shown and are not inferred."
+  },
+  "pickStatusDefinitions": {
+    "observed": "Team selection visible in completed-game CBS screenshot",
+    "missed": "No selection shown for a completed game"
+  },
+  "oddsNote": "Game 1 Hard Rock closing pregame prices from Oddy. Future games not yet entered; avoid treating omitted games as missed picks."
+}
