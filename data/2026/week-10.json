@@ -36,6 +36,24 @@
         "lineType": "last_pregame",
         "retrievedOn": "2026-11-14",
         "note": "Hard Rock closing moneylines and spread prices listed as of Nov 12, 2026, 8:12 PM ET. No-vig probabilities computed from paired moneylines."
+      },
+      "closingOdds": {
+        "awayMoneyline": 102,
+        "homeMoneyline": -122,
+        "awayImpliedWinPct": 49.5,
+        "homeImpliedWinPct": 54.95,
+        "awayNoVigWinPct": 47.39,
+        "homeNoVigWinPct": 52.61,
+        "awaySpread": 1.5,
+        "homeSpread": -1.5,
+        "totalPointsLine": 40.5,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately.",
+        "gameSourceUrl": "https://linesmart.app/nfl/games/washington-commanders-at-new-york-giants-2026-11-12/"
       }
     },
     {
@@ -69,6 +87,23 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": 125,
+        "homeMoneyline": -145,
+        "awayImpliedWinPct": 44.44,
+        "homeImpliedWinPct": 59.18,
+        "awayNoVigWinPct": 42.89,
+        "homeNoVigWinPct": 57.11,
+        "awaySpread": 3,
+        "homeSpread": -3,
+        "totalPointsLine": 51,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately."
       }
     },
     {
@@ -102,6 +137,23 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": -195,
+        "homeMoneyline": 160,
+        "awayImpliedWinPct": 66.1,
+        "homeImpliedWinPct": 38.46,
+        "awayNoVigWinPct": 63.22,
+        "homeNoVigWinPct": 36.78,
+        "awaySpread": -3,
+        "homeSpread": 3,
+        "totalPointsLine": 47.5,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately."
       }
     },
     {
@@ -135,6 +187,23 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": -525,
+        "homeMoneyline": 375,
+        "awayImpliedWinPct": 84,
+        "homeImpliedWinPct": 21.05,
+        "awayNoVigWinPct": 79.96,
+        "homeNoVigWinPct": 20.04,
+        "awaySpread": -8,
+        "homeSpread": 8,
+        "totalPointsLine": 51,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately."
       }
     },
     {
@@ -168,6 +237,23 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": 185,
+        "homeMoneyline": -225,
+        "awayImpliedWinPct": 35.09,
+        "homeImpliedWinPct": 69.23,
+        "awayNoVigWinPct": 33.64,
+        "homeNoVigWinPct": 66.36,
+        "awaySpread": 4.5,
+        "homeSpread": -4.5,
+        "totalPointsLine": 37.5,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately."
       }
     },
     {
@@ -201,6 +287,23 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": 130,
+        "homeMoneyline": -155,
+        "awayImpliedWinPct": 43.48,
+        "homeImpliedWinPct": 60.78,
+        "awayNoVigWinPct": 41.7,
+        "homeNoVigWinPct": 58.3,
+        "awaySpread": 2.5,
+        "homeSpread": -2.5,
+        "totalPointsLine": 42.5,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately."
       }
     },
     {
@@ -234,6 +337,23 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": -110,
+        "homeMoneyline": -110,
+        "awayImpliedWinPct": 52.38,
+        "homeImpliedWinPct": 52.38,
+        "awayNoVigWinPct": 50,
+        "homeNoVigWinPct": 50,
+        "awaySpread": -1,
+        "homeSpread": 1,
+        "totalPointsLine": 49.5,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately."
       }
     },
     {
@@ -267,6 +387,23 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": -700,
+        "homeMoneyline": 475,
+        "awayImpliedWinPct": 87.5,
+        "homeImpliedWinPct": 17.39,
+        "awayNoVigWinPct": 83.42,
+        "homeNoVigWinPct": 16.58,
+        "awaySpread": -11.5,
+        "homeSpread": 11.5,
+        "totalPointsLine": 45.5,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately."
       }
     },
     {
@@ -300,6 +437,23 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": -210,
+        "homeMoneyline": 170,
+        "awayImpliedWinPct": 67.74,
+        "homeImpliedWinPct": 37.04,
+        "awayNoVigWinPct": 64.65,
+        "homeNoVigWinPct": 35.35,
+        "awaySpread": -3.5,
+        "homeSpread": 3.5,
+        "totalPointsLine": 40.5,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately."
       }
     },
     {
@@ -333,6 +487,23 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": -325,
+        "homeMoneyline": 250,
+        "awayImpliedWinPct": 76.47,
+        "homeImpliedWinPct": 28.57,
+        "awayNoVigWinPct": 72.8,
+        "homeNoVigWinPct": 27.2,
+        "awaySpread": -6.5,
+        "homeSpread": 6.5,
+        "totalPointsLine": 40.5,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately."
       }
     },
     {
@@ -366,6 +537,23 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": -550,
+        "homeMoneyline": 400,
+        "awayImpliedWinPct": 84.62,
+        "homeImpliedWinPct": 20,
+        "awayNoVigWinPct": 80.88,
+        "homeNoVigWinPct": 19.12,
+        "awaySpread": -10,
+        "homeSpread": 10,
+        "totalPointsLine": 38.5,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately."
       }
     },
     {
@@ -399,6 +587,23 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": -200,
+        "homeMoneyline": 170,
+        "awayImpliedWinPct": 66.67,
+        "homeImpliedWinPct": 37.04,
+        "awayNoVigWinPct": 64.29,
+        "homeNoVigWinPct": 35.71,
+        "awaySpread": -4,
+        "homeSpread": 4,
+        "totalPointsLine": 56,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately."
       }
     },
     {
@@ -432,6 +637,23 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": 190,
+        "homeMoneyline": -230,
+        "awayImpliedWinPct": 34.48,
+        "homeImpliedWinPct": 69.7,
+        "awayNoVigWinPct": 33.1,
+        "homeNoVigWinPct": 66.9,
+        "awaySpread": 4.5,
+        "homeSpread": -4.5,
+        "totalPointsLine": 50,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately."
       }
     },
     {
@@ -465,6 +687,24 @@
         "sourceArticlePublishedAt": "2026-11-14T10:47:00-05:00",
         "sourceQuoteTimestamp": null,
         "note": "Published Saturday morning by CBS Sports; actual per-game quote time not disclosed. Prices may move before kickoff. Paired moneylines are from the same reported sportsbook; no-vig percentages calculated from that pair. Spread prices not provided."
+      },
+      "closingOdds": {
+        "awayMoneyline": 185,
+        "homeMoneyline": -225,
+        "awayImpliedWinPct": 35.09,
+        "homeImpliedWinPct": 69.23,
+        "awayNoVigWinPct": 33.64,
+        "homeNoVigWinPct": 66.36,
+        "awaySpread": 4.5,
+        "homeSpread": -4.5,
+        "totalPointsLine": 39.5,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "bookmaker": "DraftKings",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-17",
+        "note": "Site describes closing as last line recorded before game start, not independently certified exact kickoff price. Existing snapshot odds retained separately.",
+        "gameSourceUrl": "https://linesmart.app/nfl/games/los-angeles-chargers-at-baltimore-ravens-2026-11-16/"
       }
     }
   ],
@@ -1279,5 +1519,15 @@
     "sourceQuoteTimestamp": null,
     "gameCount": 13,
     "status": "pregame_not_closing"
+  },
+  "closingOddsCoverage": {
+    "gamesWithClosingOdds": 14,
+    "expectedGames": 14,
+    "source": "LineSmart",
+    "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+    "bookmaker": "DraftKings",
+    "retrievedOn": "2026-11-17",
+    "method": "Last-recorded pregame odds per source; no-vig calculated from paired moneylines; original snapshot fields preserved",
+    "verification": "Archive lists all 14 matchups and prices; spot-checked game detail pages and compared second closing-line source (BetSharp). Prices can vary by sportsbook."
   }
 }
