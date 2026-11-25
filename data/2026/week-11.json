@@ -19,7 +19,31 @@
       "homePoolPct": 80,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "HOU"
+      "pick": "HOU",
+      "awayMoneyline": 533,
+      "homeMoneyline": -750,
+      "awayImpliedWinPct": 15.8,
+      "homeImpliedWinPct": 88.24,
+      "awayNoVigWinPct": 15.19,
+      "homeNoVigWinPct": 84.81,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": 533,
+        "homeMoneyline": -750,
+        "awayImpliedWinPct": 15.8,
+        "homeImpliedWinPct": 88.24,
+        "awayNoVigWinPct": 15.19,
+        "homeNoVigWinPct": 84.81,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     },
     {
       "away": "MIA",
@@ -33,7 +57,31 @@
       "homePoolPct": 100,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "BUF"
+      "pick": "BUF",
+      "awayMoneyline": 1000,
+      "homeMoneyline": -2000,
+      "awayImpliedWinPct": 9.09,
+      "homeImpliedWinPct": 95.24,
+      "awayNoVigWinPct": 8.71,
+      "homeNoVigWinPct": 91.29,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": 1000,
+        "homeMoneyline": -2000,
+        "awayImpliedWinPct": 9.09,
+        "homeImpliedWinPct": 95.24,
+        "awayNoVigWinPct": 8.71,
+        "homeNoVigWinPct": 91.29,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     },
     {
       "away": "BAL",
@@ -47,7 +95,31 @@
       "homePoolPct": 80,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "CAR"
+      "pick": "CAR",
+      "awayMoneyline": 125,
+      "homeMoneyline": -145,
+      "awayImpliedWinPct": 44.44,
+      "homeImpliedWinPct": 59.18,
+      "awayNoVigWinPct": 42.89,
+      "homeNoVigWinPct": 57.11,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": 125,
+        "homeMoneyline": -145,
+        "awayImpliedWinPct": 44.44,
+        "homeImpliedWinPct": 59.18,
+        "awayNoVigWinPct": 42.89,
+        "homeNoVigWinPct": 57.11,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     },
     {
       "away": "NO",
@@ -61,7 +133,31 @@
       "homePoolPct": 100,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "CHI"
+      "pick": "CHI",
+      "awayMoneyline": 500,
+      "homeMoneyline": -750,
+      "awayImpliedWinPct": 16.67,
+      "homeImpliedWinPct": 88.24,
+      "awayNoVigWinPct": 15.89,
+      "homeNoVigWinPct": 84.11,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": 500,
+        "homeMoneyline": -750,
+        "awayImpliedWinPct": 16.67,
+        "homeImpliedWinPct": 88.24,
+        "awayNoVigWinPct": 15.89,
+        "homeNoVigWinPct": 84.11,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     },
     {
       "away": "TEN",
@@ -75,7 +171,31 @@
       "homePoolPct": 95,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "DAL"
+      "pick": "DAL",
+      "awayMoneyline": 300,
+      "homeMoneyline": -375,
+      "awayImpliedWinPct": 25,
+      "homeImpliedWinPct": 78.95,
+      "awayNoVigWinPct": 24.05,
+      "homeNoVigWinPct": 75.95,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": 300,
+        "homeMoneyline": -375,
+        "awayImpliedWinPct": 25,
+        "homeImpliedWinPct": 78.95,
+        "awayNoVigWinPct": 24.05,
+        "homeNoVigWinPct": 75.95,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     },
     {
       "away": "TB",
@@ -89,7 +209,31 @@
       "homePoolPct": 100,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "DET"
+      "pick": "DET",
+      "awayMoneyline": 185,
+      "homeMoneyline": -225,
+      "awayImpliedWinPct": 35.09,
+      "homeImpliedWinPct": 69.23,
+      "awayNoVigWinPct": 33.64,
+      "homeNoVigWinPct": 66.36,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": 185,
+        "homeMoneyline": -225,
+        "awayImpliedWinPct": 35.09,
+        "homeImpliedWinPct": 69.23,
+        "awayNoVigWinPct": 33.64,
+        "homeNoVigWinPct": 66.36,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     },
     {
       "away": "ARI",
@@ -103,7 +247,31 @@
       "homePoolPct": 95,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "KC"
+      "pick": "KC",
+      "awayMoneyline": 900,
+      "homeMoneyline": -1600,
+      "awayImpliedWinPct": 10,
+      "homeImpliedWinPct": 94.12,
+      "awayNoVigWinPct": 9.6,
+      "homeNoVigWinPct": 90.4,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": 900,
+        "homeMoneyline": -1600,
+        "awayImpliedWinPct": 10,
+        "homeImpliedWinPct": 94.12,
+        "awayNoVigWinPct": 9.6,
+        "homeNoVigWinPct": 90.4,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     },
     {
       "away": "PIT",
@@ -117,7 +285,31 @@
       "homePoolPct": 15,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "PIT"
+      "pick": "PIT",
+      "awayMoneyline": -210,
+      "homeMoneyline": 175,
+      "awayImpliedWinPct": 67.74,
+      "homeImpliedWinPct": 36.36,
+      "awayNoVigWinPct": 65.07,
+      "homeNoVigWinPct": 34.93,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": -210,
+        "homeMoneyline": 175,
+        "awayImpliedWinPct": 67.74,
+        "homeImpliedWinPct": 36.36,
+        "awayNoVigWinPct": 65.07,
+        "homeNoVigWinPct": 34.93,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     },
     {
       "away": "NYJ",
@@ -131,7 +323,31 @@
       "homePoolPct": 75,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "LAC"
+      "pick": "LAC",
+      "awayMoneyline": 150,
+      "homeMoneyline": -180,
+      "awayImpliedWinPct": 40,
+      "homeImpliedWinPct": 64.29,
+      "awayNoVigWinPct": 38.36,
+      "homeNoVigWinPct": 61.64,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": 150,
+        "homeMoneyline": -180,
+        "awayImpliedWinPct": 40,
+        "homeImpliedWinPct": 64.29,
+        "awayNoVigWinPct": 38.36,
+        "homeNoVigWinPct": 61.64,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     },
     {
       "away": "JAX",
@@ -145,7 +361,31 @@
       "homePoolPct": 10,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "JAX"
+      "pick": "JAX",
+      "awayMoneyline": -300,
+      "homeMoneyline": 240,
+      "awayImpliedWinPct": 75,
+      "homeImpliedWinPct": 29.41,
+      "awayNoVigWinPct": 71.83,
+      "homeNoVigWinPct": 28.17,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": -300,
+        "homeMoneyline": 240,
+        "awayImpliedWinPct": 75,
+        "homeImpliedWinPct": 29.41,
+        "awayNoVigWinPct": 71.83,
+        "homeNoVigWinPct": 28.17,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     },
     {
       "away": "LV",
@@ -159,7 +399,31 @@
       "homePoolPct": 95,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "DEN"
+      "pick": "DEN",
+      "awayMoneyline": 500,
+      "homeMoneyline": -750,
+      "awayImpliedWinPct": 16.67,
+      "homeImpliedWinPct": 88.24,
+      "awayNoVigWinPct": 15.89,
+      "homeNoVigWinPct": 84.11,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": 500,
+        "homeMoneyline": -750,
+        "awayImpliedWinPct": 16.67,
+        "homeImpliedWinPct": 88.24,
+        "awayNoVigWinPct": 15.89,
+        "homeNoVigWinPct": 84.11,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     },
     {
       "away": "MIN",
@@ -173,7 +437,31 @@
       "homePoolPct": 85,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "MIN"
+      "pick": "MIN",
+      "awayMoneyline": 190,
+      "homeMoneyline": -230,
+      "awayImpliedWinPct": 34.48,
+      "homeImpliedWinPct": 69.7,
+      "awayNoVigWinPct": 33.1,
+      "homeNoVigWinPct": 66.9,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": 190,
+        "homeMoneyline": -230,
+        "awayImpliedWinPct": 34.48,
+        "homeImpliedWinPct": 69.7,
+        "awayNoVigWinPct": 33.1,
+        "homeNoVigWinPct": 66.9,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     },
     {
       "away": "CIN",
@@ -187,7 +475,31 @@
       "homePoolPct": 15,
       "noPickPoolPicks": 0,
       "noPickPoolPct": 0,
-      "pick": "WAS"
+      "pick": "WAS",
+      "awayMoneyline": -301,
+      "homeMoneyline": 245,
+      "awayImpliedWinPct": 75.06,
+      "homeImpliedWinPct": 28.99,
+      "awayNoVigWinPct": 72.14,
+      "homeNoVigWinPct": 27.86,
+      "oddsMetadata": {
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      },
+      "closingOdds": {
+        "awayMoneyline": -301,
+        "homeMoneyline": 245,
+        "awayImpliedWinPct": 75.06,
+        "homeImpliedWinPct": 28.99,
+        "awayNoVigWinPct": 72.14,
+        "homeNoVigWinPct": 27.86,
+        "source": "LineSmart NFL November 2026 results archive",
+        "sourceUrl": "https://linesmart.app/nfl/results/2026-11/",
+        "lineType": "last_recorded_pregame",
+        "retrievedOn": "2026-11-25"
+      }
     }
   ],
   "players": [
@@ -945,5 +1257,5 @@
     ],
     "poolSize": 20
   },
-  "oddsNote": "Closing moneylines have not been verified."
+  "oddsNote": "Paired archived closing moneylines from LineSmart. No-vig probabilities normalize the two raw implied probabilities before rounding."
 }
